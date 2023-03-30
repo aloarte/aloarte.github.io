@@ -51,6 +51,17 @@
 }
 
 
+.icon {
+  margin-top: 5px;
+  margin-bottom: 5px;
+
+}
+
+.page-service-icon {
+  height:auto; 
+  width: 20px !important;
+}
+
 /* Page */
 .vg-page {
   position: relative;
@@ -58,6 +69,21 @@
   padding: 80px 0;
   width: 100%;
   overflow: hidden;
+}
+
+.page-service .card .btn-theme {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -24px;
+  margin: auto;
+  padding: 10px 24px;
+  width: 140px;
+  box-shadow: none;
+}
+
+.page-service .card {
+  margin: 32px 0;
 }
 
 .page-home {  
