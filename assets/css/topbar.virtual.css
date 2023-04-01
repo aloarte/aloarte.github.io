@@ -192,6 +192,12 @@
   margin-bottom: 50px;
 }
 
+.top-space {
+  margin-top: 50px;
+}
+
+
+
 .timeline {
   position: relative;
   display: block;
