@@ -37,14 +37,24 @@
     <span class="ti-arrow-up"></span>
   </div>
 
-  <div class="vg-page page-home" id="home" style="background-image: url(assets/img/bg_image_1.jpg)">
+  <!-- Home page-->
+  <div class="vg-page page-home" id="home" style="background-image: url(assets/img/bg_image__.jpg)">
     <!-- Navbar -->
     <div class="navbar navbar-expand-lg navbar-dark sticky" data-offset="500">
       <div class="container">
         <div class="collapse navbar-collapse" id="main-navbar">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a href="#home" class="nav-link" data-animate="scrolling">About</a>
+              <a href="#home" class="nav-link" data-animate="scrolling">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link" data-animate="scrolling">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#skills" class="nav-link" data-animate="scrolling">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a href="#experience" class="nav-link" data-animate="scrolling">Experience</a>
             </li>
             <li class="nav-item">
               <a href="#portfolio" class="nav-link" data-animate="scrolling">Portfolio</a>
@@ -56,13 +66,16 @@
 
     <!-- Caption header -->
     <div class="caption-header text-center wow">
-      <h5 class="fw-normal">Welcome</h5>
-      <h1 class="fw-light mb-4">I'm <b class="fg-theme">Álvaro</b> Loarte Rodríguez</h1>
-      <div class="badge">Android developer</div>
+      <h5 class="fw-normal">Hi,</h5>
+      <h1 class="fw-light mb-4">I'm <b class="fg-theme">Álvaro</b> Loarte Rodríguez, <b class="fg-theme">Android developer</b></h1>
+      <button class="btn btn-theme-outline" onclick="window.location ='assets/cv/aloarte-cv.pdf'">Download Resume</button>
+
     </div> <!-- End Caption header -->
   </div>
 
+  <!-- About page-->
   <div class="vg-page page-about" id="about">
+    <h1 class="text-center wow fadeInUp">About me</h1>
     <div class="container py-5">
       <div class="row">
         <div class="col-lg-4 py-3">
@@ -71,8 +84,6 @@
           </div>
         </div>
         <div class="col-lg-6 offset-lg-1 wow fadeInRight">
-          <h1 class="fw-light">Álvaro Loarte Rodríguez</h1>
-          <h5 class="fg-theme mb-3">Android developer</h5>
           <p class="text-muted">I'm a Computer Engineer currently focused on native Android development. I have been
             working in the Android world for more than six years. I developed in Java for the first two years and I'm
             developing in Kotlin nowadays. </p>
@@ -83,82 +94,83 @@
               <li><a href="https://www.linkedin.com/in/alvaro-loarte-rodriguez/">LinkedIn</a></li>
               <li>aloarter@gmail.com</li>
               <li>661 75 28 45</li>
-            </ul>
-          <button class="btn btn-theme-outline" onclick="window.location ='assets/cv/aloarte-cv.pdf'">Download CV</button>
-  
+            </ul>  
         </div>
       </div>
     </div>
+  </div>
 
-    <!-- Page Service -->
-    <div class="vg-page page-service" id="services">
-      <h1 class="text-center wow fadeInUp">My skills</h1>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 col-lg-4 wow fadeInUp">
-            <div class="card card-body">
-              <div class="icon">
-                <img class="page-service-icon" src="assets/img/logos/android_logo.png" alt="">
-              </div>
-              <h4 class="fg-theme">Android</h4>
-              <p>More than six years working on projects in Android native. Proffesionally and in side projects.</p>
-              <a href="https://developer.android.com/" class="btn btn-theme btn-rounded">Read More</a>
+  <!-- Skills page-->
+  <div class="vg-page page-service" id="skills">
+    <h1 class="bottom-space  text-center wow fadeInUp">Technical skills</h1>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-lg-4 wow fadeInUp">
+          <div class="card card-body">
+            <div class="icon">
+              <img class="page-service-icon" src="assets/img/logos/android_logo.png" alt="">
             </div>
+            <h4 class="fg-theme">Android</h4>
+            <p>More than six years working on projects in Android native. Proffesionally and in side projects.</p>
+            <a href="https://developer.android.com/" class="btn btn-theme btn-rounded">Read More</a>
           </div>
-          <div class="col-md-6 col-lg-4 wow fadeInUp">
-            <div class="card card-body">
-              <div class="icon">
-                <img class="page-service-icon" src="assets/img/logos/kotlin_logo.png" alt="">
-              </div>
-              <h4 class="fg-theme">Kotlin</h4>
-              <p>Four years working in projects 100% coded in Kotlin. I use Kotlin mainly to develop Android applications.</p>
-              <a href="https://kotlinlang.org/" class="btn btn-theme btn-rounded">Read More</a>
+        </div>
+        <div class="col-md-6 col-lg-4 wow fadeInUp">
+          <div class="card card-body">
+            <div class="icon">
+              <img class="page-service-icon" src="assets/img/logos/kotlin_logo.png" alt="">
             </div>
+            <h4 class="fg-theme">Kotlin</h4>
+            <p>Four years working in projects 100% coded in Kotlin. I use Kotlin mainly to develop Android applications.</p>
+            <a href="https://kotlinlang.org/" class="btn btn-theme btn-rounded">Read More</a>
           </div>
-          <div class="col-md-6 col-lg-4 wow fadeInUp">
-            <div class="card card-body">
-              <div class="icon">
-                <img class="page-service-icon" src="assets/img/logos/koin_logo.png" alt="">
-              </div>
-              <h4 class="fg-theme">Koin / Dagger-Hilt</h4>
-              <p>I work with dependency injection frameworks in all of my projects. Koin is the one I feel most comfortable with.</p>
-              <a href="https://insert-koin.io/" class="btn btn-theme btn-rounded">Read More</a>
+        </div>
+        <div class="col-md-6 col-lg-4 wow fadeInUp">
+          <div class="card card-body">
+            <div class="icon">
+              <img class="page-service-icon" src="assets/img/logos/koin_logo.png" alt="">
             </div>
+            <h4 class="fg-theme">Koin / Dagger-Hilt</h4>
+            <p>I work with dependency injection frameworks in all of my projects. Koin is the one I feel most comfortable with.</p>
+            <a href="https://insert-koin.io/" class="btn btn-theme btn-rounded">Read More</a>
           </div>
-          <div class="col-md-6 col-lg-4 wow fadeInUp">
-            <div class="card card-body">
-              <div class="icon">
-                <img class="page-service-icon" src="assets/img/logos/ktor_logo.png" alt="">
-              </div>
-              <h4 class="fg-theme">Ktor</h4>
-              <p>I built an API developed with Kotlin already deployed on production.</p>
-              <a href="https://ktor.io/" class="btn btn-theme btn-rounded">Read More</a>
+        </div>
+        <div class="col-md-6 col-lg-4 wow fadeInUp">
+          <div class="card card-body">
+            <div class="icon">
+              <img class="page-service-icon" src="assets/img/logos/ktor_logo.png" alt="">
             </div>
+            <h4 class="fg-theme">Ktor</h4>
+            <p>I built an API developed with Kotlin already deployed on production.</p>
+            <a href="https://ktor.io/" class="btn btn-theme btn-rounded">Read More</a>
           </div>
-          <div class="col-md-6 col-lg-4 wow fadeInUp">
-            <div class="card card-body">
-              <div class="icon">
-                <img class="page-service-icon" src="assets/img/logos/compose_logo.png" alt="">
-              </div>
-              <h4 class="fg-theme">Jetpack Compose</h4>
-              <p>I've been using Jetpack Compose on my side projects since its release.</p>
-              <a href="https://developer.android.com/jetpack/compose" class="btn btn-theme btn-rounded">Read More</a>
+        </div>
+        <div class="col-md-6 col-lg-4 wow fadeInUp">
+          <div class="card card-body">
+            <div class="icon">
+              <img class="page-service-icon" src="assets/img/logos/compose_logo.png" alt="">
             </div>
+            <h4 class="fg-theme">Jetpack Compose</h4>
+            <p>I've been using Jetpack Compose on my side projects since its release.</p>
+            <a href="https://developer.android.com/jetpack/compose" class="btn btn-theme btn-rounded">Read More</a>
           </div>
-          <div class="col-md-6 col-lg-4 wow fadeInUp">
-            <div class="card card-body">
-              <div class="iconic">
-                <span class="ti-pencil"></span>
-              </div>
-              <h4 class="fg-theme">Clean Code</h4>       
-              <p>I'm focused in the creation of understandable, maintainable and testable code.</p>
+        </div>
+        <div class="col-md-6 col-lg-4 wow fadeInUp">
+          <div class="card card-body">
+            <div class="iconic">
+              <span class="ti-pencil"></span>
             </div>
+            <h4 class="fg-theme">Clean Code</h4>       
+            <p>I'm focused in the creation of understandable, maintainable and testable code.</p>
           </div>
         </div>
       </div>
-    </div> <!-- End page services -->
+    </div>
+  </div> <!-- End page services -->
 
-  
+  <!-- Experience page-->
+  <div class="vg-page page-portfolio" id="experience">
+    <h1 class="bottom-space  text-center wow fadeInUp">Career</h1>
     <div class="container pt-5">
       <div class="row">
         <div class="col-md-6 wow fadeInRight" >
@@ -169,7 +181,7 @@
               <div class="details">
                 <h5>Senior Android Developer</h5>
                 <small class="fg-theme">Optiva Media</small>
-                <p>Development of Android TV applications for Set-Top Box and mobile in the field of telecommunications.
+                <p>Development of Android applications for Set-Top Box (Android Tv) and mobile platforms in the telecommunications and entertainment field.
                 </p>
               </div>
             </li>
@@ -178,7 +190,7 @@
               <div class="details">
                 <h5>Android Developer</h5>
                 <small class="fg-theme">Minsait (Indra)</small>
-                <p>Android components and applications in the field of cybersecurity (biometrics, document fraud
+                <p>Creation of Android components and applications in the field of cybersecurity (biometrics, document fraud
                   control, digital signature and identity management).</p>
               </div>
             </li>
@@ -219,8 +231,8 @@
 
   <!-- Portfolio page -->
   <div class="vg-page page-portfolio" id="portfolio">
+    <h1 class="bottom-space text-center wow fadeInUp">Portfolio</h1>
     <div class="container">
-      <h1 class="text-center fw-normal wow fadeInUp">See my work</h1>
       <div class="filterable-button py-3 wow fadeInUp" data-toggle="selected">
         <button class="btn btn-theme-outline selected" data-filter="*">All</button>
         <button class="btn btn-theme-outline" data-filter=".android">Android</button>
@@ -306,7 +318,6 @@
     </div>
   </div> <!-- End Portfolio page -->
 
-  
   <!-- Footer -->
   <div class="vg-footer" id="contact">
     <h1 class="text-center">Álvaro Loarte Rodríguez</h1>
