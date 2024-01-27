@@ -24,7 +24,7 @@
   margin-left: auto;
   margin-right: auto;
   width: 100%;
-  max-width: 400px;
+  max-width: 2000px;
 }
 
 .filterable-button .btn {
@@ -627,4 +627,23 @@
 
 .theme-blue .post-grid .post-category {
   color: #0b8ed4;
+}
+
+.slider-container {
+  overflow: hidden;
+  width: 100%;
+}
+
+.slider {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.card {
+  min-width: 300px;
+  padding: 20px;
+  margin: 10px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
