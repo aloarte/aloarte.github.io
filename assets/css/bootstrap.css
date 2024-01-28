@@ -4740,6 +4740,10 @@ input[type="button"].btn-block {
   color: #fff;
 }
 
+p {
+  text-align: justify;
+}
+
 .card {
   position: relative;
   display: -ms-flexbox;

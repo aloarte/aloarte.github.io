@@ -1111,3 +1111,12 @@ a:hover, a:active {
 .theme-blue .theme-list li::before {
     border-color: #0b8ed4;
 }
+
+#mi-imagen  {
+    display: block;
+    margin: 0 auto;
+    height: 200px;
+    width: auto;
+    max-width: 100%; 
+    border-radius: 10px; 
+}

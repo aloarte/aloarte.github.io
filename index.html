@@ -191,7 +191,7 @@
           <ul class="timeline mt-4 pr-md-5">
             <li>
               <div class="title">2020 - Current</div>
-              <div class="details">
+              <div class="details card">
                 <h5>Senior Android Developer</h5>
                 <small class="fg-theme">Optiva Media</small>
                 <p>Development of Android applications for Set-Top Box (Android Tv) and mobile platforms in the telecommunications and entertainment field.
@@ -200,7 +200,7 @@
             </li>
             <li>
               <div class="title">2016 - 2020</div>
-              <div class="details">
+              <div class="details card">
                 <h5>Android Developer</h5>
                 <small class="fg-theme">Minsait (Indra)</small>
                 <p>Creation of Android components and applications in the field of cybersecurity (biometrics, document fraud
@@ -209,7 +209,7 @@
             </li>
             <li>
               <div class="title">2015 - 2016</div>
-              <div class="details">
+              <div class="details card">
                 <h5>Software developer</h5>
                 <small class="fg-theme">Infoglobal</small>
                 <p>Development and maintenance of CCTV solutions deployed in embedded systems in the railway field.</p>
@@ -219,10 +219,17 @@
         </div>
         <div class="col-md-6 wow fadeInRight" data-wow-delay="200ms">
           <h2 class="fw-normal">Education</h2>
-          <ul class="timeline-no-highlight mt-4 pr-md-5">
+          <ul class="timeline mt-4 pr-md-5">
+            <li>
+              <div class="title">2024 - Current</div>
+              <div class="details card">
+                <h5>Online Master's Degree in Data Science</h5>
+                <small class="fg-theme">Universitat Oberta de Catalunya</small>
+              </div>
+            </li>
             <li>
               <div class="title">2019</div>
-              <div class="details">
+              <div class="details card">
                 <h5>Android Certified application engineer</h5>
                 <small class="fg-theme">Android ATC</small>
                 <p>Certified by Android ATC</p>
@@ -230,7 +237,7 @@
             </li>
             <li>
               <div class="title">2011 - 2016</div>
-              <div class="details">
+              <div class="details card">
                 <h5>Degree in Computer Engineering</h5>
                 <small class="fg-theme">Universidad Carlos III de Madrid</small>
               </div>
@@ -244,8 +251,42 @@
 
   <!-- Portfolio page -->
   <div class="vg-page page-portfolio" id="portfolio">
+
     <h1 class="bottom-space text-center wow fadeInUp">Portfolio</h1>
+
+    <!--Featured project section-->
     <div class="container">
+      <h2 class="bottom-space text-center wow fadeInUp">Featured projects</h1>
+      <div class="cardFeatured card-body details">
+        <h3 class="bottom-space text-center wow fadeInUp">The Skintker project</h3>
+
+        <img id="mi-imagen" src="assets/img/work/logo.png" alt="Skintker application image">
+        <p></p>
+
+        <p>This projets consist of an Android application and a backend service that expose an API used by the application.  Using this services, the user can save their daily routine to track skin issues with the aim of detecting what's causing them.  
+        <p>It uses <b>Firebase</b> for the application authentication, using this user to bind the logs in the backend and the token to securize the API calls.</p> 
+        <p>The technologies used are the following:</p> 
+        <ul>
+          <li>OAuth with Firebase</li>
+          <li>Kotlin</li>
+          <li>Koin</li>
+          <li>Jetpack-Compose in the Android application</li>
+          <li>Git+Github with Github Actions</li>
+
+        </ul>
+        <p></p>
+        <a href="sktproject.html">
+          <input class='btn btn-theme-outline' type='button' value='More details'>
+        </a>  
+        <p></p>
+      
+      </div>
+    </div>
+  
+    <!--All project section-->
+    <div class="container">
+      <h2 class="bottom-space text-center wow fadeInUp">All projects</h1>
+
       <div class="filterable-button py-3 wow fadeInUp" data-toggle="selected">
         <button class="btn btn-theme-outline selected" data-filter="*">All</button>
         <button class="btn btn-theme-outline" data-filter=".android">Android</button>
@@ -254,8 +295,6 @@
         <button class="btn btn-theme-outline" data-filter=".java">Java</button>
         <button class="btn btn-theme-outline" data-filter=".store">Google Play Store</button>
         <button class="btn btn-theme-outline" data-filter=".techtest">Technical test</button>
-
-
       </div>
 
       <div class="gridder my-3">
@@ -393,8 +432,11 @@
             </div>
           </div>
         </div>
-      </div> <!-- End gridder -->
+      </div> <!-- End gridder all projects -->
     </div>
+
+
+    
   </div> <!-- End Portfolio page -->
 
 

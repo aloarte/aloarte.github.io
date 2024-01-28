@@ -230,3 +230,23 @@ $(document).ready(function() {
   counterInit();
 });
 
+document.addEventListener("DOMContentLoaded", function () {
+  const slider = document.querySelector('.slider');
+  const prevButton = document.querySelector('.prev-button');
+  const nextButton = document.querySelector('.next-button');
+
+  let currentTranslate = 0;
+
+  prevButton.addEventListener('click', () => moveSlider(-1));
+  nextButton.addEventListener('click', () => moveSlider(1));
+
+  function moveSlider(direction) {
+      const cardWidth = document.querySelector('.card').offsetWidth;
+      currentTranslate += direction * cardWidth;
+      updateSliderPosition();
+  }
+
+  function updateSliderPosition() {
+      slider.style.transform = `translateX(${currentTranslate}px)`;
+  }
+});
