@@ -641,7 +641,7 @@
 
 .card {
   min-width: 300px;
-  padding: 20px;
+  padding: 25px;
   margin: 10px;
   background-color: #f4f5f8;
   border-radius: 8px;
@@ -650,8 +650,8 @@
 
 .cardFeatured {
   min-width: 300px;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 80px;
+  padding-right: 80px;
   margin: 40px;
   background-color: #f4f5f8 ;
   border-radius: 8px;

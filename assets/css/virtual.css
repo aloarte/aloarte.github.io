@@ -1009,10 +1009,10 @@ a:hover, a:active {
 .grid-item .img-caption {
     position: absolute;
     bottom: 0;
-    opacity: 95%;
+    opacity: 90%;
     padding: 6px 16px;
     width: 100%;
-    background-color: #252424;
+    background-color: #343a40;
     color: #fff;
     z-index: 11;
 }
