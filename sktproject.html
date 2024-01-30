@@ -36,24 +36,32 @@
     <span class="ti-arrow-up"></span>
   </div>
 
+  <div class="gray-background">
+    <ul class="navbar-nav ml-auto">
+      <li class="item-back nav-item ">
+        <a href="javascript:history.back()" class="nav-link item-back-content">Back to home</a>
+      </li>
+    </ul>
+  </div>
+
   <!-- Portfolio page -->
   <div class="vg-page page-portfolio" id="portfolio">
     <h1 class="bottom-space text-center wow fadeInUp">The Skintker project</h1>
 
       <div class="container">
 
-          <img id="mi-imagen" src="assets/img/work/logo.png" alt="Skintker application image">
+          <img id="descr-img" src="assets/img/work/logo.png" alt="Skintker application image">
           <p></p>
 
-          <p>In January 2022 I started developing my biggest project yet called <b>Skintker</b>. The idea of the project was to allow any user to keep track of different data of their days in order to track skin problems and what might be the cause of them. </p>               
-          <p>As I was developing the main features, more ideas came up: storing the data not only in the local room database but also in a backend, setting up a reminder to push a notification to the user to remind them to use the app, or building some statistics about the data. </p> 
-          <p>Finally I implemented the above features. I started using <b>Firebase</b> for the authentication and for the backend part, but found that I needed more control. That's where the second part of the journey began: building my first backend to expose an API. </p> 
+          <p>In January 2022 I started developing my biggest project yet called <b>Skintker</b>. The idea of the project was to allow any user to track different data of their days in order to track skin problems and what might be the cause of them. </p>               
+          <p>As I was developing the main features, more ideas came up: storing the data not only in the local <b>Room</b> database but also in a backend, setting up a reminder to push a notification to the user to remind them to use the app or building some statistics about the data. </p> 
+          <p>Finally, I implemented the above features. I started using <b>Firebase</b> for the authentication and for the backend part, but I found that I needed more control. That's where the second part of the journey began: building my first backend to expose an API. </p> 
           <p>In January 2023, a year after when I started this project, I began the development of the API. Creating the API was affordable, but the most difficult part was deploying the solution. For this, I invested many hours in learning about <b>Docker</b>, setting up a machine, buying a domain and doing my best to create a useful and secure solution. </p> 
           
           <h4>Skintker Android application</h4>
-          <p>One of the objectives to build this project was also to practice in a project fully built in <b>Jetpack-Compose</b>, so that's what I did. I used <b>Kotlin</b> with <b>Koin</b> as the dependency injection framework and the views were built 100% in <b>Jetpack-Compose</b>. I followed an <b>MVVM</b> architecture and it were also important to me to have a lot of <b>Unit Testing</b> along the application.</p>
+          <p>One of the objectives to build this project was also to practice in a project fully built in <b>Jetpack-Compose</b>, so that's what I did. I used <b>Kotlin</b> with <b>Koin</b> as the dependency injection framework and the views were built 100% in <b>Jetpack-Compose</b>. I followed an <b>MVVM</b> architecture, and it were also important to me to have a lot of <b>Unit Testing</b> along the application.</p>
         
-          <p>The application communicates with the API and it allows the user to do the following actions:</p>
+          <p>The application communicates with the API, and it allows the user to do the following actions:</p>
           <ul>
             <li>OAuth with Google Account.</li>
             <li>Save the reported logs on a local database and in the remote API.</li>
@@ -71,8 +79,8 @@
           <p></p>
 
           <h4>Skintkvault API</h4>
-          <p>The development of the backend was done with <b>Kotlin</b>, using the <b>Ktor</b> framework. It was my first backend solution and the API exposes different methods to add, edit, delete and list the reports of each user. The backend communicates with <b>Firebase</b> to validate the user and the token, so it's intented to be used only along with the application.</p>
-          <p>When there is enough data, the application can retrieve statistics from the data calculed in the backend side using statistics operations. It also allows to wipe the data from any given user.</p>
+          <p>The development of the backend was done with <b>Kotlin</b>, using the <b>Ktor</b> framework. It was my first backend solution and the idea of the API is to expose different methods to add, edit, delete and list the reports of each user. The backend communicates with <b>Firebase</b> to validate the user that is performing the operations and its token, so it's intenteded to be used only along with the application.</p>
+          <p>When sufficient data is available, the application can fetch statistics derived from backend calculations. Additionally, users have the option to erase their data.</p>
           <p>In terms of deployment, I used <b>Docker</b> to build different containers: Skintkvault application, Postgres database and Nginx.</p>
           <p></p>
           <a href="https://github.com/aloarte/skintkvault">

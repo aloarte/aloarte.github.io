@@ -541,6 +541,7 @@ pre code {
 
 .container {
   width: 100%;
+  padding-top: 15px;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
@@ -4302,6 +4303,23 @@ input[type="button"].btn-block {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
+
+.item-back{
+  max-width: fit-content;
+  color: #495057 !important;
+  border-color: #dee2e6 #dee2e6 #fff !important;
+}
+
+.nav-link.item-back-content {
+  color: gray; 
+  text-decoration: none; 
+  transition: color 0.3s; 
+}
+
+.nav-link.item-back-content:hover {
+  color: #fff;
+}
+
 
 .nav-pills .nav-link {
   border-radius: 0.25rem;

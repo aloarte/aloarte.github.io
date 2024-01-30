@@ -1112,9 +1112,12 @@ a:hover, a:active {
     border-color: #0b8ed4;
 }
 
-#mi-imagen  {
+#descr-img  {
     display: block;
-    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 80px;
+    margin-left: auto; 
+    margin-right: auto;
     height: 200px;
     width: auto;
     max-width: 100%; 
