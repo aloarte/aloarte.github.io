@@ -172,21 +172,10 @@
   margin-bottom: 50px;
   width: 280px;
   height: 350px;
-  background-color: #dfe3e6;
+  /* border: 5px solid #000000; */
   overflow: unset;
+  border-radius: 15px;
 }
-
-.page-about .img-portrait::before {
-  content: "";
-  position: absolute;
-  top: -20px;
-  right: -35px;
-  width: 100%;
-  height: 100%;
-  border: 5px solid #0b8ed4;
-  z-index: -1;
-}
-
 
 .bottom-space {
   margin-bottom: 50px;
