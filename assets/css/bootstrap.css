@@ -879,6 +879,10 @@ pre code {
   margin-left: 91.666667%;
 }
 
+.offset-t-8 {
+  margin-top: 4%;
+}
+
 @media (min-width: 576px) {
   .col-sm {
     -ms-flex-preferred-size: 0;
@@ -2557,7 +2561,7 @@ textarea.form-control {
 
 .btn:focus, .btn.focus {
   outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  box-shadow: 0 0 0 0.2rem rgba(113, 255, 100, 0.25);
 }
 
 .btn.disabled, .btn:disabled {

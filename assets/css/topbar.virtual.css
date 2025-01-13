@@ -28,7 +28,6 @@
 }
 
 .filterable-button .btn {
-  padding: 5px 16px;
   margin: 6px;
   font-size: 14px;
   border-radius: 40px;
@@ -47,7 +46,7 @@
 .filterable-button .btn:focus {
   background-color: #747474;
   color: #fff;
-  box-shadow: 0 0 0 2px #fff, 0 0 0 4px #747474;
+  box-shadow: 0 0 0 4px #747474;
 }
 
 
@@ -177,6 +176,10 @@
   border-radius: 15px;
 }
 
+.button-gh {
+  margin-left: 80px;
+}
+
 .bottom-space {
   margin-bottom: 50px;
 }
@@ -184,8 +187,6 @@
 .top-space {
   margin-top: 50px;
 }
-
-
 
 .timeline {
   position: relative;
@@ -582,7 +583,7 @@
 .theme-blue .filterable-button .btn:focus {
   background-color: #0b8ed4;
   color: #fff;
-  box-shadow: 0 0 0 2px #fff, 0 0 0 4px #0b8ed4;
+  box-shadow: 0 0 0 4px #0b8ed4;
 }
 
 .theme-blue .page-home .badge {
