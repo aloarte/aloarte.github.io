@@ -978,6 +978,8 @@ a:hover, a:active {
 .gridder {
     position: relative;
     display: block;
+    grid-template-columns: 65% 35%
+    
 }
 
 .grid-item {
@@ -1036,13 +1038,15 @@ a:hover, a:active {
     }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1500px) {
     .gridder .grid-item,
     .gridder .grid-sizer {
-        width: 33.33333%;
+        width: 50%;
     }
 }
-
+.grid-item.full-width {
+    grid-column: span 2; 
+  }
 
 /* Theme color style */
 
