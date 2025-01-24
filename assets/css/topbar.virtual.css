@@ -33,6 +33,13 @@
 
 .bg-technology {
   --tw-bg-opacity: 1;
+  padding-left: 0.5rem !important;
+  background-color: #0b8ed4;
+}
+
+.bg-technology-empty {
+  --tw-bg-opacity: 1;
+  padding-left: 0.8rem !important;
   background-color: #0b8ed4;
 }
 
@@ -41,7 +48,7 @@
   line-height: 1rem;
   width: fit-content;  
   height: fit-content; 
-  padding-left: 0.5rem !important;
+  
   padding-right: 0.75rem !important;
   margin-right: 3px;
 }
@@ -648,8 +655,6 @@ text-xs {
   box-shadow: 0 0 0 2px #747474;
 }
 
-
-
 .theme-blue .post-grid .post-category {
   color: #0b8ed4;
 }
@@ -682,7 +687,6 @@ text-xs {
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
 }
-
 
 .carousel {
   width: 80%;
@@ -768,12 +772,19 @@ text-xs {
 .project-title {
   font-size: 1.2rem;
   font-weight: bold;
-  color: #333;
+  color: #212529;
+  margin-bottom: 10px;
+}
+
+.project-year {
+  font-size: 1rem;
+  color: #212529;
   margin-bottom: 10px;
 }
 
 .project-description {
   font-size: 0.9rem;
-  color: #666;
+  color: #212529;
   margin-bottom: 15px;
+  padding-top: 20px;
 }
