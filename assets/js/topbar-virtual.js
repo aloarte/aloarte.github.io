@@ -4,6 +4,9 @@ $(function() {
     percentPosition: true
   });
   
+  var defaultFilter = '.featured';
+  $grid.isotope({ filter: defaultFilter });
+
   // filter items on button click
   $('.filterable-button').on( 'click', 'button', function() {
     var filterValue = $(this).attr('data-filter');
