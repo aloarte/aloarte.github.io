@@ -252,78 +252,18 @@
   <div class="vg-page page-portfolio" id="portfolio">
 
     <h1 class="bottom-space text-center wow fadeInUp">Portfolio</h1>
-
-    <!--Featured project section-->
-    <div class="container">
-      <h2 class="bottom-space text-center wow fadeInUp">Featured projects</h1>
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-          <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          </ol>
-          <div class="carousel-inner">
-            <div class="carousel-item active cardFeatured card-body details">
-              <h3 class="bottom-space text-center">The Skintker project</h3>
-              <p>This project involves an <b>Android</b> application and a backend service that exposes an <b>API</b> used by the application. Through these services, users can log their daily routines to track skin issues with the goal of identifying their root causes.</p> 
-              <p>It utilizes <b>Firebase</b> for application authentication, where user credentials are used to bind logs in the backend, and the associated token is employed to secure API calls.</p> 
-              <p>The technologies used are the following:</p> 
-              <ul>
-                <li>OAuth with Firebase</li>
-                <li>Kotlin</li>
-                <li>Koin</li>
-                <li>Jetpack-Compose in the Android application</li>
-                <li>Git+Github with Github Actions</li>
-              </ul>
-              <div class="button-container" >
-                <a href="sktproject.html">
-                  <input class='btn btn-theme-outline' type='button' value='More details'>
-                </a>
-              </div>
-            </div>
-    
-            <div class="carousel-item cardFeatured card-body details">
-              <h3 class="bottom-space text-center">Aplications deployed on Google Play Store</h3>
-              <p>Over the past few years, I've transitioned various applications to their production phase on the <b>Google Play Store</b>.</p>  
-              <small class="fg-theme">Skintker</small>
-              <p>Crafted using Kotlin with Jetpack Compose and powered by Dagger-Hilt for dependency injection, this application facilitates tax calculations for the Hegemony board game.</p>  
-              <small class="fg-theme">Hegemony Taxes</small>
-              <p>Skintker is an Android application designed to assist individuals dealing with skin issues by aiding them in tracking the potential triggers within their daily routines.</p>  
-              <small class="fg-theme">Hollow Minds</small>
-              <p>A memory game set in the Hollow Knight universe, developed using Kotlin with Jetpack Compose and integrated with Koin for dependency injection.</p>  
-              <div class="button-container">
-                <a href="https://play.google.com/store/apps/details?id=com.p4r4d0x.skintker">
-                  <input class='btn btn-theme-outline' type='button' value='Skintker'>
-                </a>
-                <a href="https://play.google.com/store/apps/details?id=com.p4r4d0x.hegemonytaxes">
-                  <input class='btn btn-theme-outline' type='button' value='Hegemony Taxes'>
-                </a>
-                <a href="https://play.google.com/store/apps/details?id=com.p4r4d0x.hollowminds">
-                  <input class='btn btn-theme-outline' type='button' value='Hollow Minds'>
-                </a>
-              </div> 
-            
-            </div>
-            
-          </div>
-          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
-        </div>
-    </div>
-
     <!--All project section-->
     <div class="container">
-      <h2 class="bottom-space text-center wow fadeInUp" style="margin-top: 60px;">All projects</h1>
+
+      <h2 class="bottom-space text-center wow fadeInUp">All projects</h1>
+        <p class="text-muted">
+          In this section you can find all the personal projects that I have been developing over the years. They are mainly Android projects, some focused on ideas that I wanted to bring to reality and others are technical tests or personal challenges that have helped me learn.
+        </p>
       <div class="filterable-button py-3 wow fadeInUp" data-toggle="selected">
         <button class="btn btn-theme-outline selected" data-filter=".featured">Featured</button>
-        <button class="btn btn-theme-outline" data-filter=".store">Google Play Store</button>
+        <!--<button class="btn btn-theme-outline" data-filter=".store">Google Play Store</button>
         <button class="btn btn-theme-outline" data-filter=".kotlin">Kotlin</button>
-        <button class="btn btn-theme-outline" data-filter=".compose">Jetpack-Compose</button>
+        <button class="btn btn-theme-outline" data-filter=".compose">Jetpack-Compose</button>-->
         <button class="btn btn-theme-outline" data-filter="*">All</button>
       </div>
 
@@ -617,7 +557,70 @@
           </div>
         </div>
       </div> <!-- End gridder all projects -->
-    </div>
+
+  </div>
+          <!--Featured project section-->
+          <div class="container">
+            <h2 class="bottom-space text-center wow fadeInUp">Featured projects insights</h1>
+              <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active cardFeatured card-body details">
+                    <h3 class="bottom-space text-center">The Skintker project</h3>
+                    <p>This project involves an <b>Android</b> application and a backend service that exposes an <b>API</b> used by the application. Through these services, users can log their daily routines to track skin issues with the goal of identifying their root causes.</p> 
+                    <p>It utilizes <b>Firebase</b> for application authentication, where user credentials are used to bind logs in the backend, and the associated token is employed to secure API calls.</p> 
+                    <p>The technologies used are the following:</p> 
+                    <ul>
+                      <li>OAuth with Firebase</li>
+                      <li>Kotlin</li>
+                      <li>Koin</li>
+                      <li>Jetpack-Compose in the Android application</li>
+                      <li>Git+Github with Github Actions</li>
+                    </ul>
+                    <div class="button-container" >
+                      <a href="sktproject.html">
+                        <input class='btn btn-theme-outline' type='button' value='More details'>
+                      </a>
+                    </div>
+                  </div>
+          
+                  <div class="carousel-item cardFeatured card-body details">
+                    <h3 class="bottom-space text-center">Aplications deployed on Google Play Store</h3>
+                    <p>Over the past few years, I've transitioned various applications to their production phase on the <b>Google Play Store</b>.</p>  
+                    <small class="fg-theme">Skintker</small>
+                    <p>Crafted using Kotlin with Jetpack Compose and powered by Dagger-Hilt for dependency injection, this application facilitates tax calculations for the Hegemony board game.</p>  
+                    <small class="fg-theme">Hegemony Taxes</small>
+                    <p>Skintker is an Android application designed to assist individuals dealing with skin issues by aiding them in tracking the potential triggers within their daily routines.</p>  
+                    <small class="fg-theme">Hollow Minds</small>
+                    <p>A memory game set in the Hollow Knight universe, developed using Kotlin with Jetpack Compose and integrated with Koin for dependency injection.</p>  
+                    <div class="button-container">
+                      <a href="https://play.google.com/store/apps/details?id=com.p4r4d0x.skintker">
+                        <input class='btn btn-theme-outline' type='button' value='Skintker'>
+                      </a>
+                      <a href="https://play.google.com/store/apps/details?id=com.p4r4d0x.hegemonytaxes">
+                        <input class='btn btn-theme-outline' type='button' value='Hegemony Taxes'>
+                      </a>
+                      <a href="https://play.google.com/store/apps/details?id=com.p4r4d0x.hollowminds">
+                        <input class='btn btn-theme-outline' type='button' value='Hollow Minds'>
+                      </a>
+                    </div> 
+                  
+                  </div>
+                  
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+          </div>
   </div> <!-- End Portfolio page -->
 
   <!-- Footer -->
