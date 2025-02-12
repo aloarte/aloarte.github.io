@@ -23,17 +23,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.js"></script> 
+  <script src="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.js"></script>
 
 </head>
-
 
 
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-KCTXWYMM96"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
+  function gtag() { dataLayer.push(arguments); }
   gtag('js', new Date());
 
   gtag('config', 'G-KCTXWYMM96');
@@ -48,7 +47,7 @@
   </div>
 
   <!-- Home page-->
-  <div class="vg-page page-home" id="home" style="background-image: url(assets/img/bg_image__.jpg)">
+  <div class="vg-page page-home" id="home">
     <!-- Navbar -->
     <div class="navbar navbar-expand-lg navbar-dark sticky" data-offset="500">
       <div class="container">
@@ -69,9 +68,10 @@
             <li class="nav-item">
               <a href="#portfolio" class="nav-link" data-animate="scrolling">Portfolio</a>
             </li>
-      
-            <button class="btn btn-theme btn-rounded button-gh" onclick="window.location.href='https://github.com/aloarte';">Github</button>
-            
+
+            <button class="btn btn-theme btn-rounded button-gh"
+              onclick="window.location.href='https://github.com/aloarte';">Github</button>
+
           </ul>
         </div>
       </div>
@@ -79,10 +79,13 @@
 
     <!-- Caption header -->
     <div class="caption-header text-center wow">
-      <h1 class="fw-light mb-4 bottom-space" ></b>Álvaro Loarte Rodríguez<br> <b class="fg-theme">Android developer</b></h1>
+      <h1 class="fw-light mb-4 bottom-space" style="margin-top: 100px;"></b>Álvaro Loarte Rodríguez<br> <b class="fg-theme">Android developer</b>
+      </h1>
       <row>
-        <button class="btn btn-theme-outline top-space" onclick="window.location ='assets/cv/aloarte-cv-en.pdf'">Download CV (EN)</button>
-        <button class="btn btn-theme-outline top-space" onclick="window.location ='assets/cv/aloarte-cv-es.pdf'">Download CV (ES)</button>
+        <button class="btn btn-theme-outline top-space"
+          onclick="window.location ='assets/cv/aloarte-cv-en.pdf'">Download CV (EN)</button>
+        <button class="btn btn-theme-outline top-space"
+          onclick="window.location ='assets/cv/aloarte-cv-es.pdf'">Download CV (ES)</button>
       </row>
     </div> <!-- End Caption header -->
   </div>
@@ -98,16 +101,15 @@
           </div>
         </div>
         <div class="col-lg-6 offset-lg-1 offset-t-8 wow fadeInRight">
-          <p class="text-muted">I'm a Computer Engineer currently focused on native Android development. I have been
-            working in the Android world for more than eight years. I developed in Java for the first two years and I'm
-            developing in Kotlin nowadays. </p>
-          <p class="text-muted">In my free time I develop personal projects that allow me to materialize my ideas and
-            continue learning.</p>
-              <ul class="theme-list">
-              <li><a href="https://github.com/aloarte">Github</a></li>
-              <li><a href="https://www.linkedin.com/in/alvaro-loarte-rodriguez/">LinkedIn</a></li>
-              <li>aloarter.dev@gmail.com</li>
-            </ul>  
+          <p class="text-muted">I am a Computer Engineer currently focused on <b>native Android development</b> with over eight years of experience in the field.</p>
+          <p class="text-muted">I have evolved alongside the technologies for native development as they have advanced. During the first two years of my career I worked with Java and, since then, I <b>fully develop in Kotlin</b>.</p>
+          <p class="text-muted">Regarding view management, the majority of my experience lies in the XML framework, although for the past three years I have been developing applications with <b>Jetpack Compose</b>.</p>    
+          <p class="text-muted">In my free time, I enjoy working on personal projects that allow me to bring my ideas to life and continue learning. You can find them on my GitHub account. I'm also studying a Master Degree in Data Science. </p>
+          <ul class="theme-list">
+            <li><a href="https://github.com/aloarte">Github</a></li>
+            <li><a href="https://www.linkedin.com/in/alvaro-loarte-rodriguez/">LinkedIn</a></li>
+            <li>aloarter.dev@gmail.com</li>
+          </ul>
         </div>
       </div>
     </div>
@@ -124,7 +126,7 @@
               <img class="page-service-icon" src="assets/img/logos/android_logo.png" alt="">
             </div>
             <h4 class="fg-theme">Android</h4>
-            <p>More than six years working on projects in Android native. Proffesionally and in side projects.</p>
+            <p>More than eight years working on projects in Android native. Proffesionally and in side projects.</p>
             <a href="https://developer.android.com/" class="btn btn-theme btn-rounded">Read More</a>
           </div>
         </div>
@@ -134,7 +136,8 @@
               <img class="page-service-icon" src="assets/img/logos/kotlin_logo.png" alt="">
             </div>
             <h4 class="fg-theme">Kotlin</h4>
-            <p>Four years working in projects 100% coded in Kotlin. I use Kotlin mainly to develop Android applications.</p>
+            <p>Six years working in projects 100% coded in Kotlin. I use Kotlin mainly to develop Android applications.
+            </p>
             <a href="https://kotlinlang.org/" class="btn btn-theme btn-rounded">Read More</a>
           </div>
         </div>
@@ -144,7 +147,8 @@
               <img class="page-service-icon" src="assets/img/logos/koin_logo.png" alt="">
             </div>
             <h4 class="fg-theme">Koin / Dagger-Hilt</h4>
-            <p>I work with dependency injection frameworks in all of my projects. Koin is the one I feel most comfortable with.</p>
+            <p>I work with dependency injection frameworks in all of my projects. Koin is the one I feel most
+              comfortable with.</p>
             <a href="https://insert-koin.io/" class="btn btn-theme btn-rounded">Read More</a>
           </div>
         </div>
@@ -164,7 +168,7 @@
               <img class="page-service-icon" src="assets/img/logos/compose_logo.png" alt="">
             </div>
             <h4 class="fg-theme">Jetpack Compose</h4>
-            <p>I've been using Jetpack Compose on my side projects since its release.</p>
+            <p>I've been using Jetpack Compose on my side projects and professionally since its release.</p>
             <a href="https://developer.android.com/jetpack/compose" class="btn btn-theme btn-rounded">Read More</a>
           </div>
         </div>
@@ -173,7 +177,7 @@
             <div class="iconic">
               <span class="ti-pencil"></span>
             </div>
-            <h4 class="fg-theme">Clean Code</h4>       
+            <h4 class="fg-theme">Clean Code</h4>
             <p>I'm focused in the creation of understandable, maintainable and testable code.</p>
           </div>
         </div>
@@ -186,31 +190,142 @@
     <h1 class="bottom-space text-center wow fadeInUp">Career</h1>
     <div class="container pt-5">
       <div class="row">
-        <div class="col-md-6 wow fadeInRight" >
+        <div class="col-md-6 wow fadeInRight">
           <h2 class="fw-normal">Experience</h2>
           <ul class="timeline mt-4 pr-md-5">
             <li>
-              <div class="title">2020 - Current</div>
+              <div class="title">2020 - 2025</div>
               <div class="card">
-                <h5>Senior Android Developer</h5>            
-                <small class="fg-theme">Optiva Media</small>
-                <p>Development of Android applications for Set-Top Box (Android Tv) and mobile platforms in the telecommunications and entertainment field.</p>
+                <h5 class="project-title">Senior Android Developer</h5>
+                <h5 class="project-year">Optiva Media</h5>
+                <div class="flex gap-x-4 work-chips">
+                  <span class="flex gap-x-2 rounded-full text-xs bg-technology text-white py-1">
+                    <svg viewBox="0 0 128 128" width="12" height="12" transform="translate(0, 2)">
+                      <path fill="#b6b6b6"
+                        d="M21.012 91.125c-5.538.003-10.038-4.503-10.039-10.04l-.002-30.739c-.002-5.532 4.497-10.037 10.028-10.038 2.689-.002 5.207 1.041 7.105 2.937s2.942 4.418 2.944 7.099l-.003 30.74a9.924 9.924 0 01-2.931 7.094 9.962 9.962 0 01-7.102 2.947m-.008-48.12c-4.053-.002-7.338 3.291-7.339 7.341l.005 30.736a7.347 7.347 0 007.341 7.348 7.338 7.338 0 007.339-7.347V50.342a7.345 7.345 0 00-7.346-7.337">
+                      </path>
+                      <path fill="#b6b6b6"
+                        d="M99.742 44.527l-2.698-.001-66.119.009-2.699.001-.002-2.699c-.006-11.08 6.03-21.385 15.917-27.473l-3.844-7.017c-.47-.822-.588-1.863-.314-2.815a3.732 3.732 0 011.814-2.239 3.605 3.605 0 011.759-.447c1.362 0 2.609.739 3.267 1.933l4.023 7.329a37.842 37.842 0 0113.099-2.305c4.606-.002 9.023.777 13.204 2.311l4.017-7.341a3.711 3.711 0 013.263-1.932 3.712 3.712 0 011.761.438A3.706 3.706 0 0188 4.524a3.69 3.69 0 01-.318 2.832l-3.842 7.013c9.871 6.101 15.9 16.398 15.899 27.459l.003 2.699zM80.196 15.403l5.123-9.355a1.019 1.019 0 10-1.783-.981l-5.176 9.45c-4.354-1.934-9.229-3.021-14.382-3.016-5.142-.005-10.008 1.078-14.349 3.005l-5.181-9.429a1.009 1.009 0 00-1.379-.405c-.497.266-.68.891-.403 1.379l5.125 9.348c-10.07 5.194-16.874 15.084-16.868 26.439l66.118-.008c.003-11.351-6.789-21.221-16.845-26.427M48.94 29.86a2.772 2.772 0 01.003-5.545 2.78 2.78 0 012.775 2.774 2.775 2.775 0 01-2.778 2.771m30.107-.006a2.767 2.767 0 01-2.772-2.771 2.788 2.788 0 012.773-2.778 2.79 2.79 0 012.767 2.779 2.769 2.769 0 01-2.768 2.77m-27.336 96.305c-5.533-.001-10.036-4.501-10.037-10.038l-.002-13.567-2.638.003a10.453 10.453 0 01-7.448-3.082 10.437 10.437 0 01-3.083-7.452l-.01-47.627v-2.701h2.699l65.623-.01 2.7-.002v2.699l.007 47.633c.001 5.809-4.725 10.536-10.532 10.535l-2.654.002.003 13.562c0 5.534-4.502 10.039-10.033 10.039a9.933 9.933 0 01-7.098-2.937 9.952 9.952 0 01-2.947-7.096v-13.568H61.75v13.565c-.002 5.535-4.503 10.043-10.039 10.042">
+                      </path>
+                      <path fill="#b6b6b6"
+                        d="M31.205 92.022a7.82 7.82 0 007.831 7.837h5.333l.006 16.264c-.001 4.05 3.289 7.341 7.335 7.342a7.342 7.342 0 007.338-7.348l.001-16.259 9.909-.003-.001 16.263c.004 4.051 3.298 7.346 7.343 7.338 4.056.003 7.344-3.292 7.343-7.344l-.005-16.259 5.353-.001c4.319.001 7.832-3.508 7.832-7.837l-.009-47.635-65.621.012.012 47.63zm75.791-.91c-5.536.001-10.039-4.498-10.038-10.036l-.008-30.738c.002-5.537 4.498-10.041 10.031-10.041 5.54-.001 10.046 4.502 10.045 10.038l.003 30.736c.001 5.534-4.498 10.042-10.033 10.041m-.01-48.116c-4.053-.004-7.337 3.287-7.337 7.342l.003 30.737a7.336 7.336 0 007.342 7.34 7.338 7.338 0 007.338-7.343l-.008-30.736a7.335 7.335 0 00-7.338-7.34">
+                      </path>
+                      <path fill="#ffffff"
+                        d="M21.004 43.005c-4.053-.002-7.338 3.291-7.339 7.341l.005 30.736a7.338 7.338 0 007.342 7.343 7.33 7.33 0 007.338-7.342V50.342a7.345 7.345 0 00-7.346-7.337m59.192-27.602l5.123-9.355a1.023 1.023 0 00-.401-1.388 1.022 1.022 0 00-1.382.407l-5.175 9.453c-4.354-1.938-9.227-3.024-14.383-3.019-5.142-.005-10.013 1.078-14.349 3.005l-5.181-9.429a1.01 1.01 0 00-1.378-.406 1.007 1.007 0 00-.404 1.38l5.125 9.349c-10.07 5.193-16.874 15.083-16.868 26.438l66.118-.008c.003-11.351-6.789-21.221-16.845-26.427M48.94 29.86a2.772 2.772 0 01.003-5.545 2.78 2.78 0 012.775 2.774 2.775 2.775 0 01-2.778 2.771m30.107-.006a2.77 2.77 0 01-2.772-2.771 2.793 2.793 0 012.773-2.778 2.79 2.79 0 012.767 2.779 2.767 2.767 0 01-2.768 2.77M31.193 44.392l.011 47.635a7.822 7.822 0 007.832 7.831l5.333.002.006 16.264c-.001 4.05 3.291 7.342 7.335 7.342 4.056 0 7.342-3.295 7.343-7.347l-.004-16.26 9.909-.003.004 16.263c0 4.047 3.293 7.346 7.338 7.338 4.056.003 7.344-3.292 7.343-7.344l-.005-16.259 5.352-.004a7.835 7.835 0 007.836-7.834l-.009-47.635-65.624.011zm83.134 5.943a7.338 7.338 0 00-7.341-7.339c-4.053-.004-7.337 3.287-7.337 7.342l.006 30.738a7.334 7.334 0 007.339 7.339 7.337 7.337 0 007.338-7.343l-.005-30.737z">
+                      </path>
+                    </svg>
+                    Android
+                  </span>
+                  <span class="flex gap-x-2 rounded-full text-xs bg-technology text-white py-1">
+                    <svg viewBox="0 0 128 128" width="12" height="12" transform="translate(0, 2)">
+                      <defs>
+                        <linearGradient id="a" x1="500.003" x2="-.097" y1="579.106" y2="1079.206"
+                          gradientTransform="translate(15.534 -96.774) scale(.1939)" gradientUnits="userSpaceOnUse">
+                          <stop offset=".003" stop-color="#ffffff"></stop>
+                          <stop offset=".469" stop-color="#ffffff"></stop>
+                          <stop offset="1" stop-color="#ffffff"></stop>
+                        </linearGradient>
+                      </defs>
+                      <path fill="url(#a)" d="M112.484 112.484H15.516V15.516h96.968L64 64Zm0 0"></path>
+                    </svg>
+                    Kotlin
+                  </span>
+                  <span class="flex gap-x-2 rounded-full text-xs bg-technology text-white py-1">
+                    <svg viewBox="0 0 128 128" width="12" height="12" transform="translate(0, 2)">
+                      <path
+                        style="display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.699;stroke-dasharray:none"
+                        d="M63.353.759c-2.022-.048-3.83.515-5.604 1.486L14.737 27.521l-1.716 1.01-.808.555c-1.067.628-2.21 2.15-2.97 3.175l4.168 2.324 2.82 1.55 9.592 5.4 2.454 1.36c1.237-1.491 1.306-1.596 2.472-2.566l26.833-15.884c1.554-.85 3.964-1.976 5.736-1.936 1.769.041 4.04.556 5.552 1.476l23.485 13.342 2.944 1.637a26.544 26.544 0 0 1 3.825 3.052l18.723-11.19-1.666-1.624c-1.893-1.528-2.544-1.815-3.864-2.497L69.664 2.637C67.932 1.582 65.38.807 63.353.759Zm.276 23.845c-.95 0-3.036.411-3.86.884l-27.905 16.57c-.823.472-1.655 1.983-2.13 2.801-.475.818-.837 2.452-.839 3.303l-.055 33.254c-.002.946.421 2.006.896 2.824.476.819 1.268 1.581 2.091 2.054l28.68 16.194c1.07.493 2.69.787 3.64.787.95 0 2.174-.147 3.709-.777l27.42-16.173c.824-.474 2.1-1.772 2.575-2.59.475-.819 1.498-2.895 1.493-3.841l-.146-32.52c-.001-.945-.832-2.85-1.307-3.667-.475-.82-2.284-2.36-3.108-2.833L67.623 25.58c-.824-.473-3.043-.977-3.994-.977Zm55.2 7.65-1.163.725-17.474 10.441c.42 1 .891 3.278.946 4.363l.002.01.008.312v31.3a10.085 10.085 0 0 1-4.963 8.786l-25.434 15.315c-.922.545-3.108 1.394-5.452 1.841l.002 1.516-.037 7.825-.006 3.775.043 8.781c1.255-.01 3.339-.766 4.423-1.36l.317-.182.009-.004 44.498-26.253a11.538 11.538 0 0 0 5.666-10.048V37.734c-.014-1.458-.72-4.093-1.385-5.48zM8.47 33.817l-.415 1.949c-.352 2.928-.29 3.223-.202 4.705l-.012 49.185c-.02 2.027-.099 4.84.899 6.606.993 1.762 2.916 2.799 4.657 3.827l45.2 25.602.008.004.318.179c1.399.644 2.986 1.145 4.592 1.241l.012-4.872.004-3.748-.006-11.404-.006-1.81c-1.809-.118-3.218-.654-4.14-1.199l-27.041-15.14c-1.527-.9-3.437-1.913-4.308-3.455-.87-1.543-1.252-3.886-1.235-5.658l.017-29.064.008-2.096c.061-1.414.277-2.403.687-4.15zm55.323 4.77c.612 0 2.044.327 2.575.632l17.503 9.854c.531.304 1.698 1.3 2.004 1.826.306.528.84 1.754.84 2.363l.096 20.959c.002.609-.655 1.948-.963 2.476-.306.528-1.127 1.363-1.657 1.668L66.52 88.79c-.99.406-1.78.505-2.394.505-.612 0-1.653-.192-2.342-.51L43.297 78.349a3.816 3.816 0 0 1-1.348-1.324c-.306-.528-.579-1.212-.578-1.82l.035-21.431c0-.548.235-1.602.54-2.13.307-.528.844-1.5 1.374-1.804l17.985-10.68c.531-.305 1.877-.57 2.489-.57z">
+                      </path>
+                    </svg>
+                    Compose
+                  </span>
+                  <span class="flex gap-x-2 rounded-full text-xs bg-technology-empty text-white py-1">
+                    Koin
+                  </span>
+                </div>
+                <p>I contributed to the development of Android applications for mobile devices and Set-Top Boxes (Android TV), focused on a multimedia entertainment product featuring live and on-demand contents.</p>
+                <p>In this context, we utilized various tools such as Jira for project management and Npaw for data analytics.</p>
               </div>
             </li>
             <li>
               <div class="title">2016 - 2020</div>
               <div class="card">
-                <h5>Android Developer</h5>
-                <small class="fg-theme">Minsait (Indra)</small>
-                <p>Creation of Android components and applications in the field of cybersecurity (biometrics, document fraud
-                  control, digital signature and identity management).
-                </p>
+                <h5 class="project-title">Android Developer</h5>
+                <h5 class="project-year">Minsait (Indra)</h5>
+                <div class="flex gap-x-4 work-chips">
+                  <span class="flex gap-x-2 rounded-full text-xs bg-technology text-white py-1">
+                    <svg viewBox="0 0 128 128" width="12" height="12" transform="translate(0, 2)">
+                      <path fill="#b6b6b6"
+                        d="M21.012 91.125c-5.538.003-10.038-4.503-10.039-10.04l-.002-30.739c-.002-5.532 4.497-10.037 10.028-10.038 2.689-.002 5.207 1.041 7.105 2.937s2.942 4.418 2.944 7.099l-.003 30.74a9.924 9.924 0 01-2.931 7.094 9.962 9.962 0 01-7.102 2.947m-.008-48.12c-4.053-.002-7.338 3.291-7.339 7.341l.005 30.736a7.347 7.347 0 007.341 7.348 7.338 7.338 0 007.339-7.347V50.342a7.345 7.345 0 00-7.346-7.337">
+                      </path>
+                      <path fill="#b6b6b6"
+                        d="M99.742 44.527l-2.698-.001-66.119.009-2.699.001-.002-2.699c-.006-11.08 6.03-21.385 15.917-27.473l-3.844-7.017c-.47-.822-.588-1.863-.314-2.815a3.732 3.732 0 011.814-2.239 3.605 3.605 0 011.759-.447c1.362 0 2.609.739 3.267 1.933l4.023 7.329a37.842 37.842 0 0113.099-2.305c4.606-.002 9.023.777 13.204 2.311l4.017-7.341a3.711 3.711 0 013.263-1.932 3.712 3.712 0 011.761.438A3.706 3.706 0 0188 4.524a3.69 3.69 0 01-.318 2.832l-3.842 7.013c9.871 6.101 15.9 16.398 15.899 27.459l.003 2.699zM80.196 15.403l5.123-9.355a1.019 1.019 0 10-1.783-.981l-5.176 9.45c-4.354-1.934-9.229-3.021-14.382-3.016-5.142-.005-10.008 1.078-14.349 3.005l-5.181-9.429a1.009 1.009 0 00-1.379-.405c-.497.266-.68.891-.403 1.379l5.125 9.348c-10.07 5.194-16.874 15.084-16.868 26.439l66.118-.008c.003-11.351-6.789-21.221-16.845-26.427M48.94 29.86a2.772 2.772 0 01.003-5.545 2.78 2.78 0 012.775 2.774 2.775 2.775 0 01-2.778 2.771m30.107-.006a2.767 2.767 0 01-2.772-2.771 2.788 2.788 0 012.773-2.778 2.79 2.79 0 012.767 2.779 2.769 2.769 0 01-2.768 2.77m-27.336 96.305c-5.533-.001-10.036-4.501-10.037-10.038l-.002-13.567-2.638.003a10.453 10.453 0 01-7.448-3.082 10.437 10.437 0 01-3.083-7.452l-.01-47.627v-2.701h2.699l65.623-.01 2.7-.002v2.699l.007 47.633c.001 5.809-4.725 10.536-10.532 10.535l-2.654.002.003 13.562c0 5.534-4.502 10.039-10.033 10.039a9.933 9.933 0 01-7.098-2.937 9.952 9.952 0 01-2.947-7.096v-13.568H61.75v13.565c-.002 5.535-4.503 10.043-10.039 10.042">
+                      </path>
+                      <path fill="#b6b6b6"
+                        d="M31.205 92.022a7.82 7.82 0 007.831 7.837h5.333l.006 16.264c-.001 4.05 3.289 7.341 7.335 7.342a7.342 7.342 0 007.338-7.348l.001-16.259 9.909-.003-.001 16.263c.004 4.051 3.298 7.346 7.343 7.338 4.056.003 7.344-3.292 7.343-7.344l-.005-16.259 5.353-.001c4.319.001 7.832-3.508 7.832-7.837l-.009-47.635-65.621.012.012 47.63zm75.791-.91c-5.536.001-10.039-4.498-10.038-10.036l-.008-30.738c.002-5.537 4.498-10.041 10.031-10.041 5.54-.001 10.046 4.502 10.045 10.038l.003 30.736c.001 5.534-4.498 10.042-10.033 10.041m-.01-48.116c-4.053-.004-7.337 3.287-7.337 7.342l.003 30.737a7.336 7.336 0 007.342 7.34 7.338 7.338 0 007.338-7.343l-.008-30.736a7.335 7.335 0 00-7.338-7.34">
+                      </path>
+                      <path fill="#ffffff"
+                        d="M21.004 43.005c-4.053-.002-7.338 3.291-7.339 7.341l.005 30.736a7.338 7.338 0 007.342 7.343 7.33 7.33 0 007.338-7.342V50.342a7.345 7.345 0 00-7.346-7.337m59.192-27.602l5.123-9.355a1.023 1.023 0 00-.401-1.388 1.022 1.022 0 00-1.382.407l-5.175 9.453c-4.354-1.938-9.227-3.024-14.383-3.019-5.142-.005-10.013 1.078-14.349 3.005l-5.181-9.429a1.01 1.01 0 00-1.378-.406 1.007 1.007 0 00-.404 1.38l5.125 9.349c-10.07 5.193-16.874 15.083-16.868 26.438l66.118-.008c.003-11.351-6.789-21.221-16.845-26.427M48.94 29.86a2.772 2.772 0 01.003-5.545 2.78 2.78 0 012.775 2.774 2.775 2.775 0 01-2.778 2.771m30.107-.006a2.77 2.77 0 01-2.772-2.771 2.793 2.793 0 012.773-2.778 2.79 2.79 0 012.767 2.779 2.767 2.767 0 01-2.768 2.77M31.193 44.392l.011 47.635a7.822 7.822 0 007.832 7.831l5.333.002.006 16.264c-.001 4.05 3.291 7.342 7.335 7.342 4.056 0 7.342-3.295 7.343-7.347l-.004-16.26 9.909-.003.004 16.263c0 4.047 3.293 7.346 7.338 7.338 4.056.003 7.344-3.292 7.343-7.344l-.005-16.259 5.352-.004a7.835 7.835 0 007.836-7.834l-.009-47.635-65.624.011zm83.134 5.943a7.338 7.338 0 00-7.341-7.339c-4.053-.004-7.337 3.287-7.337 7.342l.006 30.738a7.334 7.334 0 007.339 7.339 7.337 7.337 0 007.338-7.343l-.005-30.737z">
+                      </path>
+                    </svg>
+                    Android
+                  </span>
+                  <span class="flex gap-x-2 rounded-full text-xs bg-technology text-white py-1">
+                    <svg viewBox="0 0 128 128" width="12" height="12" transform="translate(0, 2)">
+                      <defs>
+                        <linearGradient id="a" x1="500.003" x2="-.097" y1="579.106" y2="1079.206"
+                          gradientTransform="translate(15.534 -96.774) scale(.1939)" gradientUnits="userSpaceOnUse">
+                          <stop offset=".003" stop-color="#ffffff"></stop>
+                          <stop offset=".469" stop-color="#ffffff"></stop>
+                          <stop offset="1" stop-color="#ffffff"></stop>
+                        </linearGradient>
+                      </defs>
+                      <path fill="url(#a)" d="M112.484 112.484H15.516V15.516h96.968L64 64Zm0 0"></path>
+                    </svg>
+                    Kotlin
+                  </span>
+                  <span class="flex gap-x-2 rounded-full text-xs bg-technology text-white py-1 ">
+                    <svg viewBox="0 0 128 128" width="12" height="12" transform="translate(0, 2)">
+                      <path fill="#ffffff"
+                        d="M47.617 98.12s-4.767 2.774 3.397 3.71c9.892 1.13 14.947.968 25.845-1.092 0 0 2.871 1.795 6.873 3.351-24.439 10.47-55.308-.607-36.115-5.969zm-2.988-13.665s-5.348 3.959 2.823 4.805c10.567 1.091 18.91 1.18 33.354-1.6 0 0 1.993 2.025 5.132 3.131-29.542 8.64-62.446.68-41.309-6.336z">
+                      </path>
+                      <path fill="#ffffff"
+                        d="M69.802 61.271c6.025 6.935-1.58 13.17-1.58 13.17s15.289-7.891 8.269-17.777c-6.559-9.215-11.587-13.792 15.635-29.58 0 .001-42.731 10.67-22.324 34.187z">
+                      </path>
+                      <path fill="#ffffff"
+                        d="M102.123 108.229s3.529 2.91-3.888 5.159c-14.102 4.272-58.706 5.56-71.094.171-4.451-1.938 3.899-4.625 6.526-5.192 2.739-.593 4.303-.485 4.303-.485-4.953-3.487-32.013 6.85-13.743 9.815 49.821 8.076 90.817-3.637 77.896-9.468zM49.912 70.294s-22.686 5.389-8.033 7.348c6.188.828 18.518.638 30.011-.326 9.39-.789 18.813-2.474 18.813-2.474s-3.308 1.419-5.704 3.053c-23.042 6.061-67.544 3.238-54.731-2.958 10.832-5.239 19.644-4.643 19.644-4.643zm40.697 22.747c23.421-12.167 12.591-23.86 5.032-22.285-1.848.385-2.677.72-2.677.72s.688-1.079 2-1.543c14.953-5.255 26.451 15.503-4.823 23.725 0-.002.359-.327.468-.617z">
+                      </path>
+                      <path fill="#ffffff"
+                        d="M76.491 1.587S89.459 14.563 64.188 34.51c-20.266 16.006-4.621 25.13-.007 35.559-11.831-10.673-20.509-20.07-14.688-28.815C58.041 28.42 81.722 22.195 76.491 1.587z">
+                      </path>
+                      <path fill="#ffffff"
+                        d="M52.214 126.021c22.476 1.437 57-.8 57.817-11.436 0 0-1.571 4.032-18.577 7.231-19.186 3.612-42.854 3.191-56.887.874 0 .001 2.875 2.381 17.647 3.331z">
+                      </path>
+                    </svg>
+                    Java
+                  </span>
+                </div>
+                <p>I developed Android components and applications aimed at enhancing cybersecurity. The components provide a suite of tools to verify biometrics, document fraud prevention, digital signatures, and identity management.</p>
             </li>
             <li>
               <div class="title">2015 - 2016</div>
               <div class="card">
-                <h5>Software developer</h5>
-                <small class="fg-theme">Infoglobal</small>
+                <h5 class="project-title">Software developer</h5>
+                <h5 class="project-year">Infoglobal</h5>
+                <div class="flex gap-x-4 work-chips">
+                  <span class="flex gap-x-2 rounded-full text-xs bg-technology text-white py-1">
+                    <svg viewBox="0 0 128 128" width="12" height="12" transform="translate(0, 2)">
+                      <path fill="#ffffff" d="M49.33 62h29.159C86.606 62 93 55.132 93 46.981V19.183c0-7.912-6.632-13.856-14.555-15.176-5.014-.835-10.195-1.215-15.187-1.191-4.99.023-9.612.448-13.805 1.191C37.098 6.188 35 10.758 35 19.183V30h29v4H23.776c-8.484 0-15.914 5.108-18.237 14.811-2.681 11.12-2.8 17.919 0 29.53C7.614 86.983 12.569 93 21.054 93H31V79.952C31 70.315 39.428 62 49.33 62zm-1.838-39.11c-3.026 0-5.478-2.479-5.478-5.545 0-3.079 2.451-5.581 5.478-5.581 3.015 0 5.479 2.502 5.479 5.581-.001 3.066-2.465 5.545-5.479 5.545zm74.789 25.921C120.183 40.363 116.178 34 107.682 34H97v12.981C97 57.031 88.206 65 78.489 65H49.33C41.342 65 35 72.326 35 80.326v27.8c0 7.91 6.745 12.564 14.462 14.834 9.242 2.717 17.994 3.208 29.051 0C85.862 120.831 93 116.549 93 108.126V97H64v-4h43.682c8.484 0 11.647-5.776 14.599-14.66 3.047-9.145 2.916-17.799 0-29.529zm-41.955 55.606c3.027 0 5.479 2.479 5.479 5.547 0 3.076-2.451 5.579-5.479 5.579-3.015 0-5.478-2.502-5.478-5.579 0-3.068 2.463-5.547 5.478-5.547z"></path>
+                    </svg>
+                    Python
+                  </span>
+                  <span class="flex gap-x-2 rounded-full text-xs bg-technology text-white py-1">
+                    <svg viewBox="0 0 128 128" width="12" height="12" transform="translate(0, 2)">
+                      <path fill="#ffffff" d="M63.443 0c-1.782 0-3.564.39-4.916 1.172L11.594 28.27C8.89 29.828 6.68 33.66 6.68 36.78v54.197c0 1.562.55 3.298 1.441 4.841l-.002.002c.89 1.543 2.123 2.89 3.475 3.672l46.931 27.094c2.703 1.562 7.13 1.562 9.832 0h.002l46.934-27.094c1.352-.78 2.582-2.129 3.473-3.672.89-1.543 1.441-3.28 1.441-4.843V36.779c0-1.557-.55-3.295-1.441-4.838v-.002c-.891-1.545-2.121-2.893-3.473-3.67L68.359 1.173C67.008.39 65.226 0 63.443 0zm.002 26.033c13.465 0 26.02 7.246 32.77 18.91l-16.38 9.479c-3.372-5.836-9.66-9.467-16.39-9.467-10.432 0-18.922 8.49-18.922 18.924S53.013 82.8 63.445 82.8c6.735 0 13.015-3.625 16.395-9.465l16.375 9.477c-6.746 11.662-19.305 18.91-32.77 18.91-20.867 0-37.843-16.977-37.843-37.844s16.976-37.844 37.843-37.844v-.002zM92.881 57.57h4.201v4.207h4.203v4.203h-4.203v4.207h-4.201V65.98h-4.207v-4.203h4.207V57.57zm15.765 0h4.208v4.207h4.203v4.203h-4.203v4.207h-4.208V65.98h-4.205v-4.203h4.205V57.57z"></path>
+                    </svg>
+                    C++
+                  </span>
+                </div>
                 <p>Development and maintenance of CCTV solutions deployed in embedded systems in the railway field.</p>
               </div>
             </li>
@@ -222,23 +337,91 @@
             <li>
               <div class="title">2024 - Current</div>
               <div class="card">
-                <h5>Master's Degree in Data Science</h5>
-                <small class="fg-theme">Universitat Oberta de Catalunya</small>
+                <h5 class="project-title">Master's Degree in Data Science</h5>
+                <h5 class="project-year">Universitat Oberta de Catalunya</h5>
+                <div class="flex gap-x-4 work-chips">
+                  <span class="flex gap-x-2 rounded-full text-xs bg-technology text-white py-1">
+                    <svg viewBox="0 0 128 128" width="12" height="12" transform="translate(0, 2)">
+                      <path fill="#ffffff" d="M49.33 62h29.159C86.606 62 93 55.132 93 46.981V19.183c0-7.912-6.632-13.856-14.555-15.176-5.014-.835-10.195-1.215-15.187-1.191-4.99.023-9.612.448-13.805 1.191C37.098 6.188 35 10.758 35 19.183V30h29v4H23.776c-8.484 0-15.914 5.108-18.237 14.811-2.681 11.12-2.8 17.919 0 29.53C7.614 86.983 12.569 93 21.054 93H31V79.952C31 70.315 39.428 62 49.33 62zm-1.838-39.11c-3.026 0-5.478-2.479-5.478-5.545 0-3.079 2.451-5.581 5.478-5.581 3.015 0 5.479 2.502 5.479 5.581-.001 3.066-2.465 5.545-5.479 5.545zm74.789 25.921C120.183 40.363 116.178 34 107.682 34H97v12.981C97 57.031 88.206 65 78.489 65H49.33C41.342 65 35 72.326 35 80.326v27.8c0 7.91 6.745 12.564 14.462 14.834 9.242 2.717 17.994 3.208 29.051 0C85.862 120.831 93 116.549 93 108.126V97H64v-4h43.682c8.484 0 11.647-5.776 14.599-14.66 3.047-9.145 2.916-17.799 0-29.529zm-41.955 55.606c3.027 0 5.479 2.479 5.479 5.547 0 3.076-2.451 5.579-5.479 5.579-3.015 0-5.478-2.502-5.478-5.579 0-3.068 2.463-5.547 5.478-5.547z"></path>
+                    </svg>
+                    Python
+                  </span>
+                </div>
+                <p>Focused on extracting valuable insights from large datasets, with expertise in data capture, preprocessing, storage, and analysis. Emphasizes machine learning, big data, text processing and deep learning.</p>
               </div>
             </li>
             <li>
               <div class="title">2019</div>
               <div class="card">
-                <h5>Android Certified application engineer</h5>
-                <small class="fg-theme">Android ATC</small>
-                <p>Certified by Android ATC</p>
+                <h5 class="project-title">Android Certified application engineer</h5>
+                <h5 class="project-year">Android ATC</h5>
+                <div class="flex gap-x-4 work-chips">
+                  <span class="flex gap-x-2 rounded-full text-xs bg-technology text-white py-1">
+                    <svg viewBox="0 0 128 128" width="12" height="12" transform="translate(0, 2)">
+                      <path fill="#b6b6b6"
+                        d="M21.012 91.125c-5.538.003-10.038-4.503-10.039-10.04l-.002-30.739c-.002-5.532 4.497-10.037 10.028-10.038 2.689-.002 5.207 1.041 7.105 2.937s2.942 4.418 2.944 7.099l-.003 30.74a9.924 9.924 0 01-2.931 7.094 9.962 9.962 0 01-7.102 2.947m-.008-48.12c-4.053-.002-7.338 3.291-7.339 7.341l.005 30.736a7.347 7.347 0 007.341 7.348 7.338 7.338 0 007.339-7.347V50.342a7.345 7.345 0 00-7.346-7.337">
+                      </path>
+                      <path fill="#b6b6b6"
+                        d="M99.742 44.527l-2.698-.001-66.119.009-2.699.001-.002-2.699c-.006-11.08 6.03-21.385 15.917-27.473l-3.844-7.017c-.47-.822-.588-1.863-.314-2.815a3.732 3.732 0 011.814-2.239 3.605 3.605 0 011.759-.447c1.362 0 2.609.739 3.267 1.933l4.023 7.329a37.842 37.842 0 0113.099-2.305c4.606-.002 9.023.777 13.204 2.311l4.017-7.341a3.711 3.711 0 013.263-1.932 3.712 3.712 0 011.761.438A3.706 3.706 0 0188 4.524a3.69 3.69 0 01-.318 2.832l-3.842 7.013c9.871 6.101 15.9 16.398 15.899 27.459l.003 2.699zM80.196 15.403l5.123-9.355a1.019 1.019 0 10-1.783-.981l-5.176 9.45c-4.354-1.934-9.229-3.021-14.382-3.016-5.142-.005-10.008 1.078-14.349 3.005l-5.181-9.429a1.009 1.009 0 00-1.379-.405c-.497.266-.68.891-.403 1.379l5.125 9.348c-10.07 5.194-16.874 15.084-16.868 26.439l66.118-.008c.003-11.351-6.789-21.221-16.845-26.427M48.94 29.86a2.772 2.772 0 01.003-5.545 2.78 2.78 0 012.775 2.774 2.775 2.775 0 01-2.778 2.771m30.107-.006a2.767 2.767 0 01-2.772-2.771 2.788 2.788 0 012.773-2.778 2.79 2.79 0 012.767 2.779 2.769 2.769 0 01-2.768 2.77m-27.336 96.305c-5.533-.001-10.036-4.501-10.037-10.038l-.002-13.567-2.638.003a10.453 10.453 0 01-7.448-3.082 10.437 10.437 0 01-3.083-7.452l-.01-47.627v-2.701h2.699l65.623-.01 2.7-.002v2.699l.007 47.633c.001 5.809-4.725 10.536-10.532 10.535l-2.654.002.003 13.562c0 5.534-4.502 10.039-10.033 10.039a9.933 9.933 0 01-7.098-2.937 9.952 9.952 0 01-2.947-7.096v-13.568H61.75v13.565c-.002 5.535-4.503 10.043-10.039 10.042">
+                      </path>
+                      <path fill="#b6b6b6"
+                        d="M31.205 92.022a7.82 7.82 0 007.831 7.837h5.333l.006 16.264c-.001 4.05 3.289 7.341 7.335 7.342a7.342 7.342 0 007.338-7.348l.001-16.259 9.909-.003-.001 16.263c.004 4.051 3.298 7.346 7.343 7.338 4.056.003 7.344-3.292 7.343-7.344l-.005-16.259 5.353-.001c4.319.001 7.832-3.508 7.832-7.837l-.009-47.635-65.621.012.012 47.63zm75.791-.91c-5.536.001-10.039-4.498-10.038-10.036l-.008-30.738c.002-5.537 4.498-10.041 10.031-10.041 5.54-.001 10.046 4.502 10.045 10.038l.003 30.736c.001 5.534-4.498 10.042-10.033 10.041m-.01-48.116c-4.053-.004-7.337 3.287-7.337 7.342l.003 30.737a7.336 7.336 0 007.342 7.34 7.338 7.338 0 007.338-7.343l-.008-30.736a7.335 7.335 0 00-7.338-7.34">
+                      </path>
+                      <path fill="#ffffff"
+                        d="M21.004 43.005c-4.053-.002-7.338 3.291-7.339 7.341l.005 30.736a7.338 7.338 0 007.342 7.343 7.33 7.33 0 007.338-7.342V50.342a7.345 7.345 0 00-7.346-7.337m59.192-27.602l5.123-9.355a1.023 1.023 0 00-.401-1.388 1.022 1.022 0 00-1.382.407l-5.175 9.453c-4.354-1.938-9.227-3.024-14.383-3.019-5.142-.005-10.013 1.078-14.349 3.005l-5.181-9.429a1.01 1.01 0 00-1.378-.406 1.007 1.007 0 00-.404 1.38l5.125 9.349c-10.07 5.193-16.874 15.083-16.868 26.438l66.118-.008c.003-11.351-6.789-21.221-16.845-26.427M48.94 29.86a2.772 2.772 0 01.003-5.545 2.78 2.78 0 012.775 2.774 2.775 2.775 0 01-2.778 2.771m30.107-.006a2.77 2.77 0 01-2.772-2.771 2.793 2.793 0 012.773-2.778 2.79 2.79 0 012.767 2.779 2.767 2.767 0 01-2.768 2.77M31.193 44.392l.011 47.635a7.822 7.822 0 007.832 7.831l5.333.002.006 16.264c-.001 4.05 3.291 7.342 7.335 7.342 4.056 0 7.342-3.295 7.343-7.347l-.004-16.26 9.909-.003.004 16.263c0 4.047 3.293 7.346 7.338 7.338 4.056.003 7.344-3.292 7.343-7.344l-.005-16.259 5.352-.004a7.835 7.835 0 007.836-7.834l-.009-47.635-65.624.011zm83.134 5.943a7.338 7.338 0 00-7.341-7.339c-4.053-.004-7.337 3.287-7.337 7.342l.006 30.738a7.334 7.334 0 007.339 7.339 7.337 7.337 0 007.338-7.343l-.005-30.737z">
+                      </path>
+                    </svg>
+                    Android
+                  </span>
+                </div>
+                <p>Obtaining the Android certification allowed me to deepen my knowledge of the platform, enhancing my proficiency with tools in Android development.</p>
               </div>
             </li>
             <li>
               <div class="title">2011 - 2016</div>
               <div class="card">
-                <h5>Degree in Computer Engineering</h5>
-                <small class="fg-theme">Universidad Carlos III de Madrid</small>
+                <h5 class="project-title">Degree in Computer Engineering</h5>
+                <h5 class="project-year">Universidad Carlos III de Madrid</h5>
+                <div class="flex gap-x-4 work-chips">
+                  <span class="flex gap-x-2 rounded-full text-xs bg-technology text-white py-1 ">
+                    <svg viewBox="0 0 128 128" width="12" height="12" transform="translate(0, 2)">
+                      <path fill="#ffffff"
+                        d="M47.617 98.12s-4.767 2.774 3.397 3.71c9.892 1.13 14.947.968 25.845-1.092 0 0 2.871 1.795 6.873 3.351-24.439 10.47-55.308-.607-36.115-5.969zm-2.988-13.665s-5.348 3.959 2.823 4.805c10.567 1.091 18.91 1.18 33.354-1.6 0 0 1.993 2.025 5.132 3.131-29.542 8.64-62.446.68-41.309-6.336z">
+                      </path>
+                      <path fill="#ffffff"
+                        d="M69.802 61.271c6.025 6.935-1.58 13.17-1.58 13.17s15.289-7.891 8.269-17.777c-6.559-9.215-11.587-13.792 15.635-29.58 0 .001-42.731 10.67-22.324 34.187z">
+                      </path>
+                      <path fill="#ffffff"
+                        d="M102.123 108.229s3.529 2.91-3.888 5.159c-14.102 4.272-58.706 5.56-71.094.171-4.451-1.938 3.899-4.625 6.526-5.192 2.739-.593 4.303-.485 4.303-.485-4.953-3.487-32.013 6.85-13.743 9.815 49.821 8.076 90.817-3.637 77.896-9.468zM49.912 70.294s-22.686 5.389-8.033 7.348c6.188.828 18.518.638 30.011-.326 9.39-.789 18.813-2.474 18.813-2.474s-3.308 1.419-5.704 3.053c-23.042 6.061-67.544 3.238-54.731-2.958 10.832-5.239 19.644-4.643 19.644-4.643zm40.697 22.747c23.421-12.167 12.591-23.86 5.032-22.285-1.848.385-2.677.72-2.677.72s.688-1.079 2-1.543c14.953-5.255 26.451 15.503-4.823 23.725 0-.002.359-.327.468-.617z">
+                      </path>
+                      <path fill="#ffffff"
+                        d="M76.491 1.587S89.459 14.563 64.188 34.51c-20.266 16.006-4.621 25.13-.007 35.559-11.831-10.673-20.509-20.07-14.688-28.815C58.041 28.42 81.722 22.195 76.491 1.587z">
+                      </path>
+                      <path fill="#ffffff"
+                        d="M52.214 126.021c22.476 1.437 57-.8 57.817-11.436 0 0-1.571 4.032-18.577 7.231-19.186 3.612-42.854 3.191-56.887.874 0 .001 2.875 2.381 17.647 3.331z">
+                      </path>
+                    </svg>
+                    Java
+                  </span>
+                  <span class="flex gap-x-2 rounded-full text-xs bg-technology text-white py-1">
+                    <svg viewBox="0 0 128 128" width="12" height="12" transform="translate(0, 2)">
+                      <path fill="#b6b6b6"
+                        d="M21.012 91.125c-5.538.003-10.038-4.503-10.039-10.04l-.002-30.739c-.002-5.532 4.497-10.037 10.028-10.038 2.689-.002 5.207 1.041 7.105 2.937s2.942 4.418 2.944 7.099l-.003 30.74a9.924 9.924 0 01-2.931 7.094 9.962 9.962 0 01-7.102 2.947m-.008-48.12c-4.053-.002-7.338 3.291-7.339 7.341l.005 30.736a7.347 7.347 0 007.341 7.348 7.338 7.338 0 007.339-7.347V50.342a7.345 7.345 0 00-7.346-7.337">
+                      </path>
+                      <path fill="#b6b6b6"
+                        d="M99.742 44.527l-2.698-.001-66.119.009-2.699.001-.002-2.699c-.006-11.08 6.03-21.385 15.917-27.473l-3.844-7.017c-.47-.822-.588-1.863-.314-2.815a3.732 3.732 0 011.814-2.239 3.605 3.605 0 011.759-.447c1.362 0 2.609.739 3.267 1.933l4.023 7.329a37.842 37.842 0 0113.099-2.305c4.606-.002 9.023.777 13.204 2.311l4.017-7.341a3.711 3.711 0 013.263-1.932 3.712 3.712 0 011.761.438A3.706 3.706 0 0188 4.524a3.69 3.69 0 01-.318 2.832l-3.842 7.013c9.871 6.101 15.9 16.398 15.899 27.459l.003 2.699zM80.196 15.403l5.123-9.355a1.019 1.019 0 10-1.783-.981l-5.176 9.45c-4.354-1.934-9.229-3.021-14.382-3.016-5.142-.005-10.008 1.078-14.349 3.005l-5.181-9.429a1.009 1.009 0 00-1.379-.405c-.497.266-.68.891-.403 1.379l5.125 9.348c-10.07 5.194-16.874 15.084-16.868 26.439l66.118-.008c.003-11.351-6.789-21.221-16.845-26.427M48.94 29.86a2.772 2.772 0 01.003-5.545 2.78 2.78 0 012.775 2.774 2.775 2.775 0 01-2.778 2.771m30.107-.006a2.767 2.767 0 01-2.772-2.771 2.788 2.788 0 012.773-2.778 2.79 2.79 0 012.767 2.779 2.769 2.769 0 01-2.768 2.77m-27.336 96.305c-5.533-.001-10.036-4.501-10.037-10.038l-.002-13.567-2.638.003a10.453 10.453 0 01-7.448-3.082 10.437 10.437 0 01-3.083-7.452l-.01-47.627v-2.701h2.699l65.623-.01 2.7-.002v2.699l.007 47.633c.001 5.809-4.725 10.536-10.532 10.535l-2.654.002.003 13.562c0 5.534-4.502 10.039-10.033 10.039a9.933 9.933 0 01-7.098-2.937 9.952 9.952 0 01-2.947-7.096v-13.568H61.75v13.565c-.002 5.535-4.503 10.043-10.039 10.042">
+                      </path>
+                      <path fill="#b6b6b6"
+                        d="M31.205 92.022a7.82 7.82 0 007.831 7.837h5.333l.006 16.264c-.001 4.05 3.289 7.341 7.335 7.342a7.342 7.342 0 007.338-7.348l.001-16.259 9.909-.003-.001 16.263c.004 4.051 3.298 7.346 7.343 7.338 4.056.003 7.344-3.292 7.343-7.344l-.005-16.259 5.353-.001c4.319.001 7.832-3.508 7.832-7.837l-.009-47.635-65.621.012.012 47.63zm75.791-.91c-5.536.001-10.039-4.498-10.038-10.036l-.008-30.738c.002-5.537 4.498-10.041 10.031-10.041 5.54-.001 10.046 4.502 10.045 10.038l.003 30.736c.001 5.534-4.498 10.042-10.033 10.041m-.01-48.116c-4.053-.004-7.337 3.287-7.337 7.342l.003 30.737a7.336 7.336 0 007.342 7.34 7.338 7.338 0 007.338-7.343l-.008-30.736a7.335 7.335 0 00-7.338-7.34">
+                      </path>
+                      <path fill="#ffffff"
+                        d="M21.004 43.005c-4.053-.002-7.338 3.291-7.339 7.341l.005 30.736a7.338 7.338 0 007.342 7.343 7.33 7.33 0 007.338-7.342V50.342a7.345 7.345 0 00-7.346-7.337m59.192-27.602l5.123-9.355a1.023 1.023 0 00-.401-1.388 1.022 1.022 0 00-1.382.407l-5.175 9.453c-4.354-1.938-9.227-3.024-14.383-3.019-5.142-.005-10.013 1.078-14.349 3.005l-5.181-9.429a1.01 1.01 0 00-1.378-.406 1.007 1.007 0 00-.404 1.38l5.125 9.349c-10.07 5.193-16.874 15.083-16.868 26.438l66.118-.008c.003-11.351-6.789-21.221-16.845-26.427M48.94 29.86a2.772 2.772 0 01.003-5.545 2.78 2.78 0 012.775 2.774 2.775 2.775 0 01-2.778 2.771m30.107-.006a2.77 2.77 0 01-2.772-2.771 2.793 2.793 0 012.773-2.778 2.79 2.79 0 012.767 2.779 2.767 2.767 0 01-2.768 2.77M31.193 44.392l.011 47.635a7.822 7.822 0 007.832 7.831l5.333.002.006 16.264c-.001 4.05 3.291 7.342 7.335 7.342 4.056 0 7.342-3.295 7.343-7.347l-.004-16.26 9.909-.003.004 16.263c0 4.047 3.293 7.346 7.338 7.338 4.056.003 7.344-3.292 7.343-7.344l-.005-16.259 5.352-.004a7.835 7.835 0 007.836-7.834l-.009-47.635-65.624.011zm83.134 5.943a7.338 7.338 0 00-7.341-7.339c-4.053-.004-7.337 3.287-7.337 7.342l.006 30.738a7.334 7.334 0 007.339 7.339 7.337 7.337 0 007.338-7.343l-.005-30.737z">
+                      </path>
+                    </svg>
+                    Android
+                  </span>
+                </div>
+                <p>During my time at UC3M, I had the opportunity to take several subjects focused on Android development, which led me to create my first Android application for my Bachelor's thesis.</p>
               </div>
             </li>
           </ul>
@@ -255,10 +438,11 @@
     <!--All project section-->
     <div class="container">
 
-      <h2 class="bottom-space text-center wow fadeInUp">All projects</h1>
-        <p class="text-muted">
-          In this section you can find all the personal projects that I have been developing over the years. They are mainly Android projects, some focused on ideas that I wanted to bring to reality and others are technical tests or personal challenges that have helped me learn.
-        </p>
+      <p class="text-muted">
+        In this section you can find all the personal projects that I have been developing over the years. They are
+        mainly Android projects, some focused on ideas that I wanted to bring to reality and others are technical tests
+        or personal challenges that have helped me learn.
+      </p>
       <div class="filterable-button py-3 wow fadeInUp" data-toggle="selected">
         <button class="btn btn-theme-outline selected" data-filter=".featured">Featured</button>
         <!--<button class="btn btn-theme-outline" data-filter=".store">Google Play Store</button>
@@ -277,19 +461,41 @@
               <div class="flex gap-x-4">
                 <span class="flex gap-x-2 rounded-full text-xs bg-technology text-white py-1">
                   <svg viewBox="0 0 128 128" width="12" height="12" transform="translate(0, 2)">
-                    <path fill="#b6b6b6" d="M21.012 91.125c-5.538.003-10.038-4.503-10.039-10.04l-.002-30.739c-.002-5.532 4.497-10.037 10.028-10.038 2.689-.002 5.207 1.041 7.105 2.937s2.942 4.418 2.944 7.099l-.003 30.74a9.924 9.924 0 01-2.931 7.094 9.962 9.962 0 01-7.102 2.947m-.008-48.12c-4.053-.002-7.338 3.291-7.339 7.341l.005 30.736a7.347 7.347 0 007.341 7.348 7.338 7.338 0 007.339-7.347V50.342a7.345 7.345 0 00-7.346-7.337"></path><path fill="#b6b6b6" d="M99.742 44.527l-2.698-.001-66.119.009-2.699.001-.002-2.699c-.006-11.08 6.03-21.385 15.917-27.473l-3.844-7.017c-.47-.822-.588-1.863-.314-2.815a3.732 3.732 0 011.814-2.239 3.605 3.605 0 011.759-.447c1.362 0 2.609.739 3.267 1.933l4.023 7.329a37.842 37.842 0 0113.099-2.305c4.606-.002 9.023.777 13.204 2.311l4.017-7.341a3.711 3.711 0 013.263-1.932 3.712 3.712 0 011.761.438A3.706 3.706 0 0188 4.524a3.69 3.69 0 01-.318 2.832l-3.842 7.013c9.871 6.101 15.9 16.398 15.899 27.459l.003 2.699zM80.196 15.403l5.123-9.355a1.019 1.019 0 10-1.783-.981l-5.176 9.45c-4.354-1.934-9.229-3.021-14.382-3.016-5.142-.005-10.008 1.078-14.349 3.005l-5.181-9.429a1.009 1.009 0 00-1.379-.405c-.497.266-.68.891-.403 1.379l5.125 9.348c-10.07 5.194-16.874 15.084-16.868 26.439l66.118-.008c.003-11.351-6.789-21.221-16.845-26.427M48.94 29.86a2.772 2.772 0 01.003-5.545 2.78 2.78 0 012.775 2.774 2.775 2.775 0 01-2.778 2.771m30.107-.006a2.767 2.767 0 01-2.772-2.771 2.788 2.788 0 012.773-2.778 2.79 2.79 0 012.767 2.779 2.769 2.769 0 01-2.768 2.77m-27.336 96.305c-5.533-.001-10.036-4.501-10.037-10.038l-.002-13.567-2.638.003a10.453 10.453 0 01-7.448-3.082 10.437 10.437 0 01-3.083-7.452l-.01-47.627v-2.701h2.699l65.623-.01 2.7-.002v2.699l.007 47.633c.001 5.809-4.725 10.536-10.532 10.535l-2.654.002.003 13.562c0 5.534-4.502 10.039-10.033 10.039a9.933 9.933 0 01-7.098-2.937 9.952 9.952 0 01-2.947-7.096v-13.568H61.75v13.565c-.002 5.535-4.503 10.043-10.039 10.042"></path><path fill="#b6b6b6" d="M31.205 92.022a7.82 7.82 0 007.831 7.837h5.333l.006 16.264c-.001 4.05 3.289 7.341 7.335 7.342a7.342 7.342 0 007.338-7.348l.001-16.259 9.909-.003-.001 16.263c.004 4.051 3.298 7.346 7.343 7.338 4.056.003 7.344-3.292 7.343-7.344l-.005-16.259 5.353-.001c4.319.001 7.832-3.508 7.832-7.837l-.009-47.635-65.621.012.012 47.63zm75.791-.91c-5.536.001-10.039-4.498-10.038-10.036l-.008-30.738c.002-5.537 4.498-10.041 10.031-10.041 5.54-.001 10.046 4.502 10.045 10.038l.003 30.736c.001 5.534-4.498 10.042-10.033 10.041m-.01-48.116c-4.053-.004-7.337 3.287-7.337 7.342l.003 30.737a7.336 7.336 0 007.342 7.34 7.338 7.338 0 007.338-7.343l-.008-30.736a7.335 7.335 0 00-7.338-7.34"></path><path fill="#ffffff" d="M21.004 43.005c-4.053-.002-7.338 3.291-7.339 7.341l.005 30.736a7.338 7.338 0 007.342 7.343 7.33 7.33 0 007.338-7.342V50.342a7.345 7.345 0 00-7.346-7.337m59.192-27.602l5.123-9.355a1.023 1.023 0 00-.401-1.388 1.022 1.022 0 00-1.382.407l-5.175 9.453c-4.354-1.938-9.227-3.024-14.383-3.019-5.142-.005-10.013 1.078-14.349 3.005l-5.181-9.429a1.01 1.01 0 00-1.378-.406 1.007 1.007 0 00-.404 1.38l5.125 9.349c-10.07 5.193-16.874 15.083-16.868 26.438l66.118-.008c.003-11.351-6.789-21.221-16.845-26.427M48.94 29.86a2.772 2.772 0 01.003-5.545 2.78 2.78 0 012.775 2.774 2.775 2.775 0 01-2.778 2.771m30.107-.006a2.77 2.77 0 01-2.772-2.771 2.793 2.793 0 012.773-2.778 2.79 2.79 0 012.767 2.779 2.767 2.767 0 01-2.768 2.77M31.193 44.392l.011 47.635a7.822 7.822 0 007.832 7.831l5.333.002.006 16.264c-.001 4.05 3.291 7.342 7.335 7.342 4.056 0 7.342-3.295 7.343-7.347l-.004-16.26 9.909-.003.004 16.263c0 4.047 3.293 7.346 7.338 7.338 4.056.003 7.344-3.292 7.343-7.344l-.005-16.259 5.352-.004a7.835 7.835 0 007.836-7.834l-.009-47.635-65.624.011zm83.134 5.943a7.338 7.338 0 00-7.341-7.339c-4.053-.004-7.337 3.287-7.337 7.342l.006 30.738a7.334 7.334 0 007.339 7.339 7.337 7.337 0 007.338-7.343l-.005-30.737z"></path>
+                    <path fill="#b6b6b6"
+                      d="M21.012 91.125c-5.538.003-10.038-4.503-10.039-10.04l-.002-30.739c-.002-5.532 4.497-10.037 10.028-10.038 2.689-.002 5.207 1.041 7.105 2.937s2.942 4.418 2.944 7.099l-.003 30.74a9.924 9.924 0 01-2.931 7.094 9.962 9.962 0 01-7.102 2.947m-.008-48.12c-4.053-.002-7.338 3.291-7.339 7.341l.005 30.736a7.347 7.347 0 007.341 7.348 7.338 7.338 0 007.339-7.347V50.342a7.345 7.345 0 00-7.346-7.337">
+                    </path>
+                    <path fill="#b6b6b6"
+                      d="M99.742 44.527l-2.698-.001-66.119.009-2.699.001-.002-2.699c-.006-11.08 6.03-21.385 15.917-27.473l-3.844-7.017c-.47-.822-.588-1.863-.314-2.815a3.732 3.732 0 011.814-2.239 3.605 3.605 0 011.759-.447c1.362 0 2.609.739 3.267 1.933l4.023 7.329a37.842 37.842 0 0113.099-2.305c4.606-.002 9.023.777 13.204 2.311l4.017-7.341a3.711 3.711 0 013.263-1.932 3.712 3.712 0 011.761.438A3.706 3.706 0 0188 4.524a3.69 3.69 0 01-.318 2.832l-3.842 7.013c9.871 6.101 15.9 16.398 15.899 27.459l.003 2.699zM80.196 15.403l5.123-9.355a1.019 1.019 0 10-1.783-.981l-5.176 9.45c-4.354-1.934-9.229-3.021-14.382-3.016-5.142-.005-10.008 1.078-14.349 3.005l-5.181-9.429a1.009 1.009 0 00-1.379-.405c-.497.266-.68.891-.403 1.379l5.125 9.348c-10.07 5.194-16.874 15.084-16.868 26.439l66.118-.008c.003-11.351-6.789-21.221-16.845-26.427M48.94 29.86a2.772 2.772 0 01.003-5.545 2.78 2.78 0 012.775 2.774 2.775 2.775 0 01-2.778 2.771m30.107-.006a2.767 2.767 0 01-2.772-2.771 2.788 2.788 0 012.773-2.778 2.79 2.79 0 012.767 2.779 2.769 2.769 0 01-2.768 2.77m-27.336 96.305c-5.533-.001-10.036-4.501-10.037-10.038l-.002-13.567-2.638.003a10.453 10.453 0 01-7.448-3.082 10.437 10.437 0 01-3.083-7.452l-.01-47.627v-2.701h2.699l65.623-.01 2.7-.002v2.699l.007 47.633c.001 5.809-4.725 10.536-10.532 10.535l-2.654.002.003 13.562c0 5.534-4.502 10.039-10.033 10.039a9.933 9.933 0 01-7.098-2.937 9.952 9.952 0 01-2.947-7.096v-13.568H61.75v13.565c-.002 5.535-4.503 10.043-10.039 10.042">
+                    </path>
+                    <path fill="#b6b6b6"
+                      d="M31.205 92.022a7.82 7.82 0 007.831 7.837h5.333l.006 16.264c-.001 4.05 3.289 7.341 7.335 7.342a7.342 7.342 0 007.338-7.348l.001-16.259 9.909-.003-.001 16.263c.004 4.051 3.298 7.346 7.343 7.338 4.056.003 7.344-3.292 7.343-7.344l-.005-16.259 5.353-.001c4.319.001 7.832-3.508 7.832-7.837l-.009-47.635-65.621.012.012 47.63zm75.791-.91c-5.536.001-10.039-4.498-10.038-10.036l-.008-30.738c.002-5.537 4.498-10.041 10.031-10.041 5.54-.001 10.046 4.502 10.045 10.038l.003 30.736c.001 5.534-4.498 10.042-10.033 10.041m-.01-48.116c-4.053-.004-7.337 3.287-7.337 7.342l.003 30.737a7.336 7.336 0 007.342 7.34 7.338 7.338 0 007.338-7.343l-.008-30.736a7.335 7.335 0 00-7.338-7.34">
+                    </path>
+                    <path fill="#ffffff"
+                      d="M21.004 43.005c-4.053-.002-7.338 3.291-7.339 7.341l.005 30.736a7.338 7.338 0 007.342 7.343 7.33 7.33 0 007.338-7.342V50.342a7.345 7.345 0 00-7.346-7.337m59.192-27.602l5.123-9.355a1.023 1.023 0 00-.401-1.388 1.022 1.022 0 00-1.382.407l-5.175 9.453c-4.354-1.938-9.227-3.024-14.383-3.019-5.142-.005-10.013 1.078-14.349 3.005l-5.181-9.429a1.01 1.01 0 00-1.378-.406 1.007 1.007 0 00-.404 1.38l5.125 9.349c-10.07 5.193-16.874 15.083-16.868 26.438l66.118-.008c.003-11.351-6.789-21.221-16.845-26.427M48.94 29.86a2.772 2.772 0 01.003-5.545 2.78 2.78 0 012.775 2.774 2.775 2.775 0 01-2.778 2.771m30.107-.006a2.77 2.77 0 01-2.772-2.771 2.793 2.793 0 012.773-2.778 2.79 2.79 0 012.767 2.779 2.767 2.767 0 01-2.768 2.77M31.193 44.392l.011 47.635a7.822 7.822 0 007.832 7.831l5.333.002.006 16.264c-.001 4.05 3.291 7.342 7.335 7.342 4.056 0 7.342-3.295 7.343-7.347l-.004-16.26 9.909-.003.004 16.263c0 4.047 3.293 7.346 7.338 7.338 4.056.003 7.344-3.292 7.343-7.344l-.005-16.259 5.352-.004a7.835 7.835 0 007.836-7.834l-.009-47.635-65.624.011zm83.134 5.943a7.338 7.338 0 00-7.341-7.339c-4.053-.004-7.337 3.287-7.337 7.342l.006 30.738a7.334 7.334 0 007.339 7.339 7.337 7.337 0 007.338-7.343l-.005-30.737z">
+                    </path>
                   </svg>
                   Android
                 </span>
                 <span class="flex gap-x-2 rounded-full text-xs bg-technology text-white py-1">
                   <svg viewBox="0 0 128 128" width="12" height="12" transform="translate(0, 2)">
-                    <defs> <linearGradient id="a" x1="500.003" x2="-.097" y1="579.106" y2="1079.206" gradientTransform="translate(15.534 -96.774) scale(.1939)" gradientUnits="userSpaceOnUse"> <stop offset=".003" stop-color="#ffffff"></stop> <stop offset=".469" stop-color="#ffffff"></stop> <stop offset="1" stop-color="#ffffff"></stop> </linearGradient> </defs> <path fill="url(#a)" d="M112.484 112.484H15.516V15.516h96.968L64 64Zm0 0"></path>
-                  </svg>              
+                    <defs>
+                      <linearGradient id="a" x1="500.003" x2="-.097" y1="579.106" y2="1079.206"
+                        gradientTransform="translate(15.534 -96.774) scale(.1939)" gradientUnits="userSpaceOnUse">
+                        <stop offset=".003" stop-color="#ffffff"></stop>
+                        <stop offset=".469" stop-color="#ffffff"></stop>
+                        <stop offset="1" stop-color="#ffffff"></stop>
+                      </linearGradient>
+                    </defs>
+                    <path fill="url(#a)" d="M112.484 112.484H15.516V15.516h96.968L64 64Zm0 0"></path>
+                  </svg>
                   Kotlin
                 </span>
                 <span class="flex gap-x-2 rounded-full text-xs bg-technology text-white py-1">
                   <svg viewBox="0 0 128 128" width="12" height="12" transform="translate(0, 2)">
-                      <path style="display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.699;stroke-dasharray:none" d="M63.353.759c-2.022-.048-3.83.515-5.604 1.486L14.737 27.521l-1.716 1.01-.808.555c-1.067.628-2.21 2.15-2.97 3.175l4.168 2.324 2.82 1.55 9.592 5.4 2.454 1.36c1.237-1.491 1.306-1.596 2.472-2.566l26.833-15.884c1.554-.85 3.964-1.976 5.736-1.936 1.769.041 4.04.556 5.552 1.476l23.485 13.342 2.944 1.637a26.544 26.544 0 0 1 3.825 3.052l18.723-11.19-1.666-1.624c-1.893-1.528-2.544-1.815-3.864-2.497L69.664 2.637C67.932 1.582 65.38.807 63.353.759Zm.276 23.845c-.95 0-3.036.411-3.86.884l-27.905 16.57c-.823.472-1.655 1.983-2.13 2.801-.475.818-.837 2.452-.839 3.303l-.055 33.254c-.002.946.421 2.006.896 2.824.476.819 1.268 1.581 2.091 2.054l28.68 16.194c1.07.493 2.69.787 3.64.787.95 0 2.174-.147 3.709-.777l27.42-16.173c.824-.474 2.1-1.772 2.575-2.59.475-.819 1.498-2.895 1.493-3.841l-.146-32.52c-.001-.945-.832-2.85-1.307-3.667-.475-.82-2.284-2.36-3.108-2.833L67.623 25.58c-.824-.473-3.043-.977-3.994-.977Zm55.2 7.65-1.163.725-17.474 10.441c.42 1 .891 3.278.946 4.363l.002.01.008.312v31.3a10.085 10.085 0 0 1-4.963 8.786l-25.434 15.315c-.922.545-3.108 1.394-5.452 1.841l.002 1.516-.037 7.825-.006 3.775.043 8.781c1.255-.01 3.339-.766 4.423-1.36l.317-.182.009-.004 44.498-26.253a11.538 11.538 0 0 0 5.666-10.048V37.734c-.014-1.458-.72-4.093-1.385-5.48zM8.47 33.817l-.415 1.949c-.352 2.928-.29 3.223-.202 4.705l-.012 49.185c-.02 2.027-.099 4.84.899 6.606.993 1.762 2.916 2.799 4.657 3.827l45.2 25.602.008.004.318.179c1.399.644 2.986 1.145 4.592 1.241l.012-4.872.004-3.748-.006-11.404-.006-1.81c-1.809-.118-3.218-.654-4.14-1.199l-27.041-15.14c-1.527-.9-3.437-1.913-4.308-3.455-.87-1.543-1.252-3.886-1.235-5.658l.017-29.064.008-2.096c.061-1.414.277-2.403.687-4.15zm55.323 4.77c.612 0 2.044.327 2.575.632l17.503 9.854c.531.304 1.698 1.3 2.004 1.826.306.528.84 1.754.84 2.363l.096 20.959c.002.609-.655 1.948-.963 2.476-.306.528-1.127 1.363-1.657 1.668L66.52 88.79c-.99.406-1.78.505-2.394.505-.612 0-1.653-.192-2.342-.51L43.297 78.349a3.816 3.816 0 0 1-1.348-1.324c-.306-.528-.579-1.212-.578-1.82l.035-21.431c0-.548.235-1.602.54-2.13.307-.528.844-1.5 1.374-1.804l17.985-10.68c.531-.305 1.877-.57 2.489-.57z"></path>
+                    <path
+                      style="display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.699;stroke-dasharray:none"
+                      d="M63.353.759c-2.022-.048-3.83.515-5.604 1.486L14.737 27.521l-1.716 1.01-.808.555c-1.067.628-2.21 2.15-2.97 3.175l4.168 2.324 2.82 1.55 9.592 5.4 2.454 1.36c1.237-1.491 1.306-1.596 2.472-2.566l26.833-15.884c1.554-.85 3.964-1.976 5.736-1.936 1.769.041 4.04.556 5.552 1.476l23.485 13.342 2.944 1.637a26.544 26.544 0 0 1 3.825 3.052l18.723-11.19-1.666-1.624c-1.893-1.528-2.544-1.815-3.864-2.497L69.664 2.637C67.932 1.582 65.38.807 63.353.759Zm.276 23.845c-.95 0-3.036.411-3.86.884l-27.905 16.57c-.823.472-1.655 1.983-2.13 2.801-.475.818-.837 2.452-.839 3.303l-.055 33.254c-.002.946.421 2.006.896 2.824.476.819 1.268 1.581 2.091 2.054l28.68 16.194c1.07.493 2.69.787 3.64.787.95 0 2.174-.147 3.709-.777l27.42-16.173c.824-.474 2.1-1.772 2.575-2.59.475-.819 1.498-2.895 1.493-3.841l-.146-32.52c-.001-.945-.832-2.85-1.307-3.667-.475-.82-2.284-2.36-3.108-2.833L67.623 25.58c-.824-.473-3.043-.977-3.994-.977Zm55.2 7.65-1.163.725-17.474 10.441c.42 1 .891 3.278.946 4.363l.002.01.008.312v31.3a10.085 10.085 0 0 1-4.963 8.786l-25.434 15.315c-.922.545-3.108 1.394-5.452 1.841l.002 1.516-.037 7.825-.006 3.775.043 8.781c1.255-.01 3.339-.766 4.423-1.36l.317-.182.009-.004 44.498-26.253a11.538 11.538 0 0 0 5.666-10.048V37.734c-.014-1.458-.72-4.093-1.385-5.48zM8.47 33.817l-.415 1.949c-.352 2.928-.29 3.223-.202 4.705l-.012 49.185c-.02 2.027-.099 4.84.899 6.606.993 1.762 2.916 2.799 4.657 3.827l45.2 25.602.008.004.318.179c1.399.644 2.986 1.145 4.592 1.241l.012-4.872.004-3.748-.006-11.404-.006-1.81c-1.809-.118-3.218-.654-4.14-1.199l-27.041-15.14c-1.527-.9-3.437-1.913-4.308-3.455-.87-1.543-1.252-3.886-1.235-5.658l.017-29.064.008-2.096c.061-1.414.277-2.403.687-4.15zm55.323 4.77c.612 0 2.044.327 2.575.632l17.503 9.854c.531.304 1.698 1.3 2.004 1.826.306.528.84 1.754.84 2.363l.096 20.959c.002.609-.655 1.948-.963 2.476-.306.528-1.127 1.363-1.657 1.668L66.52 88.79c-.99.406-1.78.505-2.394.505-.612 0-1.653-.192-2.342-.51L43.297 78.349a3.816 3.816 0 0 1-1.348-1.324c-.306-.528-.579-1.212-.578-1.82l.035-21.431c0-.548.235-1.602.54-2.13.307-.528.844-1.5 1.374-1.804l17.985-10.68c.531-.305 1.877-.57 2.489-.57z">
+                    </path>
                   </svg>
                   Compose
                 </span>
@@ -297,10 +503,15 @@
                   Dagger-Hilt
                 </span>
               </div>
-              <p class="project-description">Android application tool that can be used at the same time during a game of the Hegemony board game. It can be used for each role to calculate the taxes they must pay/receive during the game.</p>
+              <p class="project-description">Android application tool that can be used at the same time during a game of
+                the Hegemony board game. It can be used for each role to calculate the taxes they must pay/receive
+                during the game.</p>
               <div class="buttons">
-                <input type='button' class='btn btn-theme-outline' onclick="window.location.href='https://play.google.com/store/apps/details?id=com.p4r4d0x.hegemonytaxes'" value='Google Play Store' />
-                <input type='button' class='btn btn-theme-outline' onclick="window.location.href='https://github.com/aloarte/HegemonyTaxes'" value='Github' />
+                <input type='button' class='btn btn-theme-outline'
+                  onclick="window.location.href='https://play.google.com/store/apps/details?id=com.p4r4d0x.hegemonytaxes'"
+                  value='Google Play Store' />
+                <input type='button' class='btn btn-theme-outline'
+                  onclick="window.location.href='https://github.com/aloarte/HegemonyTaxes'" value='Github' />
               </div>
             </div>
           </div>
@@ -315,19 +526,41 @@
               <div class="flex gap-x-4">
                 <span class="flex gap-x-2 rounded-full text-xs bg-technology text-white py-1">
                   <svg viewBox="0 0 128 128" width="12" height="12" transform="translate(0, 2)">
-                    <defs> <linearGradient id="a" x1="500.003" x2="-.097" y1="579.106" y2="1079.206" gradientTransform="translate(15.534 -96.774) scale(.1939)" gradientUnits="userSpaceOnUse"> <stop offset=".003" stop-color="#ffffff"></stop> <stop offset=".469" stop-color="#ffffff"></stop> <stop offset="1" stop-color="#ffffff"></stop> </linearGradient> </defs> <path fill="url(#a)" d="M112.484 112.484H15.516V15.516h96.968L64 64Zm0 0"></path>
-                  </svg>              
+                    <defs>
+                      <linearGradient id="a" x1="500.003" x2="-.097" y1="579.106" y2="1079.206"
+                        gradientTransform="translate(15.534 -96.774) scale(.1939)" gradientUnits="userSpaceOnUse">
+                        <stop offset=".003" stop-color="#ffffff"></stop>
+                        <stop offset=".469" stop-color="#ffffff"></stop>
+                        <stop offset="1" stop-color="#ffffff"></stop>
+                      </linearGradient>
+                    </defs>
+                    <path fill="url(#a)" d="M112.484 112.484H15.516V15.516h96.968L64 64Zm0 0"></path>
+                  </svg>
                   Kotlin
                 </span>
                 <span class="flex gap-x-2 rounded-full text-xs bg-technology text-white py-1">
                   <svg viewBox="0 0 128 128" width="12" height="12" transform="translate(0, 2)">
-                    <path fill="#ffffff" d="M47.543 14.629 14.629 47.543l32.414 32.414V47.043h32.914L47.543 14.629zm.5 33.414v31.914h31.914V48.043H48.043zm32.914 0v32.914H48.043l32.414 32.414 32.914-32.914-32.414-32.414z"></path>
+                    <path fill="#ffffff"
+                      d="M47.543 14.629 14.629 47.543l32.414 32.414V47.043h32.914L47.543 14.629zm.5 33.414v31.914h31.914V48.043H48.043zm32.914 0v32.914H48.043l32.414 32.414 32.914-32.914-32.414-32.414z">
+                    </path>
                   </svg>
                   Ktor
                 </span>
                 <span class="flex gap-x-2 rounded-full text-xs bg-technology text-white py-1">
                   <svg viewBox="0 0 128 128" width="12" height="12" transform="translate(0, 2)>
-                    <path fill="#ffffff" d="M17.474 103.276 33.229 2.462a2.91 2.91 0 0 1 5.44-.924l16.294 30.39 6.494-12.366a2.91 2.91 0 0 1 5.15 0l43.97 83.714H17.474Z"></path><path fill="#b6b6b6" d="M71.903 64.005 54.955 31.913l-37.481 71.363Z"></path><path fill="#ffffff" d="M110.577 103.276 98.51 28.604a2.913 2.913 0 0 0-1.984-2.286 2.906 2.906 0 0 0-2.94.714l-76.112 76.243 42.115 23.618a8.728 8.728 0 0 0 8.51 0l42.478-23.618Z"></path><path fill="#ffffff" fill-opacity=".2" d="M98.51 28.604a2.913 2.913 0 0 0-1.984-2.286 2.906 2.906 0 0 0-2.94.713L78.479 42.178 66.6 19.562a2.91 2.91 0 0 0-5.15 0l-6.494 12.365L38.662 1.538A2.91 2.91 0 0 0 35.605.044a2.907 2.907 0 0 0-2.384 2.425L17.474 103.276h-.051l.05.058.415.204 75.676-75.764a2.91 2.91 0 0 1 4.932 1.571l11.965 74.003.116-.073L98.51 28.603Zm-80.898 74.534L33.228 3.182A2.91 2.91 0 0 1 35.613.756a2.911 2.911 0 0 1 3.057 1.495l16.292 30.39 6.495-12.366a2.91 2.91 0 0 1 5.15 0L78.245 42.41 17.61 103.138Z"></path><path fill="#b6b6b6" d="M68.099 126.18a8.728 8.728 0 0 1-8.51 0l-42.015-23.55-.102.647 42.115 23.61a8.728 8.728 0 0 0 8.51 0l42.48-23.61-.11-.67-42.37 23.575z" opacity=".2"></path>
+                    <path fill=" #ffffff"
+                    d="M17.474 103.276 33.229 2.462a2.91 2.91 0 0 1 5.44-.924l16.294 30.39 6.494-12.366a2.91 2.91 0 0 1 5.15 0l43.97 83.714H17.474Z">
+                    </path>
+                    <path fill="#b6b6b6" d="M71.903 64.005 54.955 31.913l-37.481 71.363Z"></path>
+                    <path fill="#ffffff"
+                      d="M110.577 103.276 98.51 28.604a2.913 2.913 0 0 0-1.984-2.286 2.906 2.906 0 0 0-2.94.714l-76.112 76.243 42.115 23.618a8.728 8.728 0 0 0 8.51 0l42.478-23.618Z">
+                    </path>
+                    <path fill="#ffffff" fill-opacity=".2"
+                      d="M98.51 28.604a2.913 2.913 0 0 0-1.984-2.286 2.906 2.906 0 0 0-2.94.713L78.479 42.178 66.6 19.562a2.91 2.91 0 0 0-5.15 0l-6.494 12.365L38.662 1.538A2.91 2.91 0 0 0 35.605.044a2.907 2.907 0 0 0-2.384 2.425L17.474 103.276h-.051l.05.058.415.204 75.676-75.764a2.91 2.91 0 0 1 4.932 1.571l11.965 74.003.116-.073L98.51 28.603Zm-80.898 74.534L33.228 3.182A2.91 2.91 0 0 1 35.613.756a2.911 2.911 0 0 1 3.057 1.495l16.292 30.39 6.495-12.366a2.91 2.91 0 0 1 5.15 0L78.245 42.41 17.61 103.138Z">
+                    </path>
+                    <path fill="#b6b6b6"
+                      d="M68.099 126.18a8.728 8.728 0 0 1-8.51 0l-42.015-23.55-.102.647 42.115 23.61a8.728 8.728 0 0 0 8.51 0l42.48-23.61-.11-.67-42.37 23.575z"
+                      opacity=".2"></path>
                   </svg>
                   Firebase
                 </span>
@@ -335,9 +568,12 @@
                   Koin
                 </span>
               </div>
-              <p class="project-description">Backend API created to be relied by the Skintker Android application. It hosts all the reports done by the user and also can calculate different statistics on the data provided. It's empowered by the firebase authentication services.</p>
+              <p class="project-description">Backend API created to be relied by the Skintker Android application. It
+                hosts all the reports done by the user and also can calculate different statistics on the data provided.
+                It's empowered by the firebase authentication services.</p>
               <div class="buttons">
-                <input type='button' class='btn btn-theme-outline' onclick="window.location.href='https://github.com/aloarte/skintkvault'" value='Github' />
+                <input type='button' class='btn btn-theme-outline'
+                  onclick="window.location.href='https://github.com/aloarte/skintkvault'" value='Github' />
               </div>
             </div>
           </div>
@@ -351,19 +587,41 @@
               <div class="flex gap-x-4">
                 <span class="flex gap-x-2 rounded-full text-xs bg-technology text-white py-1">
                   <svg viewBox="0 0 128 128" width="12" height="12" transform="translate(0, 2)">
-                    <path fill="#b6b6b6" d="M21.012 91.125c-5.538.003-10.038-4.503-10.039-10.04l-.002-30.739c-.002-5.532 4.497-10.037 10.028-10.038 2.689-.002 5.207 1.041 7.105 2.937s2.942 4.418 2.944 7.099l-.003 30.74a9.924 9.924 0 01-2.931 7.094 9.962 9.962 0 01-7.102 2.947m-.008-48.12c-4.053-.002-7.338 3.291-7.339 7.341l.005 30.736a7.347 7.347 0 007.341 7.348 7.338 7.338 0 007.339-7.347V50.342a7.345 7.345 0 00-7.346-7.337"></path><path fill="#b6b6b6" d="M99.742 44.527l-2.698-.001-66.119.009-2.699.001-.002-2.699c-.006-11.08 6.03-21.385 15.917-27.473l-3.844-7.017c-.47-.822-.588-1.863-.314-2.815a3.732 3.732 0 011.814-2.239 3.605 3.605 0 011.759-.447c1.362 0 2.609.739 3.267 1.933l4.023 7.329a37.842 37.842 0 0113.099-2.305c4.606-.002 9.023.777 13.204 2.311l4.017-7.341a3.711 3.711 0 013.263-1.932 3.712 3.712 0 011.761.438A3.706 3.706 0 0188 4.524a3.69 3.69 0 01-.318 2.832l-3.842 7.013c9.871 6.101 15.9 16.398 15.899 27.459l.003 2.699zM80.196 15.403l5.123-9.355a1.019 1.019 0 10-1.783-.981l-5.176 9.45c-4.354-1.934-9.229-3.021-14.382-3.016-5.142-.005-10.008 1.078-14.349 3.005l-5.181-9.429a1.009 1.009 0 00-1.379-.405c-.497.266-.68.891-.403 1.379l5.125 9.348c-10.07 5.194-16.874 15.084-16.868 26.439l66.118-.008c.003-11.351-6.789-21.221-16.845-26.427M48.94 29.86a2.772 2.772 0 01.003-5.545 2.78 2.78 0 012.775 2.774 2.775 2.775 0 01-2.778 2.771m30.107-.006a2.767 2.767 0 01-2.772-2.771 2.788 2.788 0 012.773-2.778 2.79 2.79 0 012.767 2.779 2.769 2.769 0 01-2.768 2.77m-27.336 96.305c-5.533-.001-10.036-4.501-10.037-10.038l-.002-13.567-2.638.003a10.453 10.453 0 01-7.448-3.082 10.437 10.437 0 01-3.083-7.452l-.01-47.627v-2.701h2.699l65.623-.01 2.7-.002v2.699l.007 47.633c.001 5.809-4.725 10.536-10.532 10.535l-2.654.002.003 13.562c0 5.534-4.502 10.039-10.033 10.039a9.933 9.933 0 01-7.098-2.937 9.952 9.952 0 01-2.947-7.096v-13.568H61.75v13.565c-.002 5.535-4.503 10.043-10.039 10.042"></path><path fill="#b6b6b6" d="M31.205 92.022a7.82 7.82 0 007.831 7.837h5.333l.006 16.264c-.001 4.05 3.289 7.341 7.335 7.342a7.342 7.342 0 007.338-7.348l.001-16.259 9.909-.003-.001 16.263c.004 4.051 3.298 7.346 7.343 7.338 4.056.003 7.344-3.292 7.343-7.344l-.005-16.259 5.353-.001c4.319.001 7.832-3.508 7.832-7.837l-.009-47.635-65.621.012.012 47.63zm75.791-.91c-5.536.001-10.039-4.498-10.038-10.036l-.008-30.738c.002-5.537 4.498-10.041 10.031-10.041 5.54-.001 10.046 4.502 10.045 10.038l.003 30.736c.001 5.534-4.498 10.042-10.033 10.041m-.01-48.116c-4.053-.004-7.337 3.287-7.337 7.342l.003 30.737a7.336 7.336 0 007.342 7.34 7.338 7.338 0 007.338-7.343l-.008-30.736a7.335 7.335 0 00-7.338-7.34"></path><path fill="#ffffff" d="M21.004 43.005c-4.053-.002-7.338 3.291-7.339 7.341l.005 30.736a7.338 7.338 0 007.342 7.343 7.33 7.33 0 007.338-7.342V50.342a7.345 7.345 0 00-7.346-7.337m59.192-27.602l5.123-9.355a1.023 1.023 0 00-.401-1.388 1.022 1.022 0 00-1.382.407l-5.175 9.453c-4.354-1.938-9.227-3.024-14.383-3.019-5.142-.005-10.013 1.078-14.349 3.005l-5.181-9.429a1.01 1.01 0 00-1.378-.406 1.007 1.007 0 00-.404 1.38l5.125 9.349c-10.07 5.193-16.874 15.083-16.868 26.438l66.118-.008c.003-11.351-6.789-21.221-16.845-26.427M48.94 29.86a2.772 2.772 0 01.003-5.545 2.78 2.78 0 012.775 2.774 2.775 2.775 0 01-2.778 2.771m30.107-.006a2.77 2.77 0 01-2.772-2.771 2.793 2.793 0 012.773-2.778 2.79 2.79 0 012.767 2.779 2.767 2.767 0 01-2.768 2.77M31.193 44.392l.011 47.635a7.822 7.822 0 007.832 7.831l5.333.002.006 16.264c-.001 4.05 3.291 7.342 7.335 7.342 4.056 0 7.342-3.295 7.343-7.347l-.004-16.26 9.909-.003.004 16.263c0 4.047 3.293 7.346 7.338 7.338 4.056.003 7.344-3.292 7.343-7.344l-.005-16.259 5.352-.004a7.835 7.835 0 007.836-7.834l-.009-47.635-65.624.011zm83.134 5.943a7.338 7.338 0 00-7.341-7.339c-4.053-.004-7.337 3.287-7.337 7.342l.006 30.738a7.334 7.334 0 007.339 7.339 7.337 7.337 0 007.338-7.343l-.005-30.737z"></path>
+                    <path fill="#b6b6b6"
+                      d="M21.012 91.125c-5.538.003-10.038-4.503-10.039-10.04l-.002-30.739c-.002-5.532 4.497-10.037 10.028-10.038 2.689-.002 5.207 1.041 7.105 2.937s2.942 4.418 2.944 7.099l-.003 30.74a9.924 9.924 0 01-2.931 7.094 9.962 9.962 0 01-7.102 2.947m-.008-48.12c-4.053-.002-7.338 3.291-7.339 7.341l.005 30.736a7.347 7.347 0 007.341 7.348 7.338 7.338 0 007.339-7.347V50.342a7.345 7.345 0 00-7.346-7.337">
+                    </path>
+                    <path fill="#b6b6b6"
+                      d="M99.742 44.527l-2.698-.001-66.119.009-2.699.001-.002-2.699c-.006-11.08 6.03-21.385 15.917-27.473l-3.844-7.017c-.47-.822-.588-1.863-.314-2.815a3.732 3.732 0 011.814-2.239 3.605 3.605 0 011.759-.447c1.362 0 2.609.739 3.267 1.933l4.023 7.329a37.842 37.842 0 0113.099-2.305c4.606-.002 9.023.777 13.204 2.311l4.017-7.341a3.711 3.711 0 013.263-1.932 3.712 3.712 0 011.761.438A3.706 3.706 0 0188 4.524a3.69 3.69 0 01-.318 2.832l-3.842 7.013c9.871 6.101 15.9 16.398 15.899 27.459l.003 2.699zM80.196 15.403l5.123-9.355a1.019 1.019 0 10-1.783-.981l-5.176 9.45c-4.354-1.934-9.229-3.021-14.382-3.016-5.142-.005-10.008 1.078-14.349 3.005l-5.181-9.429a1.009 1.009 0 00-1.379-.405c-.497.266-.68.891-.403 1.379l5.125 9.348c-10.07 5.194-16.874 15.084-16.868 26.439l66.118-.008c.003-11.351-6.789-21.221-16.845-26.427M48.94 29.86a2.772 2.772 0 01.003-5.545 2.78 2.78 0 012.775 2.774 2.775 2.775 0 01-2.778 2.771m30.107-.006a2.767 2.767 0 01-2.772-2.771 2.788 2.788 0 012.773-2.778 2.79 2.79 0 012.767 2.779 2.769 2.769 0 01-2.768 2.77m-27.336 96.305c-5.533-.001-10.036-4.501-10.037-10.038l-.002-13.567-2.638.003a10.453 10.453 0 01-7.448-3.082 10.437 10.437 0 01-3.083-7.452l-.01-47.627v-2.701h2.699l65.623-.01 2.7-.002v2.699l.007 47.633c.001 5.809-4.725 10.536-10.532 10.535l-2.654.002.003 13.562c0 5.534-4.502 10.039-10.033 10.039a9.933 9.933 0 01-7.098-2.937 9.952 9.952 0 01-2.947-7.096v-13.568H61.75v13.565c-.002 5.535-4.503 10.043-10.039 10.042">
+                    </path>
+                    <path fill="#b6b6b6"
+                      d="M31.205 92.022a7.82 7.82 0 007.831 7.837h5.333l.006 16.264c-.001 4.05 3.289 7.341 7.335 7.342a7.342 7.342 0 007.338-7.348l.001-16.259 9.909-.003-.001 16.263c.004 4.051 3.298 7.346 7.343 7.338 4.056.003 7.344-3.292 7.343-7.344l-.005-16.259 5.353-.001c4.319.001 7.832-3.508 7.832-7.837l-.009-47.635-65.621.012.012 47.63zm75.791-.91c-5.536.001-10.039-4.498-10.038-10.036l-.008-30.738c.002-5.537 4.498-10.041 10.031-10.041 5.54-.001 10.046 4.502 10.045 10.038l.003 30.736c.001 5.534-4.498 10.042-10.033 10.041m-.01-48.116c-4.053-.004-7.337 3.287-7.337 7.342l.003 30.737a7.336 7.336 0 007.342 7.34 7.338 7.338 0 007.338-7.343l-.008-30.736a7.335 7.335 0 00-7.338-7.34">
+                    </path>
+                    <path fill="#ffffff"
+                      d="M21.004 43.005c-4.053-.002-7.338 3.291-7.339 7.341l.005 30.736a7.338 7.338 0 007.342 7.343 7.33 7.33 0 007.338-7.342V50.342a7.345 7.345 0 00-7.346-7.337m59.192-27.602l5.123-9.355a1.023 1.023 0 00-.401-1.388 1.022 1.022 0 00-1.382.407l-5.175 9.453c-4.354-1.938-9.227-3.024-14.383-3.019-5.142-.005-10.013 1.078-14.349 3.005l-5.181-9.429a1.01 1.01 0 00-1.378-.406 1.007 1.007 0 00-.404 1.38l5.125 9.349c-10.07 5.193-16.874 15.083-16.868 26.438l66.118-.008c.003-11.351-6.789-21.221-16.845-26.427M48.94 29.86a2.772 2.772 0 01.003-5.545 2.78 2.78 0 012.775 2.774 2.775 2.775 0 01-2.778 2.771m30.107-.006a2.77 2.77 0 01-2.772-2.771 2.793 2.793 0 012.773-2.778 2.79 2.79 0 012.767 2.779 2.767 2.767 0 01-2.768 2.77M31.193 44.392l.011 47.635a7.822 7.822 0 007.832 7.831l5.333.002.006 16.264c-.001 4.05 3.291 7.342 7.335 7.342 4.056 0 7.342-3.295 7.343-7.347l-.004-16.26 9.909-.003.004 16.263c0 4.047 3.293 7.346 7.338 7.338 4.056.003 7.344-3.292 7.343-7.344l-.005-16.259 5.352-.004a7.835 7.835 0 007.836-7.834l-.009-47.635-65.624.011zm83.134 5.943a7.338 7.338 0 00-7.341-7.339c-4.053-.004-7.337 3.287-7.337 7.342l.006 30.738a7.334 7.334 0 007.339 7.339 7.337 7.337 0 007.338-7.343l-.005-30.737z">
+                    </path>
                   </svg>
                   Android
                 </span>
                 <span class="flex gap-x-2 rounded-full text-xs bg-technology text-white py-1">
                   <svg viewBox="0 0 128 128" width="12" height="12" transform="translate(0, 2)">
-                    <defs> <linearGradient id="a" x1="500.003" x2="-.097" y1="579.106" y2="1079.206" gradientTransform="translate(15.534 -96.774) scale(.1939)" gradientUnits="userSpaceOnUse"> <stop offset=".003" stop-color="#ffffff"></stop> <stop offset=".469" stop-color="#ffffff"></stop> <stop offset="1" stop-color="#ffffff"></stop> </linearGradient> </defs> <path fill="url(#a)" d="M112.484 112.484H15.516V15.516h96.968L64 64Zm0 0"></path>
-                  </svg>              
+                    <defs>
+                      <linearGradient id="a" x1="500.003" x2="-.097" y1="579.106" y2="1079.206"
+                        gradientTransform="translate(15.534 -96.774) scale(.1939)" gradientUnits="userSpaceOnUse">
+                        <stop offset=".003" stop-color="#ffffff"></stop>
+                        <stop offset=".469" stop-color="#ffffff"></stop>
+                        <stop offset="1" stop-color="#ffffff"></stop>
+                      </linearGradient>
+                    </defs>
+                    <path fill="url(#a)" d="M112.484 112.484H15.516V15.516h96.968L64 64Zm0 0"></path>
+                  </svg>
                   Kotlin
                 </span>
                 <span class="flex gap-x-2 rounded-full text-xs bg-technology text-white py-1">
                   <svg viewBox="0 0 128 128" width="12" height="12" transform="translate(0, 2)">
-                      <path style="display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.699;stroke-dasharray:none" d="M63.353.759c-2.022-.048-3.83.515-5.604 1.486L14.737 27.521l-1.716 1.01-.808.555c-1.067.628-2.21 2.15-2.97 3.175l4.168 2.324 2.82 1.55 9.592 5.4 2.454 1.36c1.237-1.491 1.306-1.596 2.472-2.566l26.833-15.884c1.554-.85 3.964-1.976 5.736-1.936 1.769.041 4.04.556 5.552 1.476l23.485 13.342 2.944 1.637a26.544 26.544 0 0 1 3.825 3.052l18.723-11.19-1.666-1.624c-1.893-1.528-2.544-1.815-3.864-2.497L69.664 2.637C67.932 1.582 65.38.807 63.353.759Zm.276 23.845c-.95 0-3.036.411-3.86.884l-27.905 16.57c-.823.472-1.655 1.983-2.13 2.801-.475.818-.837 2.452-.839 3.303l-.055 33.254c-.002.946.421 2.006.896 2.824.476.819 1.268 1.581 2.091 2.054l28.68 16.194c1.07.493 2.69.787 3.64.787.95 0 2.174-.147 3.709-.777l27.42-16.173c.824-.474 2.1-1.772 2.575-2.59.475-.819 1.498-2.895 1.493-3.841l-.146-32.52c-.001-.945-.832-2.85-1.307-3.667-.475-.82-2.284-2.36-3.108-2.833L67.623 25.58c-.824-.473-3.043-.977-3.994-.977Zm55.2 7.65-1.163.725-17.474 10.441c.42 1 .891 3.278.946 4.363l.002.01.008.312v31.3a10.085 10.085 0 0 1-4.963 8.786l-25.434 15.315c-.922.545-3.108 1.394-5.452 1.841l.002 1.516-.037 7.825-.006 3.775.043 8.781c1.255-.01 3.339-.766 4.423-1.36l.317-.182.009-.004 44.498-26.253a11.538 11.538 0 0 0 5.666-10.048V37.734c-.014-1.458-.72-4.093-1.385-5.48zM8.47 33.817l-.415 1.949c-.352 2.928-.29 3.223-.202 4.705l-.012 49.185c-.02 2.027-.099 4.84.899 6.606.993 1.762 2.916 2.799 4.657 3.827l45.2 25.602.008.004.318.179c1.399.644 2.986 1.145 4.592 1.241l.012-4.872.004-3.748-.006-11.404-.006-1.81c-1.809-.118-3.218-.654-4.14-1.199l-27.041-15.14c-1.527-.9-3.437-1.913-4.308-3.455-.87-1.543-1.252-3.886-1.235-5.658l.017-29.064.008-2.096c.061-1.414.277-2.403.687-4.15zm55.323 4.77c.612 0 2.044.327 2.575.632l17.503 9.854c.531.304 1.698 1.3 2.004 1.826.306.528.84 1.754.84 2.363l.096 20.959c.002.609-.655 1.948-.963 2.476-.306.528-1.127 1.363-1.657 1.668L66.52 88.79c-.99.406-1.78.505-2.394.505-.612 0-1.653-.192-2.342-.51L43.297 78.349a3.816 3.816 0 0 1-1.348-1.324c-.306-.528-.579-1.212-.578-1.82l.035-21.431c0-.548.235-1.602.54-2.13.307-.528.844-1.5 1.374-1.804l17.985-10.68c.531-.305 1.877-.57 2.489-.57z"></path>
+                    <path
+                      style="display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.699;stroke-dasharray:none"
+                      d="M63.353.759c-2.022-.048-3.83.515-5.604 1.486L14.737 27.521l-1.716 1.01-.808.555c-1.067.628-2.21 2.15-2.97 3.175l4.168 2.324 2.82 1.55 9.592 5.4 2.454 1.36c1.237-1.491 1.306-1.596 2.472-2.566l26.833-15.884c1.554-.85 3.964-1.976 5.736-1.936 1.769.041 4.04.556 5.552 1.476l23.485 13.342 2.944 1.637a26.544 26.544 0 0 1 3.825 3.052l18.723-11.19-1.666-1.624c-1.893-1.528-2.544-1.815-3.864-2.497L69.664 2.637C67.932 1.582 65.38.807 63.353.759Zm.276 23.845c-.95 0-3.036.411-3.86.884l-27.905 16.57c-.823.472-1.655 1.983-2.13 2.801-.475.818-.837 2.452-.839 3.303l-.055 33.254c-.002.946.421 2.006.896 2.824.476.819 1.268 1.581 2.091 2.054l28.68 16.194c1.07.493 2.69.787 3.64.787.95 0 2.174-.147 3.709-.777l27.42-16.173c.824-.474 2.1-1.772 2.575-2.59.475-.819 1.498-2.895 1.493-3.841l-.146-32.52c-.001-.945-.832-2.85-1.307-3.667-.475-.82-2.284-2.36-3.108-2.833L67.623 25.58c-.824-.473-3.043-.977-3.994-.977Zm55.2 7.65-1.163.725-17.474 10.441c.42 1 .891 3.278.946 4.363l.002.01.008.312v31.3a10.085 10.085 0 0 1-4.963 8.786l-25.434 15.315c-.922.545-3.108 1.394-5.452 1.841l.002 1.516-.037 7.825-.006 3.775.043 8.781c1.255-.01 3.339-.766 4.423-1.36l.317-.182.009-.004 44.498-26.253a11.538 11.538 0 0 0 5.666-10.048V37.734c-.014-1.458-.72-4.093-1.385-5.48zM8.47 33.817l-.415 1.949c-.352 2.928-.29 3.223-.202 4.705l-.012 49.185c-.02 2.027-.099 4.84.899 6.606.993 1.762 2.916 2.799 4.657 3.827l45.2 25.602.008.004.318.179c1.399.644 2.986 1.145 4.592 1.241l.012-4.872.004-3.748-.006-11.404-.006-1.81c-1.809-.118-3.218-.654-4.14-1.199l-27.041-15.14c-1.527-.9-3.437-1.913-4.308-3.455-.87-1.543-1.252-3.886-1.235-5.658l.017-29.064.008-2.096c.061-1.414.277-2.403.687-4.15zm55.323 4.77c.612 0 2.044.327 2.575.632l17.503 9.854c.531.304 1.698 1.3 2.004 1.826.306.528.84 1.754.84 2.363l.096 20.959c.002.609-.655 1.948-.963 2.476-.306.528-1.127 1.363-1.657 1.668L66.52 88.79c-.99.406-1.78.505-2.394.505-.612 0-1.653-.192-2.342-.51L43.297 78.349a3.816 3.816 0 0 1-1.348-1.324c-.306-.528-.579-1.212-.578-1.82l.035-21.431c0-.548.235-1.602.54-2.13.307-.528.844-1.5 1.374-1.804l17.985-10.68c.531-.305 1.877-.57 2.489-.57z">
+                    </path>
                   </svg>
                   Compose
                 </span>
@@ -371,9 +629,12 @@
                   Dagger-Hilt
                 </span>
               </div>
-              <p class="project-description">This Android application serves as a technical test with an e-commerce interface. It allows to save different items on the shopping cart, receive different discounts based on the number of items selected and proceed in a checkout.</p>
+              <p class="project-description">This Android application serves as a technical test with an e-commerce
+                interface. It allows to save different items on the shopping cart, receive different discounts based on
+                the number of items selected and proceed in a checkout.</p>
               <div class="buttons">
-                <input type='button' class='btn btn-theme-outline' onclick="window.location.href='https://github.com/aloarte/Shopwise'" value='Github' />
+                <input type='button' class='btn btn-theme-outline'
+                  onclick="window.location.href='https://github.com/aloarte/Shopwise'" value='Github' />
               </div>
             </div>
           </div>
@@ -388,19 +649,41 @@
               <div class="flex gap-x-4">
                 <span class="flex gap-x-2 rounded-full text-xs bg-technology text-white py-1">
                   <svg viewBox="0 0 128 128" width="12" height="12" transform="translate(0, 2)">
-                    <path fill="#b6b6b6" d="M21.012 91.125c-5.538.003-10.038-4.503-10.039-10.04l-.002-30.739c-.002-5.532 4.497-10.037 10.028-10.038 2.689-.002 5.207 1.041 7.105 2.937s2.942 4.418 2.944 7.099l-.003 30.74a9.924 9.924 0 01-2.931 7.094 9.962 9.962 0 01-7.102 2.947m-.008-48.12c-4.053-.002-7.338 3.291-7.339 7.341l.005 30.736a7.347 7.347 0 007.341 7.348 7.338 7.338 0 007.339-7.347V50.342a7.345 7.345 0 00-7.346-7.337"></path><path fill="#b6b6b6" d="M99.742 44.527l-2.698-.001-66.119.009-2.699.001-.002-2.699c-.006-11.08 6.03-21.385 15.917-27.473l-3.844-7.017c-.47-.822-.588-1.863-.314-2.815a3.732 3.732 0 011.814-2.239 3.605 3.605 0 011.759-.447c1.362 0 2.609.739 3.267 1.933l4.023 7.329a37.842 37.842 0 0113.099-2.305c4.606-.002 9.023.777 13.204 2.311l4.017-7.341a3.711 3.711 0 013.263-1.932 3.712 3.712 0 011.761.438A3.706 3.706 0 0188 4.524a3.69 3.69 0 01-.318 2.832l-3.842 7.013c9.871 6.101 15.9 16.398 15.899 27.459l.003 2.699zM80.196 15.403l5.123-9.355a1.019 1.019 0 10-1.783-.981l-5.176 9.45c-4.354-1.934-9.229-3.021-14.382-3.016-5.142-.005-10.008 1.078-14.349 3.005l-5.181-9.429a1.009 1.009 0 00-1.379-.405c-.497.266-.68.891-.403 1.379l5.125 9.348c-10.07 5.194-16.874 15.084-16.868 26.439l66.118-.008c.003-11.351-6.789-21.221-16.845-26.427M48.94 29.86a2.772 2.772 0 01.003-5.545 2.78 2.78 0 012.775 2.774 2.775 2.775 0 01-2.778 2.771m30.107-.006a2.767 2.767 0 01-2.772-2.771 2.788 2.788 0 012.773-2.778 2.79 2.79 0 012.767 2.779 2.769 2.769 0 01-2.768 2.77m-27.336 96.305c-5.533-.001-10.036-4.501-10.037-10.038l-.002-13.567-2.638.003a10.453 10.453 0 01-7.448-3.082 10.437 10.437 0 01-3.083-7.452l-.01-47.627v-2.701h2.699l65.623-.01 2.7-.002v2.699l.007 47.633c.001 5.809-4.725 10.536-10.532 10.535l-2.654.002.003 13.562c0 5.534-4.502 10.039-10.033 10.039a9.933 9.933 0 01-7.098-2.937 9.952 9.952 0 01-2.947-7.096v-13.568H61.75v13.565c-.002 5.535-4.503 10.043-10.039 10.042"></path><path fill="#b6b6b6" d="M31.205 92.022a7.82 7.82 0 007.831 7.837h5.333l.006 16.264c-.001 4.05 3.289 7.341 7.335 7.342a7.342 7.342 0 007.338-7.348l.001-16.259 9.909-.003-.001 16.263c.004 4.051 3.298 7.346 7.343 7.338 4.056.003 7.344-3.292 7.343-7.344l-.005-16.259 5.353-.001c4.319.001 7.832-3.508 7.832-7.837l-.009-47.635-65.621.012.012 47.63zm75.791-.91c-5.536.001-10.039-4.498-10.038-10.036l-.008-30.738c.002-5.537 4.498-10.041 10.031-10.041 5.54-.001 10.046 4.502 10.045 10.038l.003 30.736c.001 5.534-4.498 10.042-10.033 10.041m-.01-48.116c-4.053-.004-7.337 3.287-7.337 7.342l.003 30.737a7.336 7.336 0 007.342 7.34 7.338 7.338 0 007.338-7.343l-.008-30.736a7.335 7.335 0 00-7.338-7.34"></path><path fill="#ffffff" d="M21.004 43.005c-4.053-.002-7.338 3.291-7.339 7.341l.005 30.736a7.338 7.338 0 007.342 7.343 7.33 7.33 0 007.338-7.342V50.342a7.345 7.345 0 00-7.346-7.337m59.192-27.602l5.123-9.355a1.023 1.023 0 00-.401-1.388 1.022 1.022 0 00-1.382.407l-5.175 9.453c-4.354-1.938-9.227-3.024-14.383-3.019-5.142-.005-10.013 1.078-14.349 3.005l-5.181-9.429a1.01 1.01 0 00-1.378-.406 1.007 1.007 0 00-.404 1.38l5.125 9.349c-10.07 5.193-16.874 15.083-16.868 26.438l66.118-.008c.003-11.351-6.789-21.221-16.845-26.427M48.94 29.86a2.772 2.772 0 01.003-5.545 2.78 2.78 0 012.775 2.774 2.775 2.775 0 01-2.778 2.771m30.107-.006a2.77 2.77 0 01-2.772-2.771 2.793 2.793 0 012.773-2.778 2.79 2.79 0 012.767 2.779 2.767 2.767 0 01-2.768 2.77M31.193 44.392l.011 47.635a7.822 7.822 0 007.832 7.831l5.333.002.006 16.264c-.001 4.05 3.291 7.342 7.335 7.342 4.056 0 7.342-3.295 7.343-7.347l-.004-16.26 9.909-.003.004 16.263c0 4.047 3.293 7.346 7.338 7.338 4.056.003 7.344-3.292 7.343-7.344l-.005-16.259 5.352-.004a7.835 7.835 0 007.836-7.834l-.009-47.635-65.624.011zm83.134 5.943a7.338 7.338 0 00-7.341-7.339c-4.053-.004-7.337 3.287-7.337 7.342l.006 30.738a7.334 7.334 0 007.339 7.339 7.337 7.337 0 007.338-7.343l-.005-30.737z"></path>
+                    <path fill="#b6b6b6"
+                      d="M21.012 91.125c-5.538.003-10.038-4.503-10.039-10.04l-.002-30.739c-.002-5.532 4.497-10.037 10.028-10.038 2.689-.002 5.207 1.041 7.105 2.937s2.942 4.418 2.944 7.099l-.003 30.74a9.924 9.924 0 01-2.931 7.094 9.962 9.962 0 01-7.102 2.947m-.008-48.12c-4.053-.002-7.338 3.291-7.339 7.341l.005 30.736a7.347 7.347 0 007.341 7.348 7.338 7.338 0 007.339-7.347V50.342a7.345 7.345 0 00-7.346-7.337">
+                    </path>
+                    <path fill="#b6b6b6"
+                      d="M99.742 44.527l-2.698-.001-66.119.009-2.699.001-.002-2.699c-.006-11.08 6.03-21.385 15.917-27.473l-3.844-7.017c-.47-.822-.588-1.863-.314-2.815a3.732 3.732 0 011.814-2.239 3.605 3.605 0 011.759-.447c1.362 0 2.609.739 3.267 1.933l4.023 7.329a37.842 37.842 0 0113.099-2.305c4.606-.002 9.023.777 13.204 2.311l4.017-7.341a3.711 3.711 0 013.263-1.932 3.712 3.712 0 011.761.438A3.706 3.706 0 0188 4.524a3.69 3.69 0 01-.318 2.832l-3.842 7.013c9.871 6.101 15.9 16.398 15.899 27.459l.003 2.699zM80.196 15.403l5.123-9.355a1.019 1.019 0 10-1.783-.981l-5.176 9.45c-4.354-1.934-9.229-3.021-14.382-3.016-5.142-.005-10.008 1.078-14.349 3.005l-5.181-9.429a1.009 1.009 0 00-1.379-.405c-.497.266-.68.891-.403 1.379l5.125 9.348c-10.07 5.194-16.874 15.084-16.868 26.439l66.118-.008c.003-11.351-6.789-21.221-16.845-26.427M48.94 29.86a2.772 2.772 0 01.003-5.545 2.78 2.78 0 012.775 2.774 2.775 2.775 0 01-2.778 2.771m30.107-.006a2.767 2.767 0 01-2.772-2.771 2.788 2.788 0 012.773-2.778 2.79 2.79 0 012.767 2.779 2.769 2.769 0 01-2.768 2.77m-27.336 96.305c-5.533-.001-10.036-4.501-10.037-10.038l-.002-13.567-2.638.003a10.453 10.453 0 01-7.448-3.082 10.437 10.437 0 01-3.083-7.452l-.01-47.627v-2.701h2.699l65.623-.01 2.7-.002v2.699l.007 47.633c.001 5.809-4.725 10.536-10.532 10.535l-2.654.002.003 13.562c0 5.534-4.502 10.039-10.033 10.039a9.933 9.933 0 01-7.098-2.937 9.952 9.952 0 01-2.947-7.096v-13.568H61.75v13.565c-.002 5.535-4.503 10.043-10.039 10.042">
+                    </path>
+                    <path fill="#b6b6b6"
+                      d="M31.205 92.022a7.82 7.82 0 007.831 7.837h5.333l.006 16.264c-.001 4.05 3.289 7.341 7.335 7.342a7.342 7.342 0 007.338-7.348l.001-16.259 9.909-.003-.001 16.263c.004 4.051 3.298 7.346 7.343 7.338 4.056.003 7.344-3.292 7.343-7.344l-.005-16.259 5.353-.001c4.319.001 7.832-3.508 7.832-7.837l-.009-47.635-65.621.012.012 47.63zm75.791-.91c-5.536.001-10.039-4.498-10.038-10.036l-.008-30.738c.002-5.537 4.498-10.041 10.031-10.041 5.54-.001 10.046 4.502 10.045 10.038l.003 30.736c.001 5.534-4.498 10.042-10.033 10.041m-.01-48.116c-4.053-.004-7.337 3.287-7.337 7.342l.003 30.737a7.336 7.336 0 007.342 7.34 7.338 7.338 0 007.338-7.343l-.008-30.736a7.335 7.335 0 00-7.338-7.34">
+                    </path>
+                    <path fill="#ffffff"
+                      d="M21.004 43.005c-4.053-.002-7.338 3.291-7.339 7.341l.005 30.736a7.338 7.338 0 007.342 7.343 7.33 7.33 0 007.338-7.342V50.342a7.345 7.345 0 00-7.346-7.337m59.192-27.602l5.123-9.355a1.023 1.023 0 00-.401-1.388 1.022 1.022 0 00-1.382.407l-5.175 9.453c-4.354-1.938-9.227-3.024-14.383-3.019-5.142-.005-10.013 1.078-14.349 3.005l-5.181-9.429a1.01 1.01 0 00-1.378-.406 1.007 1.007 0 00-.404 1.38l5.125 9.349c-10.07 5.193-16.874 15.083-16.868 26.438l66.118-.008c.003-11.351-6.789-21.221-16.845-26.427M48.94 29.86a2.772 2.772 0 01.003-5.545 2.78 2.78 0 012.775 2.774 2.775 2.775 0 01-2.778 2.771m30.107-.006a2.77 2.77 0 01-2.772-2.771 2.793 2.793 0 012.773-2.778 2.79 2.79 0 012.767 2.779 2.767 2.767 0 01-2.768 2.77M31.193 44.392l.011 47.635a7.822 7.822 0 007.832 7.831l5.333.002.006 16.264c-.001 4.05 3.291 7.342 7.335 7.342 4.056 0 7.342-3.295 7.343-7.347l-.004-16.26 9.909-.003.004 16.263c0 4.047 3.293 7.346 7.338 7.338 4.056.003 7.344-3.292 7.343-7.344l-.005-16.259 5.352-.004a7.835 7.835 0 007.836-7.834l-.009-47.635-65.624.011zm83.134 5.943a7.338 7.338 0 00-7.341-7.339c-4.053-.004-7.337 3.287-7.337 7.342l.006 30.738a7.334 7.334 0 007.339 7.339 7.337 7.337 0 007.338-7.343l-.005-30.737z">
+                    </path>
                   </svg>
                   Android
                 </span>
                 <span class="flex gap-x-2 rounded-full text-xs bg-technology text-white py-1">
                   <svg viewBox="0 0 128 128" width="12" height="12" transform="translate(0, 2)">
-                    <defs> <linearGradient id="a" x1="500.003" x2="-.097" y1="579.106" y2="1079.206" gradientTransform="translate(15.534 -96.774) scale(.1939)" gradientUnits="userSpaceOnUse"> <stop offset=".003" stop-color="#ffffff"></stop> <stop offset=".469" stop-color="#ffffff"></stop> <stop offset="1" stop-color="#ffffff"></stop> </linearGradient> </defs> <path fill="url(#a)" d="M112.484 112.484H15.516V15.516h96.968L64 64Zm0 0"></path>
-                  </svg>              
+                    <defs>
+                      <linearGradient id="a" x1="500.003" x2="-.097" y1="579.106" y2="1079.206"
+                        gradientTransform="translate(15.534 -96.774) scale(.1939)" gradientUnits="userSpaceOnUse">
+                        <stop offset=".003" stop-color="#ffffff"></stop>
+                        <stop offset=".469" stop-color="#ffffff"></stop>
+                        <stop offset="1" stop-color="#ffffff"></stop>
+                      </linearGradient>
+                    </defs>
+                    <path fill="url(#a)" d="M112.484 112.484H15.516V15.516h96.968L64 64Zm0 0"></path>
+                  </svg>
                   Kotlin
                 </span>
                 <span class="flex gap-x-2 rounded-full text-xs bg-technology text-white py-1">
                   <svg viewBox="0 0 128 128" width="12" height="12" transform="translate(0, 2)">
-                      <path style="display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.699;stroke-dasharray:none" d="M63.353.759c-2.022-.048-3.83.515-5.604 1.486L14.737 27.521l-1.716 1.01-.808.555c-1.067.628-2.21 2.15-2.97 3.175l4.168 2.324 2.82 1.55 9.592 5.4 2.454 1.36c1.237-1.491 1.306-1.596 2.472-2.566l26.833-15.884c1.554-.85 3.964-1.976 5.736-1.936 1.769.041 4.04.556 5.552 1.476l23.485 13.342 2.944 1.637a26.544 26.544 0 0 1 3.825 3.052l18.723-11.19-1.666-1.624c-1.893-1.528-2.544-1.815-3.864-2.497L69.664 2.637C67.932 1.582 65.38.807 63.353.759Zm.276 23.845c-.95 0-3.036.411-3.86.884l-27.905 16.57c-.823.472-1.655 1.983-2.13 2.801-.475.818-.837 2.452-.839 3.303l-.055 33.254c-.002.946.421 2.006.896 2.824.476.819 1.268 1.581 2.091 2.054l28.68 16.194c1.07.493 2.69.787 3.64.787.95 0 2.174-.147 3.709-.777l27.42-16.173c.824-.474 2.1-1.772 2.575-2.59.475-.819 1.498-2.895 1.493-3.841l-.146-32.52c-.001-.945-.832-2.85-1.307-3.667-.475-.82-2.284-2.36-3.108-2.833L67.623 25.58c-.824-.473-3.043-.977-3.994-.977Zm55.2 7.65-1.163.725-17.474 10.441c.42 1 .891 3.278.946 4.363l.002.01.008.312v31.3a10.085 10.085 0 0 1-4.963 8.786l-25.434 15.315c-.922.545-3.108 1.394-5.452 1.841l.002 1.516-.037 7.825-.006 3.775.043 8.781c1.255-.01 3.339-.766 4.423-1.36l.317-.182.009-.004 44.498-26.253a11.538 11.538 0 0 0 5.666-10.048V37.734c-.014-1.458-.72-4.093-1.385-5.48zM8.47 33.817l-.415 1.949c-.352 2.928-.29 3.223-.202 4.705l-.012 49.185c-.02 2.027-.099 4.84.899 6.606.993 1.762 2.916 2.799 4.657 3.827l45.2 25.602.008.004.318.179c1.399.644 2.986 1.145 4.592 1.241l.012-4.872.004-3.748-.006-11.404-.006-1.81c-1.809-.118-3.218-.654-4.14-1.199l-27.041-15.14c-1.527-.9-3.437-1.913-4.308-3.455-.87-1.543-1.252-3.886-1.235-5.658l.017-29.064.008-2.096c.061-1.414.277-2.403.687-4.15zm55.323 4.77c.612 0 2.044.327 2.575.632l17.503 9.854c.531.304 1.698 1.3 2.004 1.826.306.528.84 1.754.84 2.363l.096 20.959c.002.609-.655 1.948-.963 2.476-.306.528-1.127 1.363-1.657 1.668L66.52 88.79c-.99.406-1.78.505-2.394.505-.612 0-1.653-.192-2.342-.51L43.297 78.349a3.816 3.816 0 0 1-1.348-1.324c-.306-.528-.579-1.212-.578-1.82l.035-21.431c0-.548.235-1.602.54-2.13.307-.528.844-1.5 1.374-1.804l17.985-10.68c.531-.305 1.877-.57 2.489-.57z"></path>
+                    <path
+                      style="display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.699;stroke-dasharray:none"
+                      d="M63.353.759c-2.022-.048-3.83.515-5.604 1.486L14.737 27.521l-1.716 1.01-.808.555c-1.067.628-2.21 2.15-2.97 3.175l4.168 2.324 2.82 1.55 9.592 5.4 2.454 1.36c1.237-1.491 1.306-1.596 2.472-2.566l26.833-15.884c1.554-.85 3.964-1.976 5.736-1.936 1.769.041 4.04.556 5.552 1.476l23.485 13.342 2.944 1.637a26.544 26.544 0 0 1 3.825 3.052l18.723-11.19-1.666-1.624c-1.893-1.528-2.544-1.815-3.864-2.497L69.664 2.637C67.932 1.582 65.38.807 63.353.759Zm.276 23.845c-.95 0-3.036.411-3.86.884l-27.905 16.57c-.823.472-1.655 1.983-2.13 2.801-.475.818-.837 2.452-.839 3.303l-.055 33.254c-.002.946.421 2.006.896 2.824.476.819 1.268 1.581 2.091 2.054l28.68 16.194c1.07.493 2.69.787 3.64.787.95 0 2.174-.147 3.709-.777l27.42-16.173c.824-.474 2.1-1.772 2.575-2.59.475-.819 1.498-2.895 1.493-3.841l-.146-32.52c-.001-.945-.832-2.85-1.307-3.667-.475-.82-2.284-2.36-3.108-2.833L67.623 25.58c-.824-.473-3.043-.977-3.994-.977Zm55.2 7.65-1.163.725-17.474 10.441c.42 1 .891 3.278.946 4.363l.002.01.008.312v31.3a10.085 10.085 0 0 1-4.963 8.786l-25.434 15.315c-.922.545-3.108 1.394-5.452 1.841l.002 1.516-.037 7.825-.006 3.775.043 8.781c1.255-.01 3.339-.766 4.423-1.36l.317-.182.009-.004 44.498-26.253a11.538 11.538 0 0 0 5.666-10.048V37.734c-.014-1.458-.72-4.093-1.385-5.48zM8.47 33.817l-.415 1.949c-.352 2.928-.29 3.223-.202 4.705l-.012 49.185c-.02 2.027-.099 4.84.899 6.606.993 1.762 2.916 2.799 4.657 3.827l45.2 25.602.008.004.318.179c1.399.644 2.986 1.145 4.592 1.241l.012-4.872.004-3.748-.006-11.404-.006-1.81c-1.809-.118-3.218-.654-4.14-1.199l-27.041-15.14c-1.527-.9-3.437-1.913-4.308-3.455-.87-1.543-1.252-3.886-1.235-5.658l.017-29.064.008-2.096c.061-1.414.277-2.403.687-4.15zm55.323 4.77c.612 0 2.044.327 2.575.632l17.503 9.854c.531.304 1.698 1.3 2.004 1.826.306.528.84 1.754.84 2.363l.096 20.959c.002.609-.655 1.948-.963 2.476-.306.528-1.127 1.363-1.657 1.668L66.52 88.79c-.99.406-1.78.505-2.394.505-.612 0-1.653-.192-2.342-.51L43.297 78.349a3.816 3.816 0 0 1-1.348-1.324c-.306-.528-.579-1.212-.578-1.82l.035-21.431c0-.548.235-1.602.54-2.13.307-.528.844-1.5 1.374-1.804l17.985-10.68c.531-.305 1.877-.57 2.489-.57z">
+                    </path>
                   </svg>
                   Compose
                 </span>
@@ -411,9 +694,12 @@
                   Retrofit
                 </span>
               </div>
-              <p class="project-description">Designed as a technical test, the android application Loompa Resources consumes an API to retrieve a list of employees and each employee data can be expander into a detail screen. It's integrated with paging and Room storaging.</p>
+              <p class="project-description">Designed as a technical test, the android application Loompa Resources
+                consumes an API to retrieve a list of employees and each employee data can be expander into a detail
+                screen. It's integrated with paging and Room storaging.</p>
               <div class="buttons">
-                <input type='button' class='btn btn-theme-outline' onclick="window.location.href='https://github.com/aloarte/LoompaResources'" value='Github' />
+                <input type='button' class='btn btn-theme-outline'
+                  onclick="window.location.href='https://github.com/aloarte/LoompaResources'" value='Github' />
               </div>
             </div>
           </div>
@@ -428,22 +714,44 @@
               <div class="flex gap-x-4">
                 <span class="flex gap-x-2 rounded-full text-xs bg-technology text-white py-1">
                   <svg viewBox="0 0 128 128" width="12" height="12" transform="translate(0, 2)">
-                    <path fill="#b6b6b6" d="M21.012 91.125c-5.538.003-10.038-4.503-10.039-10.04l-.002-30.739c-.002-5.532 4.497-10.037 10.028-10.038 2.689-.002 5.207 1.041 7.105 2.937s2.942 4.418 2.944 7.099l-.003 30.74a9.924 9.924 0 01-2.931 7.094 9.962 9.962 0 01-7.102 2.947m-.008-48.12c-4.053-.002-7.338 3.291-7.339 7.341l.005 30.736a7.347 7.347 0 007.341 7.348 7.338 7.338 0 007.339-7.347V50.342a7.345 7.345 0 00-7.346-7.337"></path><path fill="#b6b6b6" d="M99.742 44.527l-2.698-.001-66.119.009-2.699.001-.002-2.699c-.006-11.08 6.03-21.385 15.917-27.473l-3.844-7.017c-.47-.822-.588-1.863-.314-2.815a3.732 3.732 0 011.814-2.239 3.605 3.605 0 011.759-.447c1.362 0 2.609.739 3.267 1.933l4.023 7.329a37.842 37.842 0 0113.099-2.305c4.606-.002 9.023.777 13.204 2.311l4.017-7.341a3.711 3.711 0 013.263-1.932 3.712 3.712 0 011.761.438A3.706 3.706 0 0188 4.524a3.69 3.69 0 01-.318 2.832l-3.842 7.013c9.871 6.101 15.9 16.398 15.899 27.459l.003 2.699zM80.196 15.403l5.123-9.355a1.019 1.019 0 10-1.783-.981l-5.176 9.45c-4.354-1.934-9.229-3.021-14.382-3.016-5.142-.005-10.008 1.078-14.349 3.005l-5.181-9.429a1.009 1.009 0 00-1.379-.405c-.497.266-.68.891-.403 1.379l5.125 9.348c-10.07 5.194-16.874 15.084-16.868 26.439l66.118-.008c.003-11.351-6.789-21.221-16.845-26.427M48.94 29.86a2.772 2.772 0 01.003-5.545 2.78 2.78 0 012.775 2.774 2.775 2.775 0 01-2.778 2.771m30.107-.006a2.767 2.767 0 01-2.772-2.771 2.788 2.788 0 012.773-2.778 2.79 2.79 0 012.767 2.779 2.769 2.769 0 01-2.768 2.77m-27.336 96.305c-5.533-.001-10.036-4.501-10.037-10.038l-.002-13.567-2.638.003a10.453 10.453 0 01-7.448-3.082 10.437 10.437 0 01-3.083-7.452l-.01-47.627v-2.701h2.699l65.623-.01 2.7-.002v2.699l.007 47.633c.001 5.809-4.725 10.536-10.532 10.535l-2.654.002.003 13.562c0 5.534-4.502 10.039-10.033 10.039a9.933 9.933 0 01-7.098-2.937 9.952 9.952 0 01-2.947-7.096v-13.568H61.75v13.565c-.002 5.535-4.503 10.043-10.039 10.042"></path><path fill="#b6b6b6" d="M31.205 92.022a7.82 7.82 0 007.831 7.837h5.333l.006 16.264c-.001 4.05 3.289 7.341 7.335 7.342a7.342 7.342 0 007.338-7.348l.001-16.259 9.909-.003-.001 16.263c.004 4.051 3.298 7.346 7.343 7.338 4.056.003 7.344-3.292 7.343-7.344l-.005-16.259 5.353-.001c4.319.001 7.832-3.508 7.832-7.837l-.009-47.635-65.621.012.012 47.63zm75.791-.91c-5.536.001-10.039-4.498-10.038-10.036l-.008-30.738c.002-5.537 4.498-10.041 10.031-10.041 5.54-.001 10.046 4.502 10.045 10.038l.003 30.736c.001 5.534-4.498 10.042-10.033 10.041m-.01-48.116c-4.053-.004-7.337 3.287-7.337 7.342l.003 30.737a7.336 7.336 0 007.342 7.34 7.338 7.338 0 007.338-7.343l-.008-30.736a7.335 7.335 0 00-7.338-7.34"></path><path fill="#ffffff" d="M21.004 43.005c-4.053-.002-7.338 3.291-7.339 7.341l.005 30.736a7.338 7.338 0 007.342 7.343 7.33 7.33 0 007.338-7.342V50.342a7.345 7.345 0 00-7.346-7.337m59.192-27.602l5.123-9.355a1.023 1.023 0 00-.401-1.388 1.022 1.022 0 00-1.382.407l-5.175 9.453c-4.354-1.938-9.227-3.024-14.383-3.019-5.142-.005-10.013 1.078-14.349 3.005l-5.181-9.429a1.01 1.01 0 00-1.378-.406 1.007 1.007 0 00-.404 1.38l5.125 9.349c-10.07 5.193-16.874 15.083-16.868 26.438l66.118-.008c.003-11.351-6.789-21.221-16.845-26.427M48.94 29.86a2.772 2.772 0 01.003-5.545 2.78 2.78 0 012.775 2.774 2.775 2.775 0 01-2.778 2.771m30.107-.006a2.77 2.77 0 01-2.772-2.771 2.793 2.793 0 012.773-2.778 2.79 2.79 0 012.767 2.779 2.767 2.767 0 01-2.768 2.77M31.193 44.392l.011 47.635a7.822 7.822 0 007.832 7.831l5.333.002.006 16.264c-.001 4.05 3.291 7.342 7.335 7.342 4.056 0 7.342-3.295 7.343-7.347l-.004-16.26 9.909-.003.004 16.263c0 4.047 3.293 7.346 7.338 7.338 4.056.003 7.344-3.292 7.343-7.344l-.005-16.259 5.352-.004a7.835 7.835 0 007.836-7.834l-.009-47.635-65.624.011zm83.134 5.943a7.338 7.338 0 00-7.341-7.339c-4.053-.004-7.337 3.287-7.337 7.342l.006 30.738a7.334 7.334 0 007.339 7.339 7.337 7.337 0 007.338-7.343l-.005-30.737z"></path>
+                    <path fill="#b6b6b6"
+                      d="M21.012 91.125c-5.538.003-10.038-4.503-10.039-10.04l-.002-30.739c-.002-5.532 4.497-10.037 10.028-10.038 2.689-.002 5.207 1.041 7.105 2.937s2.942 4.418 2.944 7.099l-.003 30.74a9.924 9.924 0 01-2.931 7.094 9.962 9.962 0 01-7.102 2.947m-.008-48.12c-4.053-.002-7.338 3.291-7.339 7.341l.005 30.736a7.347 7.347 0 007.341 7.348 7.338 7.338 0 007.339-7.347V50.342a7.345 7.345 0 00-7.346-7.337">
+                    </path>
+                    <path fill="#b6b6b6"
+                      d="M99.742 44.527l-2.698-.001-66.119.009-2.699.001-.002-2.699c-.006-11.08 6.03-21.385 15.917-27.473l-3.844-7.017c-.47-.822-.588-1.863-.314-2.815a3.732 3.732 0 011.814-2.239 3.605 3.605 0 011.759-.447c1.362 0 2.609.739 3.267 1.933l4.023 7.329a37.842 37.842 0 0113.099-2.305c4.606-.002 9.023.777 13.204 2.311l4.017-7.341a3.711 3.711 0 013.263-1.932 3.712 3.712 0 011.761.438A3.706 3.706 0 0188 4.524a3.69 3.69 0 01-.318 2.832l-3.842 7.013c9.871 6.101 15.9 16.398 15.899 27.459l.003 2.699zM80.196 15.403l5.123-9.355a1.019 1.019 0 10-1.783-.981l-5.176 9.45c-4.354-1.934-9.229-3.021-14.382-3.016-5.142-.005-10.008 1.078-14.349 3.005l-5.181-9.429a1.009 1.009 0 00-1.379-.405c-.497.266-.68.891-.403 1.379l5.125 9.348c-10.07 5.194-16.874 15.084-16.868 26.439l66.118-.008c.003-11.351-6.789-21.221-16.845-26.427M48.94 29.86a2.772 2.772 0 01.003-5.545 2.78 2.78 0 012.775 2.774 2.775 2.775 0 01-2.778 2.771m30.107-.006a2.767 2.767 0 01-2.772-2.771 2.788 2.788 0 012.773-2.778 2.79 2.79 0 012.767 2.779 2.769 2.769 0 01-2.768 2.77m-27.336 96.305c-5.533-.001-10.036-4.501-10.037-10.038l-.002-13.567-2.638.003a10.453 10.453 0 01-7.448-3.082 10.437 10.437 0 01-3.083-7.452l-.01-47.627v-2.701h2.699l65.623-.01 2.7-.002v2.699l.007 47.633c.001 5.809-4.725 10.536-10.532 10.535l-2.654.002.003 13.562c0 5.534-4.502 10.039-10.033 10.039a9.933 9.933 0 01-7.098-2.937 9.952 9.952 0 01-2.947-7.096v-13.568H61.75v13.565c-.002 5.535-4.503 10.043-10.039 10.042">
+                    </path>
+                    <path fill="#b6b6b6"
+                      d="M31.205 92.022a7.82 7.82 0 007.831 7.837h5.333l.006 16.264c-.001 4.05 3.289 7.341 7.335 7.342a7.342 7.342 0 007.338-7.348l.001-16.259 9.909-.003-.001 16.263c.004 4.051 3.298 7.346 7.343 7.338 4.056.003 7.344-3.292 7.343-7.344l-.005-16.259 5.353-.001c4.319.001 7.832-3.508 7.832-7.837l-.009-47.635-65.621.012.012 47.63zm75.791-.91c-5.536.001-10.039-4.498-10.038-10.036l-.008-30.738c.002-5.537 4.498-10.041 10.031-10.041 5.54-.001 10.046 4.502 10.045 10.038l.003 30.736c.001 5.534-4.498 10.042-10.033 10.041m-.01-48.116c-4.053-.004-7.337 3.287-7.337 7.342l.003 30.737a7.336 7.336 0 007.342 7.34 7.338 7.338 0 007.338-7.343l-.008-30.736a7.335 7.335 0 00-7.338-7.34">
+                    </path>
+                    <path fill="#ffffff"
+                      d="M21.004 43.005c-4.053-.002-7.338 3.291-7.339 7.341l.005 30.736a7.338 7.338 0 007.342 7.343 7.33 7.33 0 007.338-7.342V50.342a7.345 7.345 0 00-7.346-7.337m59.192-27.602l5.123-9.355a1.023 1.023 0 00-.401-1.388 1.022 1.022 0 00-1.382.407l-5.175 9.453c-4.354-1.938-9.227-3.024-14.383-3.019-5.142-.005-10.013 1.078-14.349 3.005l-5.181-9.429a1.01 1.01 0 00-1.378-.406 1.007 1.007 0 00-.404 1.38l5.125 9.349c-10.07 5.193-16.874 15.083-16.868 26.438l66.118-.008c.003-11.351-6.789-21.221-16.845-26.427M48.94 29.86a2.772 2.772 0 01.003-5.545 2.78 2.78 0 012.775 2.774 2.775 2.775 0 01-2.778 2.771m30.107-.006a2.77 2.77 0 01-2.772-2.771 2.793 2.793 0 012.773-2.778 2.79 2.79 0 012.767 2.779 2.767 2.767 0 01-2.768 2.77M31.193 44.392l.011 47.635a7.822 7.822 0 007.832 7.831l5.333.002.006 16.264c-.001 4.05 3.291 7.342 7.335 7.342 4.056 0 7.342-3.295 7.343-7.347l-.004-16.26 9.909-.003.004 16.263c0 4.047 3.293 7.346 7.338 7.338 4.056.003 7.344-3.292 7.343-7.344l-.005-16.259 5.352-.004a7.835 7.835 0 007.836-7.834l-.009-47.635-65.624.011zm83.134 5.943a7.338 7.338 0 00-7.341-7.339c-4.053-.004-7.337 3.287-7.337 7.342l.006 30.738a7.334 7.334 0 007.339 7.339 7.337 7.337 0 007.338-7.343l-.005-30.737z">
+                    </path>
                   </svg>
                   Android
                 </span>
                 <span class="flex gap-x-2 rounded-full text-xs bg-technology text-white py-1">
                   <svg viewBox="0 0 128 128" width="12" height="12" transform="translate(0, 2)">
-                    <defs> <linearGradient id="a" x1="500.003" x2="-.097" y1="579.106" y2="1079.206" gradientTransform="translate(15.534 -96.774) scale(.1939)" gradientUnits="userSpaceOnUse"> <stop offset=".003" stop-color="#ffffff"></stop> <stop offset=".469" stop-color="#ffffff"></stop> <stop offset="1" stop-color="#ffffff"></stop> </linearGradient> </defs> <path fill="url(#a)" d="M112.484 112.484H15.516V15.516h96.968L64 64Zm0 0"></path>
-                  </svg>              
+                    <defs>
+                      <linearGradient id="a" x1="500.003" x2="-.097" y1="579.106" y2="1079.206"
+                        gradientTransform="translate(15.534 -96.774) scale(.1939)" gradientUnits="userSpaceOnUse">
+                        <stop offset=".003" stop-color="#ffffff"></stop>
+                        <stop offset=".469" stop-color="#ffffff"></stop>
+                        <stop offset="1" stop-color="#ffffff"></stop>
+                      </linearGradient>
+                    </defs>
+                    <path fill="url(#a)" d="M112.484 112.484H15.516V15.516h96.968L64 64Zm0 0"></path>
+                  </svg>
                   Kotlin
                 </span>
-              <span class="flex gap-x-2 rounded-full text-xs bg-technology text-white py-1">
-                <svg viewBox="0 0 128 128" width="12" height="12" transform="translate(0, 2)">
-                    <path style="display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.699;stroke-dasharray:none" d="M63.353.759c-2.022-.048-3.83.515-5.604 1.486L14.737 27.521l-1.716 1.01-.808.555c-1.067.628-2.21 2.15-2.97 3.175l4.168 2.324 2.82 1.55 9.592 5.4 2.454 1.36c1.237-1.491 1.306-1.596 2.472-2.566l26.833-15.884c1.554-.85 3.964-1.976 5.736-1.936 1.769.041 4.04.556 5.552 1.476l23.485 13.342 2.944 1.637a26.544 26.544 0 0 1 3.825 3.052l18.723-11.19-1.666-1.624c-1.893-1.528-2.544-1.815-3.864-2.497L69.664 2.637C67.932 1.582 65.38.807 63.353.759Zm.276 23.845c-.95 0-3.036.411-3.86.884l-27.905 16.57c-.823.472-1.655 1.983-2.13 2.801-.475.818-.837 2.452-.839 3.303l-.055 33.254c-.002.946.421 2.006.896 2.824.476.819 1.268 1.581 2.091 2.054l28.68 16.194c1.07.493 2.69.787 3.64.787.95 0 2.174-.147 3.709-.777l27.42-16.173c.824-.474 2.1-1.772 2.575-2.59.475-.819 1.498-2.895 1.493-3.841l-.146-32.52c-.001-.945-.832-2.85-1.307-3.667-.475-.82-2.284-2.36-3.108-2.833L67.623 25.58c-.824-.473-3.043-.977-3.994-.977Zm55.2 7.65-1.163.725-17.474 10.441c.42 1 .891 3.278.946 4.363l.002.01.008.312v31.3a10.085 10.085 0 0 1-4.963 8.786l-25.434 15.315c-.922.545-3.108 1.394-5.452 1.841l.002 1.516-.037 7.825-.006 3.775.043 8.781c1.255-.01 3.339-.766 4.423-1.36l.317-.182.009-.004 44.498-26.253a11.538 11.538 0 0 0 5.666-10.048V37.734c-.014-1.458-.72-4.093-1.385-5.48zM8.47 33.817l-.415 1.949c-.352 2.928-.29 3.223-.202 4.705l-.012 49.185c-.02 2.027-.099 4.84.899 6.606.993 1.762 2.916 2.799 4.657 3.827l45.2 25.602.008.004.318.179c1.399.644 2.986 1.145 4.592 1.241l.012-4.872.004-3.748-.006-11.404-.006-1.81c-1.809-.118-3.218-.654-4.14-1.199l-27.041-15.14c-1.527-.9-3.437-1.913-4.308-3.455-.87-1.543-1.252-3.886-1.235-5.658l.017-29.064.008-2.096c.061-1.414.277-2.403.687-4.15zm55.323 4.77c.612 0 2.044.327 2.575.632l17.503 9.854c.531.304 1.698 1.3 2.004 1.826.306.528.84 1.754.84 2.363l.096 20.959c.002.609-.655 1.948-.963 2.476-.306.528-1.127 1.363-1.657 1.668L66.52 88.79c-.99.406-1.78.505-2.394.505-.612 0-1.653-.192-2.342-.51L43.297 78.349a3.816 3.816 0 0 1-1.348-1.324c-.306-.528-.579-1.212-.578-1.82l.035-21.431c0-.548.235-1.602.54-2.13.307-.528.844-1.5 1.374-1.804l17.985-10.68c.531-.305 1.877-.57 2.489-.57z"></path>
-                </svg>
-                Compose
-              </span>
+                <span class="flex gap-x-2 rounded-full text-xs bg-technology text-white py-1">
+                  <svg viewBox="0 0 128 128" width="12" height="12" transform="translate(0, 2)">
+                    <path
+                      style="display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.699;stroke-dasharray:none"
+                      d="M63.353.759c-2.022-.048-3.83.515-5.604 1.486L14.737 27.521l-1.716 1.01-.808.555c-1.067.628-2.21 2.15-2.97 3.175l4.168 2.324 2.82 1.55 9.592 5.4 2.454 1.36c1.237-1.491 1.306-1.596 2.472-2.566l26.833-15.884c1.554-.85 3.964-1.976 5.736-1.936 1.769.041 4.04.556 5.552 1.476l23.485 13.342 2.944 1.637a26.544 26.544 0 0 1 3.825 3.052l18.723-11.19-1.666-1.624c-1.893-1.528-2.544-1.815-3.864-2.497L69.664 2.637C67.932 1.582 65.38.807 63.353.759Zm.276 23.845c-.95 0-3.036.411-3.86.884l-27.905 16.57c-.823.472-1.655 1.983-2.13 2.801-.475.818-.837 2.452-.839 3.303l-.055 33.254c-.002.946.421 2.006.896 2.824.476.819 1.268 1.581 2.091 2.054l28.68 16.194c1.07.493 2.69.787 3.64.787.95 0 2.174-.147 3.709-.777l27.42-16.173c.824-.474 2.1-1.772 2.575-2.59.475-.819 1.498-2.895 1.493-3.841l-.146-32.52c-.001-.945-.832-2.85-1.307-3.667-.475-.82-2.284-2.36-3.108-2.833L67.623 25.58c-.824-.473-3.043-.977-3.994-.977Zm55.2 7.65-1.163.725-17.474 10.441c.42 1 .891 3.278.946 4.363l.002.01.008.312v31.3a10.085 10.085 0 0 1-4.963 8.786l-25.434 15.315c-.922.545-3.108 1.394-5.452 1.841l.002 1.516-.037 7.825-.006 3.775.043 8.781c1.255-.01 3.339-.766 4.423-1.36l.317-.182.009-.004 44.498-26.253a11.538 11.538 0 0 0 5.666-10.048V37.734c-.014-1.458-.72-4.093-1.385-5.48zM8.47 33.817l-.415 1.949c-.352 2.928-.29 3.223-.202 4.705l-.012 49.185c-.02 2.027-.099 4.84.899 6.606.993 1.762 2.916 2.799 4.657 3.827l45.2 25.602.008.004.318.179c1.399.644 2.986 1.145 4.592 1.241l.012-4.872.004-3.748-.006-11.404-.006-1.81c-1.809-.118-3.218-.654-4.14-1.199l-27.041-15.14c-1.527-.9-3.437-1.913-4.308-3.455-.87-1.543-1.252-3.886-1.235-5.658l.017-29.064.008-2.096c.061-1.414.277-2.403.687-4.15zm55.323 4.77c.612 0 2.044.327 2.575.632l17.503 9.854c.531.304 1.698 1.3 2.004 1.826.306.528.84 1.754.84 2.363l.096 20.959c.002.609-.655 1.948-.963 2.476-.306.528-1.127 1.363-1.657 1.668L66.52 88.79c-.99.406-1.78.505-2.394.505-.612 0-1.653-.192-2.342-.51L43.297 78.349a3.816 3.816 0 0 1-1.348-1.324c-.306-.528-.579-1.212-.578-1.82l.035-21.431c0-.548.235-1.602.54-2.13.307-.528.844-1.5 1.374-1.804l17.985-10.68c.531-.305 1.877-.57 2.489-.57z">
+                    </path>
+                  </svg>
+                  Compose
+                </span>
                 <span class="flex gap-x-2 rounded-full text-xs bg-technology-empty text-white py-1">
                   Koin
                 </span>
@@ -452,11 +760,16 @@
                 </span>
               </div>
               <p class="project-description">
-                Skintker is an Android app designed to assist individuals with skin issues by enabling them to track potential triggers in their daily routine. Users can conveniently save daily logs and easily monitor their historical data.
+                Skintker is an Android app designed to assist individuals with skin issues by enabling them to track
+                potential triggers in their daily routine. Users can conveniently save daily logs and easily monitor
+                their historical data.
               </p>
               <div class="buttons">
-                <input type='button' class='btn btn-theme-outline' onclick="window.location.href='https://play.google.com/store/apps/details?id=com.p4r4d0x.skintker'" value='Google Play Store' />
-                <input type='button' class='btn btn-theme-outline' onclick="window.location.href='https://github.com/aloarte/Skintker'" value='Github' />
+                <input type='button' class='btn btn-theme-outline'
+                  onclick="window.location.href='https://play.google.com/store/apps/details?id=com.p4r4d0x.skintker'"
+                  value='Google Play Store' />
+                <input type='button' class='btn btn-theme-outline'
+                  onclick="window.location.href='https://github.com/aloarte/Skintker'" value='Github' />
               </div>
             </div>
           </div>
@@ -471,38 +784,64 @@
                 <div class="flex gap-x-4">
                   <span class="flex gap-x-2 rounded-full text-xs bg-technology text-white py-1">
                     <svg viewBox="0 0 128 128" width="12" height="12" transform="translate(0, 2)">
-                      <path fill="#b6b6b6" d="M21.012 91.125c-5.538.003-10.038-4.503-10.039-10.04l-.002-30.739c-.002-5.532 4.497-10.037 10.028-10.038 2.689-.002 5.207 1.041 7.105 2.937s2.942 4.418 2.944 7.099l-.003 30.74a9.924 9.924 0 01-2.931 7.094 9.962 9.962 0 01-7.102 2.947m-.008-48.12c-4.053-.002-7.338 3.291-7.339 7.341l.005 30.736a7.347 7.347 0 007.341 7.348 7.338 7.338 0 007.339-7.347V50.342a7.345 7.345 0 00-7.346-7.337"></path><path fill="#b6b6b6" d="M99.742 44.527l-2.698-.001-66.119.009-2.699.001-.002-2.699c-.006-11.08 6.03-21.385 15.917-27.473l-3.844-7.017c-.47-.822-.588-1.863-.314-2.815a3.732 3.732 0 011.814-2.239 3.605 3.605 0 011.759-.447c1.362 0 2.609.739 3.267 1.933l4.023 7.329a37.842 37.842 0 0113.099-2.305c4.606-.002 9.023.777 13.204 2.311l4.017-7.341a3.711 3.711 0 013.263-1.932 3.712 3.712 0 011.761.438A3.706 3.706 0 0188 4.524a3.69 3.69 0 01-.318 2.832l-3.842 7.013c9.871 6.101 15.9 16.398 15.899 27.459l.003 2.699zM80.196 15.403l5.123-9.355a1.019 1.019 0 10-1.783-.981l-5.176 9.45c-4.354-1.934-9.229-3.021-14.382-3.016-5.142-.005-10.008 1.078-14.349 3.005l-5.181-9.429a1.009 1.009 0 00-1.379-.405c-.497.266-.68.891-.403 1.379l5.125 9.348c-10.07 5.194-16.874 15.084-16.868 26.439l66.118-.008c.003-11.351-6.789-21.221-16.845-26.427M48.94 29.86a2.772 2.772 0 01.003-5.545 2.78 2.78 0 012.775 2.774 2.775 2.775 0 01-2.778 2.771m30.107-.006a2.767 2.767 0 01-2.772-2.771 2.788 2.788 0 012.773-2.778 2.79 2.79 0 012.767 2.779 2.769 2.769 0 01-2.768 2.77m-27.336 96.305c-5.533-.001-10.036-4.501-10.037-10.038l-.002-13.567-2.638.003a10.453 10.453 0 01-7.448-3.082 10.437 10.437 0 01-3.083-7.452l-.01-47.627v-2.701h2.699l65.623-.01 2.7-.002v2.699l.007 47.633c.001 5.809-4.725 10.536-10.532 10.535l-2.654.002.003 13.562c0 5.534-4.502 10.039-10.033 10.039a9.933 9.933 0 01-7.098-2.937 9.952 9.952 0 01-2.947-7.096v-13.568H61.75v13.565c-.002 5.535-4.503 10.043-10.039 10.042"></path><path fill="#b6b6b6" d="M31.205 92.022a7.82 7.82 0 007.831 7.837h5.333l.006 16.264c-.001 4.05 3.289 7.341 7.335 7.342a7.342 7.342 0 007.338-7.348l.001-16.259 9.909-.003-.001 16.263c.004 4.051 3.298 7.346 7.343 7.338 4.056.003 7.344-3.292 7.343-7.344l-.005-16.259 5.353-.001c4.319.001 7.832-3.508 7.832-7.837l-.009-47.635-65.621.012.012 47.63zm75.791-.91c-5.536.001-10.039-4.498-10.038-10.036l-.008-30.738c.002-5.537 4.498-10.041 10.031-10.041 5.54-.001 10.046 4.502 10.045 10.038l.003 30.736c.001 5.534-4.498 10.042-10.033 10.041m-.01-48.116c-4.053-.004-7.337 3.287-7.337 7.342l.003 30.737a7.336 7.336 0 007.342 7.34 7.338 7.338 0 007.338-7.343l-.008-30.736a7.335 7.335 0 00-7.338-7.34"></path><path fill="#ffffff" d="M21.004 43.005c-4.053-.002-7.338 3.291-7.339 7.341l.005 30.736a7.338 7.338 0 007.342 7.343 7.33 7.33 0 007.338-7.342V50.342a7.345 7.345 0 00-7.346-7.337m59.192-27.602l5.123-9.355a1.023 1.023 0 00-.401-1.388 1.022 1.022 0 00-1.382.407l-5.175 9.453c-4.354-1.938-9.227-3.024-14.383-3.019-5.142-.005-10.013 1.078-14.349 3.005l-5.181-9.429a1.01 1.01 0 00-1.378-.406 1.007 1.007 0 00-.404 1.38l5.125 9.349c-10.07 5.193-16.874 15.083-16.868 26.438l66.118-.008c.003-11.351-6.789-21.221-16.845-26.427M48.94 29.86a2.772 2.772 0 01.003-5.545 2.78 2.78 0 012.775 2.774 2.775 2.775 0 01-2.778 2.771m30.107-.006a2.77 2.77 0 01-2.772-2.771 2.793 2.793 0 012.773-2.778 2.79 2.79 0 012.767 2.779 2.767 2.767 0 01-2.768 2.77M31.193 44.392l.011 47.635a7.822 7.822 0 007.832 7.831l5.333.002.006 16.264c-.001 4.05 3.291 7.342 7.335 7.342 4.056 0 7.342-3.295 7.343-7.347l-.004-16.26 9.909-.003.004 16.263c0 4.047 3.293 7.346 7.338 7.338 4.056.003 7.344-3.292 7.343-7.344l-.005-16.259 5.352-.004a7.835 7.835 0 007.836-7.834l-.009-47.635-65.624.011zm83.134 5.943a7.338 7.338 0 00-7.341-7.339c-4.053-.004-7.337 3.287-7.337 7.342l.006 30.738a7.334 7.334 0 007.339 7.339 7.337 7.337 0 007.338-7.343l-.005-30.737z"></path>
+                      <path fill="#b6b6b6"
+                        d="M21.012 91.125c-5.538.003-10.038-4.503-10.039-10.04l-.002-30.739c-.002-5.532 4.497-10.037 10.028-10.038 2.689-.002 5.207 1.041 7.105 2.937s2.942 4.418 2.944 7.099l-.003 30.74a9.924 9.924 0 01-2.931 7.094 9.962 9.962 0 01-7.102 2.947m-.008-48.12c-4.053-.002-7.338 3.291-7.339 7.341l.005 30.736a7.347 7.347 0 007.341 7.348 7.338 7.338 0 007.339-7.347V50.342a7.345 7.345 0 00-7.346-7.337">
+                      </path>
+                      <path fill="#b6b6b6"
+                        d="M99.742 44.527l-2.698-.001-66.119.009-2.699.001-.002-2.699c-.006-11.08 6.03-21.385 15.917-27.473l-3.844-7.017c-.47-.822-.588-1.863-.314-2.815a3.732 3.732 0 011.814-2.239 3.605 3.605 0 011.759-.447c1.362 0 2.609.739 3.267 1.933l4.023 7.329a37.842 37.842 0 0113.099-2.305c4.606-.002 9.023.777 13.204 2.311l4.017-7.341a3.711 3.711 0 013.263-1.932 3.712 3.712 0 011.761.438A3.706 3.706 0 0188 4.524a3.69 3.69 0 01-.318 2.832l-3.842 7.013c9.871 6.101 15.9 16.398 15.899 27.459l.003 2.699zM80.196 15.403l5.123-9.355a1.019 1.019 0 10-1.783-.981l-5.176 9.45c-4.354-1.934-9.229-3.021-14.382-3.016-5.142-.005-10.008 1.078-14.349 3.005l-5.181-9.429a1.009 1.009 0 00-1.379-.405c-.497.266-.68.891-.403 1.379l5.125 9.348c-10.07 5.194-16.874 15.084-16.868 26.439l66.118-.008c.003-11.351-6.789-21.221-16.845-26.427M48.94 29.86a2.772 2.772 0 01.003-5.545 2.78 2.78 0 012.775 2.774 2.775 2.775 0 01-2.778 2.771m30.107-.006a2.767 2.767 0 01-2.772-2.771 2.788 2.788 0 012.773-2.778 2.79 2.79 0 012.767 2.779 2.769 2.769 0 01-2.768 2.77m-27.336 96.305c-5.533-.001-10.036-4.501-10.037-10.038l-.002-13.567-2.638.003a10.453 10.453 0 01-7.448-3.082 10.437 10.437 0 01-3.083-7.452l-.01-47.627v-2.701h2.699l65.623-.01 2.7-.002v2.699l.007 47.633c.001 5.809-4.725 10.536-10.532 10.535l-2.654.002.003 13.562c0 5.534-4.502 10.039-10.033 10.039a9.933 9.933 0 01-7.098-2.937 9.952 9.952 0 01-2.947-7.096v-13.568H61.75v13.565c-.002 5.535-4.503 10.043-10.039 10.042">
+                      </path>
+                      <path fill="#b6b6b6"
+                        d="M31.205 92.022a7.82 7.82 0 007.831 7.837h5.333l.006 16.264c-.001 4.05 3.289 7.341 7.335 7.342a7.342 7.342 0 007.338-7.348l.001-16.259 9.909-.003-.001 16.263c.004 4.051 3.298 7.346 7.343 7.338 4.056.003 7.344-3.292 7.343-7.344l-.005-16.259 5.353-.001c4.319.001 7.832-3.508 7.832-7.837l-.009-47.635-65.621.012.012 47.63zm75.791-.91c-5.536.001-10.039-4.498-10.038-10.036l-.008-30.738c.002-5.537 4.498-10.041 10.031-10.041 5.54-.001 10.046 4.502 10.045 10.038l.003 30.736c.001 5.534-4.498 10.042-10.033 10.041m-.01-48.116c-4.053-.004-7.337 3.287-7.337 7.342l.003 30.737a7.336 7.336 0 007.342 7.34 7.338 7.338 0 007.338-7.343l-.008-30.736a7.335 7.335 0 00-7.338-7.34">
+                      </path>
+                      <path fill="#ffffff"
+                        d="M21.004 43.005c-4.053-.002-7.338 3.291-7.339 7.341l.005 30.736a7.338 7.338 0 007.342 7.343 7.33 7.33 0 007.338-7.342V50.342a7.345 7.345 0 00-7.346-7.337m59.192-27.602l5.123-9.355a1.023 1.023 0 00-.401-1.388 1.022 1.022 0 00-1.382.407l-5.175 9.453c-4.354-1.938-9.227-3.024-14.383-3.019-5.142-.005-10.013 1.078-14.349 3.005l-5.181-9.429a1.01 1.01 0 00-1.378-.406 1.007 1.007 0 00-.404 1.38l5.125 9.349c-10.07 5.193-16.874 15.083-16.868 26.438l66.118-.008c.003-11.351-6.789-21.221-16.845-26.427M48.94 29.86a2.772 2.772 0 01.003-5.545 2.78 2.78 0 012.775 2.774 2.775 2.775 0 01-2.778 2.771m30.107-.006a2.77 2.77 0 01-2.772-2.771 2.793 2.793 0 012.773-2.778 2.79 2.79 0 012.767 2.779 2.767 2.767 0 01-2.768 2.77M31.193 44.392l.011 47.635a7.822 7.822 0 007.832 7.831l5.333.002.006 16.264c-.001 4.05 3.291 7.342 7.335 7.342 4.056 0 7.342-3.295 7.343-7.347l-.004-16.26 9.909-.003.004 16.263c0 4.047 3.293 7.346 7.338 7.338 4.056.003 7.344-3.292 7.343-7.344l-.005-16.259 5.352-.004a7.835 7.835 0 007.836-7.834l-.009-47.635-65.624.011zm83.134 5.943a7.338 7.338 0 00-7.341-7.339c-4.053-.004-7.337 3.287-7.337 7.342l.006 30.738a7.334 7.334 0 007.339 7.339 7.337 7.337 0 007.338-7.343l-.005-30.737z">
+                      </path>
                     </svg>
                     Android
                   </span>
                   <span class="flex gap-x-2 rounded-full text-xs bg-technology text-white py-1">
                     <svg viewBox="0 0 128 128" width="12" height="12" transform="translate(0, 2)">
-                      <defs> <linearGradient id="a" x1="500.003" x2="-.097" y1="579.106" y2="1079.206" gradientTransform="translate(15.534 -96.774) scale(.1939)" gradientUnits="userSpaceOnUse"> <stop offset=".003" stop-color="#ffffff"></stop> <stop offset=".469" stop-color="#ffffff"></stop> <stop offset="1" stop-color="#ffffff"></stop> </linearGradient> </defs> <path fill="url(#a)" d="M112.484 112.484H15.516V15.516h96.968L64 64Zm0 0"></path>
-                    </svg>              
+                      <defs>
+                        <linearGradient id="a" x1="500.003" x2="-.097" y1="579.106" y2="1079.206"
+                          gradientTransform="translate(15.534 -96.774) scale(.1939)" gradientUnits="userSpaceOnUse">
+                          <stop offset=".003" stop-color="#ffffff"></stop>
+                          <stop offset=".469" stop-color="#ffffff"></stop>
+                          <stop offset="1" stop-color="#ffffff"></stop>
+                        </linearGradient>
+                      </defs>
+                      <path fill="url(#a)" d="M112.484 112.484H15.516V15.516h96.968L64 64Zm0 0"></path>
+                    </svg>
                     Kotlin
                   </span>
-                <span class="flex gap-x-2 rounded-full text-xs bg-technology text-white py-1">
-                  <svg viewBox="0 0 128 128" width="12" height="12" transform="translate(0, 2)">
-                      <path style="display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.699;stroke-dasharray:none" d="M63.353.759c-2.022-.048-3.83.515-5.604 1.486L14.737 27.521l-1.716 1.01-.808.555c-1.067.628-2.21 2.15-2.97 3.175l4.168 2.324 2.82 1.55 9.592 5.4 2.454 1.36c1.237-1.491 1.306-1.596 2.472-2.566l26.833-15.884c1.554-.85 3.964-1.976 5.736-1.936 1.769.041 4.04.556 5.552 1.476l23.485 13.342 2.944 1.637a26.544 26.544 0 0 1 3.825 3.052l18.723-11.19-1.666-1.624c-1.893-1.528-2.544-1.815-3.864-2.497L69.664 2.637C67.932 1.582 65.38.807 63.353.759Zm.276 23.845c-.95 0-3.036.411-3.86.884l-27.905 16.57c-.823.472-1.655 1.983-2.13 2.801-.475.818-.837 2.452-.839 3.303l-.055 33.254c-.002.946.421 2.006.896 2.824.476.819 1.268 1.581 2.091 2.054l28.68 16.194c1.07.493 2.69.787 3.64.787.95 0 2.174-.147 3.709-.777l27.42-16.173c.824-.474 2.1-1.772 2.575-2.59.475-.819 1.498-2.895 1.493-3.841l-.146-32.52c-.001-.945-.832-2.85-1.307-3.667-.475-.82-2.284-2.36-3.108-2.833L67.623 25.58c-.824-.473-3.043-.977-3.994-.977Zm55.2 7.65-1.163.725-17.474 10.441c.42 1 .891 3.278.946 4.363l.002.01.008.312v31.3a10.085 10.085 0 0 1-4.963 8.786l-25.434 15.315c-.922.545-3.108 1.394-5.452 1.841l.002 1.516-.037 7.825-.006 3.775.043 8.781c1.255-.01 3.339-.766 4.423-1.36l.317-.182.009-.004 44.498-26.253a11.538 11.538 0 0 0 5.666-10.048V37.734c-.014-1.458-.72-4.093-1.385-5.48zM8.47 33.817l-.415 1.949c-.352 2.928-.29 3.223-.202 4.705l-.012 49.185c-.02 2.027-.099 4.84.899 6.606.993 1.762 2.916 2.799 4.657 3.827l45.2 25.602.008.004.318.179c1.399.644 2.986 1.145 4.592 1.241l.012-4.872.004-3.748-.006-11.404-.006-1.81c-1.809-.118-3.218-.654-4.14-1.199l-27.041-15.14c-1.527-.9-3.437-1.913-4.308-3.455-.87-1.543-1.252-3.886-1.235-5.658l.017-29.064.008-2.096c.061-1.414.277-2.403.687-4.15zm55.323 4.77c.612 0 2.044.327 2.575.632l17.503 9.854c.531.304 1.698 1.3 2.004 1.826.306.528.84 1.754.84 2.363l.096 20.959c.002.609-.655 1.948-.963 2.476-.306.528-1.127 1.363-1.657 1.668L66.52 88.79c-.99.406-1.78.505-2.394.505-.612 0-1.653-.192-2.342-.51L43.297 78.349a3.816 3.816 0 0 1-1.348-1.324c-.306-.528-.579-1.212-.578-1.82l.035-21.431c0-.548.235-1.602.54-2.13.307-.528.844-1.5 1.374-1.804l17.985-10.68c.531-.305 1.877-.57 2.489-.57z"></path>
-                  </svg>
-                  Compose
-                </span>
+                  <span class="flex gap-x-2 rounded-full text-xs bg-technology text-white py-1">
+                    <svg viewBox="0 0 128 128" width="12" height="12" transform="translate(0, 2)">
+                      <path
+                        style="display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.699;stroke-dasharray:none"
+                        d="M63.353.759c-2.022-.048-3.83.515-5.604 1.486L14.737 27.521l-1.716 1.01-.808.555c-1.067.628-2.21 2.15-2.97 3.175l4.168 2.324 2.82 1.55 9.592 5.4 2.454 1.36c1.237-1.491 1.306-1.596 2.472-2.566l26.833-15.884c1.554-.85 3.964-1.976 5.736-1.936 1.769.041 4.04.556 5.552 1.476l23.485 13.342 2.944 1.637a26.544 26.544 0 0 1 3.825 3.052l18.723-11.19-1.666-1.624c-1.893-1.528-2.544-1.815-3.864-2.497L69.664 2.637C67.932 1.582 65.38.807 63.353.759Zm.276 23.845c-.95 0-3.036.411-3.86.884l-27.905 16.57c-.823.472-1.655 1.983-2.13 2.801-.475.818-.837 2.452-.839 3.303l-.055 33.254c-.002.946.421 2.006.896 2.824.476.819 1.268 1.581 2.091 2.054l28.68 16.194c1.07.493 2.69.787 3.64.787.95 0 2.174-.147 3.709-.777l27.42-16.173c.824-.474 2.1-1.772 2.575-2.59.475-.819 1.498-2.895 1.493-3.841l-.146-32.52c-.001-.945-.832-2.85-1.307-3.667-.475-.82-2.284-2.36-3.108-2.833L67.623 25.58c-.824-.473-3.043-.977-3.994-.977Zm55.2 7.65-1.163.725-17.474 10.441c.42 1 .891 3.278.946 4.363l.002.01.008.312v31.3a10.085 10.085 0 0 1-4.963 8.786l-25.434 15.315c-.922.545-3.108 1.394-5.452 1.841l.002 1.516-.037 7.825-.006 3.775.043 8.781c1.255-.01 3.339-.766 4.423-1.36l.317-.182.009-.004 44.498-26.253a11.538 11.538 0 0 0 5.666-10.048V37.734c-.014-1.458-.72-4.093-1.385-5.48zM8.47 33.817l-.415 1.949c-.352 2.928-.29 3.223-.202 4.705l-.012 49.185c-.02 2.027-.099 4.84.899 6.606.993 1.762 2.916 2.799 4.657 3.827l45.2 25.602.008.004.318.179c1.399.644 2.986 1.145 4.592 1.241l.012-4.872.004-3.748-.006-11.404-.006-1.81c-1.809-.118-3.218-.654-4.14-1.199l-27.041-15.14c-1.527-.9-3.437-1.913-4.308-3.455-.87-1.543-1.252-3.886-1.235-5.658l.017-29.064.008-2.096c.061-1.414.277-2.403.687-4.15zm55.323 4.77c.612 0 2.044.327 2.575.632l17.503 9.854c.531.304 1.698 1.3 2.004 1.826.306.528.84 1.754.84 2.363l.096 20.959c.002.609-.655 1.948-.963 2.476-.306.528-1.127 1.363-1.657 1.668L66.52 88.79c-.99.406-1.78.505-2.394.505-.612 0-1.653-.192-2.342-.51L43.297 78.349a3.816 3.816 0 0 1-1.348-1.324c-.306-.528-.579-1.212-.578-1.82l.035-21.431c0-.548.235-1.602.54-2.13.307-.528.844-1.5 1.374-1.804l17.985-10.68c.531-.305 1.877-.57 2.489-.57z">
+                      </path>
+                    </svg>
+                    Compose
+                  </span>
                   <span class="flex gap-x-2 rounded-full text-xs bg-technology-empty text-white py-1">
                     Koin
                   </span>
                 </div>
               </div>
               <p class="project-description">
-                An Android application crafted in Kotlin, leveraging Jetpack Compose and incorporating Koin for dependency injection. This app introduces a game set in the captivating universe of Hollow Knight.
+                An Android application crafted in Kotlin, leveraging Jetpack Compose and incorporating Koin for
+                dependency injection. This app introduces a game set in the captivating universe of Hollow Knight.
               </p>
               <div class="buttons">
-                <input type='button' class='btn btn-theme-outline' onclick="window.location.href='https://play.google.com/store/apps/details?id=com.p4r4d0x.hollowminds'" value='Google Play Store' />
-                <input type='button' class='btn btn-theme-outline' onclick="window.location.href='https://github.com/aloarte/Hollow-Minds'" value='Github' />
+                <input type='button' class='btn btn-theme-outline'
+                  onclick="window.location.href='https://play.google.com/store/apps/details?id=com.p4r4d0x.hollowminds'"
+                  value='Google Play Store' />
+                <input type='button' class='btn btn-theme-outline'
+                  onclick="window.location.href='https://github.com/aloarte/Hollow-Minds'" value='Github' />
               </div>
             </div>
           </div>
         </div>
-  
+
         <div class="grid-item full-width java wow zoomIn">
           <div class="project-card">
             <img src="assets/img/work/features-extractor.png" alt="Features Extractor" class="project-image">
@@ -512,21 +851,37 @@
               <div class="flex gap-x-4">
                 <span class="flex gap-x-2 rounded-full text-xs bg-technology text-white py-1 ">
                   <svg viewBox="0 0 128 128" width="12" height="12" transform="translate(0, 2)">
-                    <path fill="#ffffff" d="M47.617 98.12s-4.767 2.774 3.397 3.71c9.892 1.13 14.947.968 25.845-1.092 0 0 2.871 1.795 6.873 3.351-24.439 10.47-55.308-.607-36.115-5.969zm-2.988-13.665s-5.348 3.959 2.823 4.805c10.567 1.091 18.91 1.18 33.354-1.6 0 0 1.993 2.025 5.132 3.131-29.542 8.64-62.446.68-41.309-6.336z"></path><path fill="#ffffff" d="M69.802 61.271c6.025 6.935-1.58 13.17-1.58 13.17s15.289-7.891 8.269-17.777c-6.559-9.215-11.587-13.792 15.635-29.58 0 .001-42.731 10.67-22.324 34.187z"></path><path fill="#ffffff" d="M102.123 108.229s3.529 2.91-3.888 5.159c-14.102 4.272-58.706 5.56-71.094.171-4.451-1.938 3.899-4.625 6.526-5.192 2.739-.593 4.303-.485 4.303-.485-4.953-3.487-32.013 6.85-13.743 9.815 49.821 8.076 90.817-3.637 77.896-9.468zM49.912 70.294s-22.686 5.389-8.033 7.348c6.188.828 18.518.638 30.011-.326 9.39-.789 18.813-2.474 18.813-2.474s-3.308 1.419-5.704 3.053c-23.042 6.061-67.544 3.238-54.731-2.958 10.832-5.239 19.644-4.643 19.644-4.643zm40.697 22.747c23.421-12.167 12.591-23.86 5.032-22.285-1.848.385-2.677.72-2.677.72s.688-1.079 2-1.543c14.953-5.255 26.451 15.503-4.823 23.725 0-.002.359-.327.468-.617z"></path><path fill="#ffffff" d="M76.491 1.587S89.459 14.563 64.188 34.51c-20.266 16.006-4.621 25.13-.007 35.559-11.831-10.673-20.509-20.07-14.688-28.815C58.041 28.42 81.722 22.195 76.491 1.587z"></path><path fill="#ffffff" d="M52.214 126.021c22.476 1.437 57-.8 57.817-11.436 0 0-1.571 4.032-18.577 7.231-19.186 3.612-42.854 3.191-56.887.874 0 .001 2.875 2.381 17.647 3.331z"></path>
+                    <path fill="#ffffff"
+                      d="M47.617 98.12s-4.767 2.774 3.397 3.71c9.892 1.13 14.947.968 25.845-1.092 0 0 2.871 1.795 6.873 3.351-24.439 10.47-55.308-.607-36.115-5.969zm-2.988-13.665s-5.348 3.959 2.823 4.805c10.567 1.091 18.91 1.18 33.354-1.6 0 0 1.993 2.025 5.132 3.131-29.542 8.64-62.446.68-41.309-6.336z">
+                    </path>
+                    <path fill="#ffffff"
+                      d="M69.802 61.271c6.025 6.935-1.58 13.17-1.58 13.17s15.289-7.891 8.269-17.777c-6.559-9.215-11.587-13.792 15.635-29.58 0 .001-42.731 10.67-22.324 34.187z">
+                    </path>
+                    <path fill="#ffffff"
+                      d="M102.123 108.229s3.529 2.91-3.888 5.159c-14.102 4.272-58.706 5.56-71.094.171-4.451-1.938 3.899-4.625 6.526-5.192 2.739-.593 4.303-.485 4.303-.485-4.953-3.487-32.013 6.85-13.743 9.815 49.821 8.076 90.817-3.637 77.896-9.468zM49.912 70.294s-22.686 5.389-8.033 7.348c6.188.828 18.518.638 30.011-.326 9.39-.789 18.813-2.474 18.813-2.474s-3.308 1.419-5.704 3.053c-23.042 6.061-67.544 3.238-54.731-2.958 10.832-5.239 19.644-4.643 19.644-4.643zm40.697 22.747c23.421-12.167 12.591-23.86 5.032-22.285-1.848.385-2.677.72-2.677.72s.688-1.079 2-1.543c14.953-5.255 26.451 15.503-4.823 23.725 0-.002.359-.327.468-.617z">
+                    </path>
+                    <path fill="#ffffff"
+                      d="M76.491 1.587S89.459 14.563 64.188 34.51c-20.266 16.006-4.621 25.13-.007 35.559-11.831-10.673-20.509-20.07-14.688-28.815C58.041 28.42 81.722 22.195 76.491 1.587z">
+                    </path>
+                    <path fill="#ffffff"
+                      d="M52.214 126.021c22.476 1.437 57-.8 57.817-11.436 0 0-1.571 4.032-18.577 7.231-19.186 3.612-42.854 3.191-56.887.874 0 .001 2.875 2.381 17.647 3.331z">
+                    </path>
                   </svg>
                   Java
                 </span>
               </div>
               <p class="project-description">
-                A Java library that allows the extraction of differents audio features from diverse audio inputs. The audio features can be used to train/use a Machine Learning algorithm to detect music genres.
+                A Java library that allows the extraction of differents audio features from diverse audio inputs. The
+                audio features can be used to train/use a Machine Learning algorithm to detect music genres.
               </p>
               <div class="buttons">
-                <input type='button' class='btn btn-theme-outline' onclick="window.location.href='https://github.com/aloarte/featuresExtractor'" value='Github' />
+                <input type='button' class='btn btn-theme-outline'
+                  onclick="window.location.href='https://github.com/aloarte/featuresExtractor'" value='Github' />
               </div>
             </div>
           </div>
         </div>
-        
+
         <div class="grid-item full-width android java wow zoomIn">
           <div class="project-card">
             <img src="assets/img/work/ocr-codes.png" alt="OCR codes" class="project-image">
@@ -536,91 +891,125 @@
               <div class="flex gap-x-4">
                 <span class="flex gap-x-2 rounded-full text-xs bg-technology text-white py-1">
                   <svg viewBox="0 0 128 128" width="12" height="12" transform="translate(0, 2)">
-                    <path fill="#b6b6b6" d="M21.012 91.125c-5.538.003-10.038-4.503-10.039-10.04l-.002-30.739c-.002-5.532 4.497-10.037 10.028-10.038 2.689-.002 5.207 1.041 7.105 2.937s2.942 4.418 2.944 7.099l-.003 30.74a9.924 9.924 0 01-2.931 7.094 9.962 9.962 0 01-7.102 2.947m-.008-48.12c-4.053-.002-7.338 3.291-7.339 7.341l.005 30.736a7.347 7.347 0 007.341 7.348 7.338 7.338 0 007.339-7.347V50.342a7.345 7.345 0 00-7.346-7.337"></path><path fill="#b6b6b6" d="M99.742 44.527l-2.698-.001-66.119.009-2.699.001-.002-2.699c-.006-11.08 6.03-21.385 15.917-27.473l-3.844-7.017c-.47-.822-.588-1.863-.314-2.815a3.732 3.732 0 011.814-2.239 3.605 3.605 0 011.759-.447c1.362 0 2.609.739 3.267 1.933l4.023 7.329a37.842 37.842 0 0113.099-2.305c4.606-.002 9.023.777 13.204 2.311l4.017-7.341a3.711 3.711 0 013.263-1.932 3.712 3.712 0 011.761.438A3.706 3.706 0 0188 4.524a3.69 3.69 0 01-.318 2.832l-3.842 7.013c9.871 6.101 15.9 16.398 15.899 27.459l.003 2.699zM80.196 15.403l5.123-9.355a1.019 1.019 0 10-1.783-.981l-5.176 9.45c-4.354-1.934-9.229-3.021-14.382-3.016-5.142-.005-10.008 1.078-14.349 3.005l-5.181-9.429a1.009 1.009 0 00-1.379-.405c-.497.266-.68.891-.403 1.379l5.125 9.348c-10.07 5.194-16.874 15.084-16.868 26.439l66.118-.008c.003-11.351-6.789-21.221-16.845-26.427M48.94 29.86a2.772 2.772 0 01.003-5.545 2.78 2.78 0 012.775 2.774 2.775 2.775 0 01-2.778 2.771m30.107-.006a2.767 2.767 0 01-2.772-2.771 2.788 2.788 0 012.773-2.778 2.79 2.79 0 012.767 2.779 2.769 2.769 0 01-2.768 2.77m-27.336 96.305c-5.533-.001-10.036-4.501-10.037-10.038l-.002-13.567-2.638.003a10.453 10.453 0 01-7.448-3.082 10.437 10.437 0 01-3.083-7.452l-.01-47.627v-2.701h2.699l65.623-.01 2.7-.002v2.699l.007 47.633c.001 5.809-4.725 10.536-10.532 10.535l-2.654.002.003 13.562c0 5.534-4.502 10.039-10.033 10.039a9.933 9.933 0 01-7.098-2.937 9.952 9.952 0 01-2.947-7.096v-13.568H61.75v13.565c-.002 5.535-4.503 10.043-10.039 10.042"></path><path fill="#b6b6b6" d="M31.205 92.022a7.82 7.82 0 007.831 7.837h5.333l.006 16.264c-.001 4.05 3.289 7.341 7.335 7.342a7.342 7.342 0 007.338-7.348l.001-16.259 9.909-.003-.001 16.263c.004 4.051 3.298 7.346 7.343 7.338 4.056.003 7.344-3.292 7.343-7.344l-.005-16.259 5.353-.001c4.319.001 7.832-3.508 7.832-7.837l-.009-47.635-65.621.012.012 47.63zm75.791-.91c-5.536.001-10.039-4.498-10.038-10.036l-.008-30.738c.002-5.537 4.498-10.041 10.031-10.041 5.54-.001 10.046 4.502 10.045 10.038l.003 30.736c.001 5.534-4.498 10.042-10.033 10.041m-.01-48.116c-4.053-.004-7.337 3.287-7.337 7.342l.003 30.737a7.336 7.336 0 007.342 7.34 7.338 7.338 0 007.338-7.343l-.008-30.736a7.335 7.335 0 00-7.338-7.34"></path><path fill="#ffffff" d="M21.004 43.005c-4.053-.002-7.338 3.291-7.339 7.341l.005 30.736a7.338 7.338 0 007.342 7.343 7.33 7.33 0 007.338-7.342V50.342a7.345 7.345 0 00-7.346-7.337m59.192-27.602l5.123-9.355a1.023 1.023 0 00-.401-1.388 1.022 1.022 0 00-1.382.407l-5.175 9.453c-4.354-1.938-9.227-3.024-14.383-3.019-5.142-.005-10.013 1.078-14.349 3.005l-5.181-9.429a1.01 1.01 0 00-1.378-.406 1.007 1.007 0 00-.404 1.38l5.125 9.349c-10.07 5.193-16.874 15.083-16.868 26.438l66.118-.008c.003-11.351-6.789-21.221-16.845-26.427M48.94 29.86a2.772 2.772 0 01.003-5.545 2.78 2.78 0 012.775 2.774 2.775 2.775 0 01-2.778 2.771m30.107-.006a2.77 2.77 0 01-2.772-2.771 2.793 2.793 0 012.773-2.778 2.79 2.79 0 012.767 2.779 2.767 2.767 0 01-2.768 2.77M31.193 44.392l.011 47.635a7.822 7.822 0 007.832 7.831l5.333.002.006 16.264c-.001 4.05 3.291 7.342 7.335 7.342 4.056 0 7.342-3.295 7.343-7.347l-.004-16.26 9.909-.003.004 16.263c0 4.047 3.293 7.346 7.338 7.338 4.056.003 7.344-3.292 7.343-7.344l-.005-16.259 5.352-.004a7.835 7.835 0 007.836-7.834l-.009-47.635-65.624.011zm83.134 5.943a7.338 7.338 0 00-7.341-7.339c-4.053-.004-7.337 3.287-7.337 7.342l.006 30.738a7.334 7.334 0 007.339 7.339 7.337 7.337 0 007.338-7.343l-.005-30.737z"></path>
+                    <path fill="#b6b6b6"
+                      d="M21.012 91.125c-5.538.003-10.038-4.503-10.039-10.04l-.002-30.739c-.002-5.532 4.497-10.037 10.028-10.038 2.689-.002 5.207 1.041 7.105 2.937s2.942 4.418 2.944 7.099l-.003 30.74a9.924 9.924 0 01-2.931 7.094 9.962 9.962 0 01-7.102 2.947m-.008-48.12c-4.053-.002-7.338 3.291-7.339 7.341l.005 30.736a7.347 7.347 0 007.341 7.348 7.338 7.338 0 007.339-7.347V50.342a7.345 7.345 0 00-7.346-7.337">
+                    </path>
+                    <path fill="#b6b6b6"
+                      d="M99.742 44.527l-2.698-.001-66.119.009-2.699.001-.002-2.699c-.006-11.08 6.03-21.385 15.917-27.473l-3.844-7.017c-.47-.822-.588-1.863-.314-2.815a3.732 3.732 0 011.814-2.239 3.605 3.605 0 011.759-.447c1.362 0 2.609.739 3.267 1.933l4.023 7.329a37.842 37.842 0 0113.099-2.305c4.606-.002 9.023.777 13.204 2.311l4.017-7.341a3.711 3.711 0 013.263-1.932 3.712 3.712 0 011.761.438A3.706 3.706 0 0188 4.524a3.69 3.69 0 01-.318 2.832l-3.842 7.013c9.871 6.101 15.9 16.398 15.899 27.459l.003 2.699zM80.196 15.403l5.123-9.355a1.019 1.019 0 10-1.783-.981l-5.176 9.45c-4.354-1.934-9.229-3.021-14.382-3.016-5.142-.005-10.008 1.078-14.349 3.005l-5.181-9.429a1.009 1.009 0 00-1.379-.405c-.497.266-.68.891-.403 1.379l5.125 9.348c-10.07 5.194-16.874 15.084-16.868 26.439l66.118-.008c.003-11.351-6.789-21.221-16.845-26.427M48.94 29.86a2.772 2.772 0 01.003-5.545 2.78 2.78 0 012.775 2.774 2.775 2.775 0 01-2.778 2.771m30.107-.006a2.767 2.767 0 01-2.772-2.771 2.788 2.788 0 012.773-2.778 2.79 2.79 0 012.767 2.779 2.769 2.769 0 01-2.768 2.77m-27.336 96.305c-5.533-.001-10.036-4.501-10.037-10.038l-.002-13.567-2.638.003a10.453 10.453 0 01-7.448-3.082 10.437 10.437 0 01-3.083-7.452l-.01-47.627v-2.701h2.699l65.623-.01 2.7-.002v2.699l.007 47.633c.001 5.809-4.725 10.536-10.532 10.535l-2.654.002.003 13.562c0 5.534-4.502 10.039-10.033 10.039a9.933 9.933 0 01-7.098-2.937 9.952 9.952 0 01-2.947-7.096v-13.568H61.75v13.565c-.002 5.535-4.503 10.043-10.039 10.042">
+                    </path>
+                    <path fill="#b6b6b6"
+                      d="M31.205 92.022a7.82 7.82 0 007.831 7.837h5.333l.006 16.264c-.001 4.05 3.289 7.341 7.335 7.342a7.342 7.342 0 007.338-7.348l.001-16.259 9.909-.003-.001 16.263c.004 4.051 3.298 7.346 7.343 7.338 4.056.003 7.344-3.292 7.343-7.344l-.005-16.259 5.353-.001c4.319.001 7.832-3.508 7.832-7.837l-.009-47.635-65.621.012.012 47.63zm75.791-.91c-5.536.001-10.039-4.498-10.038-10.036l-.008-30.738c.002-5.537 4.498-10.041 10.031-10.041 5.54-.001 10.046 4.502 10.045 10.038l.003 30.736c.001 5.534-4.498 10.042-10.033 10.041m-.01-48.116c-4.053-.004-7.337 3.287-7.337 7.342l.003 30.737a7.336 7.336 0 007.342 7.34 7.338 7.338 0 007.338-7.343l-.008-30.736a7.335 7.335 0 00-7.338-7.34">
+                    </path>
+                    <path fill="#ffffff"
+                      d="M21.004 43.005c-4.053-.002-7.338 3.291-7.339 7.341l.005 30.736a7.338 7.338 0 007.342 7.343 7.33 7.33 0 007.338-7.342V50.342a7.345 7.345 0 00-7.346-7.337m59.192-27.602l5.123-9.355a1.023 1.023 0 00-.401-1.388 1.022 1.022 0 00-1.382.407l-5.175 9.453c-4.354-1.938-9.227-3.024-14.383-3.019-5.142-.005-10.013 1.078-14.349 3.005l-5.181-9.429a1.01 1.01 0 00-1.378-.406 1.007 1.007 0 00-.404 1.38l5.125 9.349c-10.07 5.193-16.874 15.083-16.868 26.438l66.118-.008c.003-11.351-6.789-21.221-16.845-26.427M48.94 29.86a2.772 2.772 0 01.003-5.545 2.78 2.78 0 012.775 2.774 2.775 2.775 0 01-2.778 2.771m30.107-.006a2.77 2.77 0 01-2.772-2.771 2.793 2.793 0 012.773-2.778 2.79 2.79 0 012.767 2.779 2.767 2.767 0 01-2.768 2.77M31.193 44.392l.011 47.635a7.822 7.822 0 007.832 7.831l5.333.002.006 16.264c-.001 4.05 3.291 7.342 7.335 7.342 4.056 0 7.342-3.295 7.343-7.347l-.004-16.26 9.909-.003.004 16.263c0 4.047 3.293 7.346 7.338 7.338 4.056.003 7.344-3.292 7.343-7.344l-.005-16.259 5.352-.004a7.835 7.835 0 007.836-7.834l-.009-47.635-65.624.011zm83.134 5.943a7.338 7.338 0 00-7.341-7.339c-4.053-.004-7.337 3.287-7.337 7.342l.006 30.738a7.334 7.334 0 007.339 7.339 7.337 7.337 0 007.338-7.343l-.005-30.737z">
+                    </path>
                   </svg>
                   Android
                 </span>
                 <span class="flex gap-x-2 rounded-full text-xs bg-technology text-white py-1 ">
                   <svg viewBox="0 0 128 128" width="12" height="12" transform="translate(0, 2)">
-                    <path fill="#ffffff" d="M47.617 98.12s-4.767 2.774 3.397 3.71c9.892 1.13 14.947.968 25.845-1.092 0 0 2.871 1.795 6.873 3.351-24.439 10.47-55.308-.607-36.115-5.969zm-2.988-13.665s-5.348 3.959 2.823 4.805c10.567 1.091 18.91 1.18 33.354-1.6 0 0 1.993 2.025 5.132 3.131-29.542 8.64-62.446.68-41.309-6.336z"></path><path fill="#ffffff" d="M69.802 61.271c6.025 6.935-1.58 13.17-1.58 13.17s15.289-7.891 8.269-17.777c-6.559-9.215-11.587-13.792 15.635-29.58 0 .001-42.731 10.67-22.324 34.187z"></path><path fill="#ffffff" d="M102.123 108.229s3.529 2.91-3.888 5.159c-14.102 4.272-58.706 5.56-71.094.171-4.451-1.938 3.899-4.625 6.526-5.192 2.739-.593 4.303-.485 4.303-.485-4.953-3.487-32.013 6.85-13.743 9.815 49.821 8.076 90.817-3.637 77.896-9.468zM49.912 70.294s-22.686 5.389-8.033 7.348c6.188.828 18.518.638 30.011-.326 9.39-.789 18.813-2.474 18.813-2.474s-3.308 1.419-5.704 3.053c-23.042 6.061-67.544 3.238-54.731-2.958 10.832-5.239 19.644-4.643 19.644-4.643zm40.697 22.747c23.421-12.167 12.591-23.86 5.032-22.285-1.848.385-2.677.72-2.677.72s.688-1.079 2-1.543c14.953-5.255 26.451 15.503-4.823 23.725 0-.002.359-.327.468-.617z"></path><path fill="#ffffff" d="M76.491 1.587S89.459 14.563 64.188 34.51c-20.266 16.006-4.621 25.13-.007 35.559-11.831-10.673-20.509-20.07-14.688-28.815C58.041 28.42 81.722 22.195 76.491 1.587z"></path><path fill="#ffffff" d="M52.214 126.021c22.476 1.437 57-.8 57.817-11.436 0 0-1.571 4.032-18.577 7.231-19.186 3.612-42.854 3.191-56.887.874 0 .001 2.875 2.381 17.647 3.331z"></path>
+                    <path fill="#ffffff"
+                      d="M47.617 98.12s-4.767 2.774 3.397 3.71c9.892 1.13 14.947.968 25.845-1.092 0 0 2.871 1.795 6.873 3.351-24.439 10.47-55.308-.607-36.115-5.969zm-2.988-13.665s-5.348 3.959 2.823 4.805c10.567 1.091 18.91 1.18 33.354-1.6 0 0 1.993 2.025 5.132 3.131-29.542 8.64-62.446.68-41.309-6.336z">
+                    </path>
+                    <path fill="#ffffff"
+                      d="M69.802 61.271c6.025 6.935-1.58 13.17-1.58 13.17s15.289-7.891 8.269-17.777c-6.559-9.215-11.587-13.792 15.635-29.58 0 .001-42.731 10.67-22.324 34.187z">
+                    </path>
+                    <path fill="#ffffff"
+                      d="M102.123 108.229s3.529 2.91-3.888 5.159c-14.102 4.272-58.706 5.56-71.094.171-4.451-1.938 3.899-4.625 6.526-5.192 2.739-.593 4.303-.485 4.303-.485-4.953-3.487-32.013 6.85-13.743 9.815 49.821 8.076 90.817-3.637 77.896-9.468zM49.912 70.294s-22.686 5.389-8.033 7.348c6.188.828 18.518.638 30.011-.326 9.39-.789 18.813-2.474 18.813-2.474s-3.308 1.419-5.704 3.053c-23.042 6.061-67.544 3.238-54.731-2.958 10.832-5.239 19.644-4.643 19.644-4.643zm40.697 22.747c23.421-12.167 12.591-23.86 5.032-22.285-1.848.385-2.677.72-2.677.72s.688-1.079 2-1.543c14.953-5.255 26.451 15.503-4.823 23.725 0-.002.359-.327.468-.617z">
+                    </path>
+                    <path fill="#ffffff"
+                      d="M76.491 1.587S89.459 14.563 64.188 34.51c-20.266 16.006-4.621 25.13-.007 35.559-11.831-10.673-20.509-20.07-14.688-28.815C58.041 28.42 81.722 22.195 76.491 1.587z">
+                    </path>
+                    <path fill="#ffffff"
+                      d="M52.214 126.021c22.476 1.437 57-.8 57.817-11.436 0 0-1.571 4.032-18.577 7.231-19.186 3.612-42.854 3.191-56.887.874 0 .001 2.875 2.381 17.647 3.331z">
+                    </path>
                   </svg>
                   Java
                 </span>
               </div>
               <p class="project-description">
-                A game leveraging the camera preview to extract frames and process alphanumeric codes in real-time, harnessing the capabilities of OpenCV and Tess-Two for enhanced image processing.
-              </p> 
+                A game leveraging the camera preview to extract frames and process alphanumeric codes in real-time,
+                harnessing the capabilities of OpenCV and Tess-Two for enhanced image processing.
+              </p>
               <div class="buttons">
-                <input type='button' class='btn btn-theme-outline' onclick="window.location.href='https://github.com/aloarte/OCRCodes'" value='Github' />
+                <input type='button' class='btn btn-theme-outline'
+                  onclick="window.location.href='https://github.com/aloarte/OCRCodes'" value='Github' />
               </div>
             </div>
           </div>
         </div>
       </div> <!-- End gridder all projects -->
 
-  </div>
-          <!--Featured project section-->
-          <div class="container">
-            <h2 class="bottom-space text-center wow fadeInUp">Featured projects insights</h1>
-              <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                </ol>
-                <div class="carousel-inner">
-                  <div class="carousel-item active cardFeatured card-body details">
-                    <h3 class="bottom-space text-center">The Skintker project</h3>
-                    <p>This project involves an <b>Android</b> application and a backend service that exposes an <b>API</b> used by the application. Through these services, users can log their daily routines to track skin issues with the goal of identifying their root causes.</p> 
-                    <p>It utilizes <b>Firebase</b> for application authentication, where user credentials are used to bind logs in the backend, and the associated token is employed to secure API calls.</p> 
-                    <p>The technologies used are the following:</p> 
-                    <ul>
-                      <li>OAuth with Firebase</li>
-                      <li>Kotlin</li>
-                      <li>Koin</li>
-                      <li>Jetpack-Compose in the Android application</li>
-                      <li>Git+Github with Github Actions</li>
-                    </ul>
-                    <div class="button-container" >
-                      <a href="sktproject.html">
-                        <input class='btn btn-theme-outline' type='button' value='More details'>
-                      </a>
-                    </div>
-                  </div>
-          
-                  <div class="carousel-item cardFeatured card-body details">
-                    <h3 class="bottom-space text-center">Aplications deployed on Google Play Store</h3>
-                    <p>Over the past few years, I've transitioned various applications to their production phase on the <b>Google Play Store</b>.</p>  
-                    <small class="fg-theme">Skintker</small>
-                    <p>Crafted using Kotlin with Jetpack Compose and powered by Dagger-Hilt for dependency injection, this application facilitates tax calculations for the Hegemony board game.</p>  
-                    <small class="fg-theme">Hegemony Taxes</small>
-                    <p>Skintker is an Android application designed to assist individuals dealing with skin issues by aiding them in tracking the potential triggers within their daily routines.</p>  
-                    <small class="fg-theme">Hollow Minds</small>
-                    <p>A memory game set in the Hollow Knight universe, developed using Kotlin with Jetpack Compose and integrated with Koin for dependency injection.</p>  
-                    <div class="button-container">
-                      <a href="https://play.google.com/store/apps/details?id=com.p4r4d0x.skintker">
-                        <input class='btn btn-theme-outline' type='button' value='Skintker'>
-                      </a>
-                      <a href="https://play.google.com/store/apps/details?id=com.p4r4d0x.hegemonytaxes">
-                        <input class='btn btn-theme-outline' type='button' value='Hegemony Taxes'>
-                      </a>
-                      <a href="https://play.google.com/store/apps/details?id=com.p4r4d0x.hollowminds">
-                        <input class='btn btn-theme-outline' type='button' value='Hollow Minds'>
-                      </a>
-                    </div> 
-                  
-                  </div>
-                  
-                </div>
-                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Next</span>
+    </div>
+    <!--Featured project section-->
+    <div class="container">
+      <h2 class="bottom-space text-center wow fadeInUp">Featured projects insights</h1>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active cardFeatured card-body details">
+              <h3 class="bottom-space text-center">The Skintker project</h3>
+              <p>This project involves an <b>Android</b> application and a backend service that exposes an <b>API</b>
+                used by the application. Through these services, users can log their daily routines to track skin issues
+                with the goal of identifying their root causes.</p>
+              <p>It utilizes <b>Firebase</b> for application authentication, where user credentials are used to bind
+                logs in the backend, and the associated token is employed to secure API calls.</p>
+              <p>The technologies used are the following:</p>
+              <ul>
+                <li>OAuth with Firebase</li>
+                <li>Kotlin</li>
+                <li>Koin</li>
+                <li>Jetpack-Compose in the Android application</li>
+                <li>Git+Github with Github Actions</li>
+              </ul>
+              <div class="button-container">
+                <a href="sktproject.html">
+                  <input class='btn btn-theme-outline' type='button' value='More details'>
                 </a>
               </div>
+            </div>
+
+            <div class="carousel-item cardFeatured card-body details">
+              <h3 class="bottom-space text-center">Aplications deployed on Google Play Store</h3>
+              <p>Over the past few years, I've transitioned various applications to their production phase on the
+                <b>Google Play Store</b>.</p>
+              <small class="fg-theme">Skintker</small>
+              <p>Crafted using Kotlin with Jetpack Compose and powered by Dagger-Hilt for dependency injection, this
+                application facilitates tax calculations for the Hegemony board game.</p>
+              <small class="fg-theme">Hegemony Taxes</small>
+              <p>Skintker is an Android application designed to assist individuals dealing with skin issues by aiding
+                them in tracking the potential triggers within their daily routines.</p>
+              <small class="fg-theme">Hollow Minds</small>
+              <p>A memory game set in the Hollow Knight universe, developed using Kotlin with Jetpack Compose and
+                integrated with Koin for dependency injection.</p>
+              <div class="button-container">
+                <a href="https://play.google.com/store/apps/details?id=com.p4r4d0x.skintker">
+                  <input class='btn btn-theme-outline' type='button' value='Skintker'>
+                </a>
+                <a href="https://play.google.com/store/apps/details?id=com.p4r4d0x.hegemonytaxes">
+                  <input class='btn btn-theme-outline' type='button' value='Hegemony Taxes'>
+                </a>
+                <a href="https://play.google.com/store/apps/details?id=com.p4r4d0x.hollowminds">
+                  <input class='btn btn-theme-outline' type='button' value='Hollow Minds'>
+                </a>
+              </div>
+
+            </div>
+
           </div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+    </div>
   </div> <!-- End Portfolio page -->
 
   <!-- Footer -->
@@ -680,34 +1069,34 @@
   <script src="assets/js/topbar-virtual.js"></script>
 
   <script type="module">
-  
+
     import { initializeApp } from "https://www.gstatic.com/firebasejs/9.19.1/firebase-app.js";
-  
+
     import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.19.1/firebase-analytics.js";
-  
+
     const firebaseConfig = {
-  
+
       apiKey: "AIzaSyCJOS3SHjRCG2IILpcYDASLXpyxRIK29Hg",
-  
+
       authDomain: "portfolioaloarte.firebaseapp.com",
-  
+
       projectId: "portfolioaloarte",
-  
+
       storageBucket: "portfolioaloarte.appspot.com",
-  
+
       messagingSenderId: "771844294216",
-  
+
       appId: "1:771844294216:web:0a78338bdb6eec5d7eba7d",
-  
+
       measurementId: "G-KCTXWYMM96"
-  
+
     };
-  
-  
+
+
     const app = initializeApp(firebaseConfig);
-  
+
     const analytics = getAnalytics(app);
-    
+
   </script>
 
 
